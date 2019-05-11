@@ -1,0 +1,79 @@
+{
+    "name"      :"kyushu",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Hakata",
+            "name_kanji":"博多",
+            "name_kana" :"はかた"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Shin-Tosu",
+            "name_kanji":"新鳥栖",
+            "name_kana" :"しんとす"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Kurume",
+            "name_kanji":"久留米",
+            "name_kana" :"くるめ"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Chikugo-Funagoya",
+            "name_kanji":"筑後船小屋",
+            "name_kana" :"ちくごふなごや"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Shin-Ōmuta",
+            "name_kanji":"新大牟田",
+            "name_kana" :"しんおおむた"
+        },
+        {
+            "id"        :"6",
+            "name"      :"Shin-Tamana",
+            "name_kanji":"新玉名",
+            "name_kana" :"しんたまな"
+        },
+        {
+            "id"        :"7",
+            "name"      :"Kumamoto",
+            "name_kanji":"熊本",
+            "name_kana" :"くまもと"
+        },
+        {
+            "id"        :"8",
+            "name"      :"Shin-Yatsushiro",
+            "name_kanji":"新八代",
+            "name_kana" :"しんやつしろ"
+        },
+        {
+            "id"        :"9",
+            "name"      :"Shin-Minamata",
+            "name_kanji":"新水俣",
+            "name_kana" :"しんみなまた"
+        },
+        {
+            "id"        :"10",
+            "name"      :"Izumi",
+            "name_kanji":"出水",
+            "name_kana" :"いずみ"
+        },
+        {
+            "id"        :"11",
+            "name"      :"Sendai",
+            "name_kanji":"川内",
+            "name_kana" :"せんだい"
+        },
+        {
+            "id"        :"12",
+            "name"      :"Kagoshima-Chūō",
+            "name_kanji":"鹿児島中央",
+            "name_kana" :"かごしまちゅうおう"
+        },
+    ]
+}

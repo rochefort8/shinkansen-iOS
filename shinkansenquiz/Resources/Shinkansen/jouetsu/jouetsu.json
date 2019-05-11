@@ -1,0 +1,85 @@
+{
+    "name"      :"jouetsu",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Tokyo上野 うえの Ueno",
+            "name_kanji":"東京",
+            "name_kana" :"とうきょう"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Ōmiya",
+            "name_kanji":"大宮",
+            "name_kana" :"おおみや"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Ōmiya",
+            "name_kanji":"大宮",
+            "name_kana" :"おおみや"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Kumagaya",
+            "name_kanji":"熊谷",
+            "name_kana" :"くまがや"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Honjō-Waseda",
+            "name_kanji":"本庄早稲田",
+            "name_kana" :"ほんじょうわせだ"
+        },
+        {
+            "id"        :"6",
+            "name"      :"Takasaki",
+            "name_kanji":"高崎",
+            "name_kana" :"たかさき"
+        },
+        {
+            "id"        :"7",
+            "name"      :"Jōmō-Kōgen",
+            "name_kanji":"上毛高原",
+            "name_kana" :"じょうもうこうげん"
+        },
+        {
+            "id"        :"8",
+            "name"      :"Echigo-Yuzawa",
+            "name_kanji":"越後湯沢",
+            "name_kana" :"えちごゆざわ"
+        },
+        {
+            "id"        :"9",
+            "name"      :"Gala",
+            "name_kanji":"ガーラ湯沢",
+            "name_kana" :"がーらゆざわ"
+        },
+        {
+            "id"        :"10",
+            "name"      :"Urasa",
+            "name_kanji":"浦佐",
+            "name_kana" :"うらさ"
+        },
+        {
+            "id"        :"11",
+            "name"      :"Nagaoka",
+            "name_kanji":"長岡",
+            "name_kana" :"ながおか"
+        },
+        {
+            "id"        :"12",
+            "name"      :"Tsubame-Sanjō",
+            "name_kanji":"燕三条",
+            "name_kana" :"つばめさんじょう"
+        },
+        {
+            "id"        :"13",
+            "name"      :"Niigata",
+            "name_kanji":"新潟",
+            "name_kana" :"にいがた"
+        },
+    ]
+}

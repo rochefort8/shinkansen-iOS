@@ -1,0 +1,6 @@
+framework module Pods_shinkansenquiz {
+  umbrella header "Pods-shinkansenquiz-umbrella.h"
+
+  export *
+  module * { export * }
+}

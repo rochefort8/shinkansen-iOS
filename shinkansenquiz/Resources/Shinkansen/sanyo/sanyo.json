@@ -1,0 +1,121 @@
+{
+    "name"      :"sanyo",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Shin-Ōsaka",
+            "name_kanji":"新大阪",
+            "name_kana" :"しんおおさか"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Shin-Kobe",
+            "name_kanji":"新神戸",
+            "name_kana" :"しんこうべ"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Nishi-Akashi",
+            "name_kanji":"西明石",
+            "name_kana" :"にしあかし"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Himeji",
+            "name_kanji":"姫路",
+            "name_kana" :"ひめじ"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Aioi",
+            "name_kanji":"相生",
+            "name_kana" :"あいおい"
+        },
+        {
+            "id"        :"6",
+            "name"      :"Okayama",
+            "name_kanji":"岡山",
+            "name_kana" :"おかやま"
+        },
+        {
+            "id"        :"7",
+            "name"      :"Shin-Kurashiki",
+            "name_kanji":"新倉敷",
+            "name_kana" :"しんくらしき"
+        },
+        {
+            "id"        :"8",
+            "name"      :"Fukuyama",
+            "name_kanji":"福山",
+            "name_kana" :"ふくやま"
+        },
+        {
+            "id"        :"9",
+            "name"      :"Shin-Onomichi",
+            "name_kanji":"新尾道",
+            "name_kana" :"しんおのみち"
+        },
+        {
+            "id"        :"10",
+            "name"      :"Mihara",
+            "name_kanji":"三原",
+            "name_kana" :"みはら"
+        },
+        {
+            "id"        :"11",
+            "name"      :"Higashi-Hiroshima",
+            "name_kanji":"東広島",
+            "name_kana" :"ひがしひろしま"
+        },
+        {
+            "id"        :"12",
+            "name"      :"Hiroshima",
+            "name_kanji":"広島",
+            "name_kana" :"ひろしま"
+        },
+        {
+            "id"        :"13",
+            "name"      :"Shin-Iwakuni",
+            "name_kanji":"新岩国",
+            "name_kana" :"しんいわくに"
+        },
+        {
+            "id"        :"14",
+            "name"      :"Tokuyama",
+            "name_kanji":"徳山",
+            "name_kana" :"とくやま"
+        },
+        {
+            "id"        :"15",
+            "name"      :"Shin-Yamaguchi",
+            "name_kanji":"新山口",
+            "name_kana" :"しんやまぐち"
+        },
+        {
+            "id"        :"16",
+            "name"      :"Asa",
+            "name_kanji":"厚狭",
+            "name_kana" :"あさ"
+        },
+        {
+            "id"        :"17",
+            "name"      :"Shin-Shimonoseki",
+            "name_kanji":"新下関",
+            "name_kana" :"しんしものせき"
+        },
+        {
+            "id"        :"18",
+            "name"      :"Kokura",
+            "name_kanji":"小倉",
+            "name_kana" :"こくら"
+        },
+        {
+            "id"        :"19",
+            "name"      :"Hakata",
+            "name_kanji":"博多",
+            "name_kana" :"はかた"
+        },
+    ]
+}

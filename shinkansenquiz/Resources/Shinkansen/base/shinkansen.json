@@ -1,0 +1,148 @@
+{
+    "shinkansen" : [
+        {
+            "id"        :"1",
+            "name"      :"Tokaido",
+            "name_kanji":"東海道",
+            "name_kana" :"とうかいどう",
+            "section":[
+                {
+                    "name"      :"Tokyo",
+                    "name_kanji":"東京",
+                    "name_kana" :"とうきょう"
+                },
+                {
+                    "name"      :"Shin_Ōsaka",
+                    "name_kanji":"新大阪",
+                    "name_kana" :"しんおおさか"
+                }    
+            ]
+        },
+        {
+            "id"        :"2",
+            "name"      :"Sanyo",
+            "name_kanji":"山陽",
+            "name_kana" :"さんよう",
+            "section":[
+                {
+                    "name"      :"Shin_Ōsaka",
+                    "name_kanji":"新大阪",
+                    "name_kana" :"しんおおさか"
+                },
+                {
+                    "name"      :"Hakata",
+                    "name_kanji":"博多",
+                    "name_kana" :"はかた"
+                }
+            ]
+        },
+        {
+            "id"        :"3",
+            "name"      :"Kyushu",
+            "name_kanji":"九州",
+            "name_kana" :"きゅうしゅう",
+            "section":[
+                {
+                    "name"      :"Hakata",
+                    "name_kanji":"博多",
+                    "name_kana" :"はかた"
+                },
+                {
+                    "name"      :"Kagoshima_Chūō",
+                    "name_kanji":"鹿児島中央",
+                    "name_kana" :"かごしまちゅうおう"
+                }            
+            ]
+        },
+        {
+            "id"        :"4",
+            "name"      :"Tohoku",
+            "name_kanji":"東北",
+            "name_kana" :"とうほく",
+            "section":[
+                {
+                    "name"      :"Tokyo",
+                    "name_kanji":"東京",
+                    "name_kana" :"とうきょう"
+                },
+                {
+                    "name"      :"Shin_Hakodate_Hokuto",
+                    "name_kanji":"新函館北斗",
+                    "name_kana" :"しんはこだてほくと"
+                }            
+            ]
+        },
+        {
+            "id"        :"5",
+            "name"      :"Akita",
+            "name_kanji":"秋田",
+            "name_kana" :"あきた",
+            "section":[
+                {
+                    "name"      :"Morioka雫石 しずくいし Shizukuishi",
+                    "name_kanji":"盛岡",
+                    "name_kana" :"もりおか"
+                },
+                {
+                    "name"      :"Akita",
+                    "name_kanji":"秋田",
+                    "name_kana" :"あきた",
+                }            
+            ]
+        },
+        {
+            "id"        :"6",
+            "name"      :"Yamagata",
+            "name_kanji":"山形",
+            "name_kana" :"やまがた",
+            "section":[
+                {
+                    "name"      :"Yamagata天童 てんどう Tendō",
+                    "name_kanji":"山形",
+                    "name_kana" :"やまがた"
+                },
+                {
+                    "name"      :"Shinjō",
+                    "name_kanji":"新庄",
+                    "name_kana" :"しんじょう"
+                }
+            ]
+        },
+        {
+            "id"        :"7",
+            "name"      :"Jouetsu",
+            "name_kanji":"上越",
+            "name_kana" :"じょうえつ",
+            "section":[
+                {
+                    "name"      :"Tokyo上野 うえの Ueno",
+                    "name_kanji":"東京",
+                    "name_kana" :"とうきょう"
+                },
+                {
+                    "name"      :"Niigata",
+                    "name_kanji":"新潟",
+                    "name_kana" :"にいがた"
+                }            
+            ]
+        },
+        {
+            "id"        :"8",
+            "name"      :"Nagano",
+            "name_kanji":"長野",
+            "name_kana" :"ながの",
+            "section":[
+                {
+                    "name"      :"Takasaki",
+                    "name_kanji":"高崎",
+                    "name_kana" :"たかさき"
+                },
+                {
+                    "name"      :"Kanazawa",
+                    "name_kanji":"金沢",
+                    "name_kana" :"かなざわ"
+                }            
+            ]
+        }
+    ]
+}

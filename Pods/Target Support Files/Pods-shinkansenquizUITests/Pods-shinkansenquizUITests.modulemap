@@ -1,0 +1,6 @@
+framework module Pods_shinkansenquizUITests {
+  umbrella header "Pods-shinkansenquizUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

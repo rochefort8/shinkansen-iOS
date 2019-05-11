@@ -1,0 +1,37 @@
+{
+    "name"      :"akita",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Morioka雫石 しずくいし Shizukuishi",
+            "name_kanji":"盛岡",
+            "name_kana" :"もりおか"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Tazawako",
+            "name_kanji":"田沢湖",
+            "name_kana" :"たざわこ"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Kakunodate",
+            "name_kanji":"角館",
+            "name_kana" :"かくのだて"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Ōmagari",
+            "name_kanji":"大曲",
+            "name_kana" :"おおまがり"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Akita",
+            "name_kanji":"秋田",
+            "name_kana" :"あきた"
+        },
+    ]
+}

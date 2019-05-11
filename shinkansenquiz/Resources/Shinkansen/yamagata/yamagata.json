@@ -1,0 +1,37 @@
+{
+    "name"      :"yamagata",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Yamagata天童 てんどう Tendō",
+            "name_kanji":"山形",
+            "name_kana" :"やまがた"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Sakurambo-Higashine",
+            "name_kanji":"さくらんぼ東根",
+            "name_kana" :"さくらんぼひがしね"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Murayama",
+            "name_kanji":"村山",
+            "name_kana" :"むらやま"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Ōishida",
+            "name_kanji":"大石田",
+            "name_kana" :"おおいしだ"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Shinjō",
+            "name_kanji":"新庄",
+            "name_kana" :"しんじょう"
+        },
+    ]
+}

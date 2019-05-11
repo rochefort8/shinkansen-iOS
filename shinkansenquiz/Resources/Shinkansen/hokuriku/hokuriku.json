@@ -1,0 +1,85 @@
+{
+    "name"      :"hokuriku",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Takasaki",
+            "name_kanji":"高崎",
+            "name_kana" :"たかさき"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Annaka-Haruna",
+            "name_kanji":"安中榛名",
+            "name_kana" :"あんなかはるな"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Karuizawa",
+            "name_kanji":"軽井沢",
+            "name_kana" :"かるいざわ"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Sakudaira",
+            "name_kanji":"佐久平",
+            "name_kana" :"さくだいら"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Ueda",
+            "name_kanji":"上田",
+            "name_kana" :"うえだ"
+        },
+        {
+            "id"        :"6",
+            "name"      :"Nagano",
+            "name_kanji":"長野",
+            "name_kana" :"ながの"
+        },
+        {
+            "id"        :"7",
+            "name"      :"Iiyama",
+            "name_kanji":"飯山",
+            "name_kana" :"いいやま"
+        },
+        {
+            "id"        :"8",
+            "name"      :"Jōetsumyōkō",
+            "name_kanji":"上越妙高",
+            "name_kana" :"じょうえつみょうこう"
+        },
+        {
+            "id"        :"9",
+            "name"      :"Itoigawa",
+            "name_kanji":"糸魚川",
+            "name_kana" :"いといがわ"
+        },
+        {
+            "id"        :"10",
+            "name"      :"Kurobe-Unazukionsen",
+            "name_kanji":"黒部宇奈月温泉",
+            "name_kana" :"くろべうなづきおんせん"
+        },
+        {
+            "id"        :"11",
+            "name"      :"Toyama",
+            "name_kanji":"富山",
+            "name_kana" :"とやま"
+        },
+        {
+            "id"        :"12",
+            "name"      :"Shin-Takaoka",
+            "name_kanji":"新高岡",
+            "name_kana" :"しんたかおか"
+        },
+        {
+            "id"        :"13",
+            "name"      :"Kanazawa",
+            "name_kanji":"金沢",
+            "name_kana" :"かなざわ"
+        },
+    ]
+}
