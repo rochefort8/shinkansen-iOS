@@ -21,7 +21,7 @@
 		0243F538227B57400075565B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0243F537227B57400075565B /* Settings.bundle */; };
 		024AD8BF2286DEED00ED30BA /* shinkansen.json in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8BE2286DEED00ED30BA /* shinkansen.json */; };
 		024AD8C122870A6400ED30BA /* ShinaksenLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024AD8C022870A6400ED30BA /* ShinaksenLines.swift */; };
-		024AD904228711BA00ED30BA /* Sanyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C3228711BA00ED30BA /* Sanyo.jpg */; };
+		024AD904228711BA00ED30BA /* sanyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C3228711BA00ED30BA /* sanyo.jpg */; };
 		024AD905228711BA00ED30BA /* sanyo.json in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C4228711BA00ED30BA /* sanyo.json */; };
 		024AD906228711BA00ED30BA /* sanyo_10_mihara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C6228711BA00ED30BA /* sanyo_10_mihara.jpg */; };
 		024AD907228711BA00ED30BA /* sanyo_map_04_himeji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C7228711BA00ED30BA /* sanyo_map_04_himeji.jpg */; };
@@ -109,7 +109,7 @@
 		024AD985228711C700ED30BA /* kyushu_10_izumi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD95B228711C700ED30BA /* kyushu_10_izumi.jpg */; };
 		024AD986228711C700ED30BA /* kyushu_08_shinyatsushiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD95C228711C700ED30BA /* kyushu_08_shinyatsushiro.jpg */; };
 		024AD987228711C700ED30BA /* kyushu_04_chikugofunagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD95D228711C700ED30BA /* kyushu_04_chikugofunagoya.jpg */; };
-		024AD988228711C700ED30BA /* Kyushu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD95E228711C700ED30BA /* Kyushu.jpg */; };
+		024AD988228711C700ED30BA /* kyushu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD95E228711C700ED30BA /* kyushu.jpg */; };
 		024AD989228711C700ED30BA /* base.txt in Resources */ = {isa = PBXBuildFile; fileRef = 024AD95F228711C700ED30BA /* base.txt */; };
 		024AD98A228711C700ED30BA /* kyushu_08_shinyatsushiro.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 024AD961228711C700ED30BA /* kyushu_08_shinyatsushiro.xcf */; };
 		024AD98B228711C700ED30BA /* kyushu_04_chikugofunakoya.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 024AD962228711C700ED30BA /* kyushu_04_chikugofunakoya.xcf */; };
@@ -125,6 +125,7 @@
 		024AD995228711C700ED30BA /* kyushu_09_shinminamata.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 024AD96C228711C700ED30BA /* kyushu_09_shinminamata.xcf */; };
 		024AD996228711C700ED30BA /* kyushu_01_hakata.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 024AD96D228711C700ED30BA /* kyushu_01_hakata.xcf */; };
 		024AD997228711C700ED30BA /* kyushu_07_kumamoto.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 024AD96E228711C700ED30BA /* kyushu_07_kumamoto.xcf */; };
+		024AD99922871BF400ED30BA /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024AD99822871BF400ED30BA /* MenuViewCell.swift */; };
 		024E66AF2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */; };
 		024E691B2286793F0054DBB3 /* tokaido.json in Resources */ = {isa = PBXBuildFile; fileRef = 024E684E2286793E0054DBB3 /* tokaido.json */; };
 		024E691C2286793F0054DBB3 /* tokaido_06_mishima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68502286793E0054DBB3 /* tokaido_06_mishima.jpg */; };
@@ -164,7 +165,7 @@
 		024E693E2286793F0054DBB3 /* tokaido_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68722286793F0054DBB3 /* tokaido_04_odawara.jpg */; };
 		024E693F2286793F0054DBB3 /* tokaido_03_shinyokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68732286793F0054DBB3 /* tokaido_03_shinyokohama.jpg */; };
 		024E69402286793F0054DBB3 /* tokaido_map_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68742286793F0054DBB3 /* tokaido_map_05_atami.jpg */; };
-		024E69412286793F0054DBB3 /* Tokaido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68752286793F0054DBB3 /* Tokaido.jpg */; };
+		024E69412286793F0054DBB3 /* tokaido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68752286793F0054DBB3 /* tokaido.jpg */; };
 		024E69422286793F0054DBB3 /* tokaido_tokyo_bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */; };
 		024E69432286793F0054DBB3 /* base.txt in Resources */ = {isa = PBXBuildFile; fileRef = 024E68782286793F0054DBB3 /* base.txt */; };
 		024E69442286793F0054DBB3 /* tokaido_04_odawara.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 024E687A2286793F0054DBB3 /* tokaido_04_odawara.xcf */; };
@@ -254,7 +255,7 @@
 		0243F537227B57400075565B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		024AD8BE2286DEED00ED30BA /* shinkansen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shinkansen.json; path = base/shinkansen.json; sourceTree = "<group>"; };
 		024AD8C022870A6400ED30BA /* ShinaksenLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShinaksenLines.swift; sourceTree = "<group>"; };
-		024AD8C3228711BA00ED30BA /* Sanyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sanyo.jpg; sourceTree = "<group>"; };
+		024AD8C3228711BA00ED30BA /* sanyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanyo.jpg; sourceTree = "<group>"; };
 		024AD8C4228711BA00ED30BA /* sanyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanyo.json; sourceTree = "<group>"; };
 		024AD8C6228711BA00ED30BA /* sanyo_10_mihara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanyo_10_mihara.jpg; sourceTree = "<group>"; };
 		024AD8C7228711BA00ED30BA /* sanyo_map_04_himeji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanyo_map_04_himeji.jpg; sourceTree = "<group>"; };
@@ -342,7 +343,7 @@
 		024AD95B228711C700ED30BA /* kyushu_10_izumi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyushu_10_izumi.jpg; sourceTree = "<group>"; };
 		024AD95C228711C700ED30BA /* kyushu_08_shinyatsushiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyushu_08_shinyatsushiro.jpg; sourceTree = "<group>"; };
 		024AD95D228711C700ED30BA /* kyushu_04_chikugofunagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyushu_04_chikugofunagoya.jpg; sourceTree = "<group>"; };
-		024AD95E228711C700ED30BA /* Kyushu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kyushu.jpg; sourceTree = "<group>"; };
+		024AD95E228711C700ED30BA /* kyushu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyushu.jpg; sourceTree = "<group>"; };
 		024AD95F228711C700ED30BA /* base.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = base.txt; sourceTree = "<group>"; };
 		024AD961228711C700ED30BA /* kyushu_08_shinyatsushiro.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kyushu_08_shinyatsushiro.xcf; sourceTree = "<group>"; };
 		024AD962228711C700ED30BA /* kyushu_04_chikugofunakoya.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kyushu_04_chikugofunakoya.xcf; sourceTree = "<group>"; };
@@ -358,6 +359,7 @@
 		024AD96C228711C700ED30BA /* kyushu_09_shinminamata.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kyushu_09_shinminamata.xcf; sourceTree = "<group>"; };
 		024AD96D228711C700ED30BA /* kyushu_01_hakata.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kyushu_01_hakata.xcf; sourceTree = "<group>"; };
 		024AD96E228711C700ED30BA /* kyushu_07_kumamoto.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kyushu_07_kumamoto.xcf; sourceTree = "<group>"; };
+		024AD99822871BF400ED30BA /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 		024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		024E684E2286793E0054DBB3 /* tokaido.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokaido.json; sourceTree = "<group>"; };
 		024E68502286793E0054DBB3 /* tokaido_06_mishima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_06_mishima.jpg; sourceTree = "<group>"; };
@@ -397,7 +399,7 @@
 		024E68722286793F0054DBB3 /* tokaido_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_04_odawara.jpg; sourceTree = "<group>"; };
 		024E68732286793F0054DBB3 /* tokaido_03_shinyokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_03_shinyokohama.jpg; sourceTree = "<group>"; };
 		024E68742286793F0054DBB3 /* tokaido_map_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_05_atami.jpg; sourceTree = "<group>"; };
-		024E68752286793F0054DBB3 /* Tokaido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tokaido.jpg; sourceTree = "<group>"; };
+		024E68752286793F0054DBB3 /* tokaido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido.jpg; sourceTree = "<group>"; };
 		024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokaido_tokyo_bell.mp3; sourceTree = "<group>"; };
 		024E68782286793F0054DBB3 /* base.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = base.txt; sourceTree = "<group>"; };
 		024E687A2286793F0054DBB3 /* tokaido_04_odawara.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tokaido_04_odawara.xcf; sourceTree = "<group>"; };
@@ -523,6 +525,7 @@
 				0243EF55227B1BFC0075565B /* AppDelegate.swift */,
 				0243EF8D227B3C290075565B /* HomeViewController.swift */,
 				024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */,
+				024AD99822871BF400ED30BA /* MenuViewCell.swift */,
 				0243EF91227B44800075565B /* Memu.swift */,
 				024AD8C022870A6400ED30BA /* ShinaksenLines.swift */,
 				0243EF8F227B433D0075565B /* ItemViewCell.swift */,
@@ -580,7 +583,7 @@
 		024AD8C2228711BA00ED30BA /* sanyo */ = {
 			isa = PBXGroup;
 			children = (
-				024AD8C3228711BA00ED30BA /* Sanyo.jpg */,
+				024AD8C3228711BA00ED30BA /* sanyo.jpg */,
 				024AD8C4228711BA00ED30BA /* sanyo.json */,
 				024AD8C5228711BA00ED30BA /* jpg */,
 				024AD8EB228711BA00ED30BA /* base.txt */,
@@ -668,7 +671,7 @@
 			children = (
 				024AD944228711C700ED30BA /* kyushu.json */,
 				024AD945228711C700ED30BA /* jpg */,
-				024AD95E228711C700ED30BA /* Kyushu.jpg */,
+				024AD95E228711C700ED30BA /* kyushu.jpg */,
 				024AD95F228711C700ED30BA /* base.txt */,
 				024AD960228711C700ED30BA /* GIMP */,
 			);
@@ -743,7 +746,7 @@
 			children = (
 				024E684E2286793E0054DBB3 /* tokaido.json */,
 				024E684F2286793E0054DBB3 /* jpg */,
-				024E68752286793F0054DBB3 /* Tokaido.jpg */,
+				024E68752286793F0054DBB3 /* tokaido.jpg */,
 				024E68762286793F0054DBB3 /* sound */,
 				024E68782286793F0054DBB3 /* base.txt */,
 				024E68792286793F0054DBB3 /* GIMP */,
@@ -1028,7 +1031,7 @@
 				024AD927228711BA00ED30BA /* sanyo_07_shinkurashiki.jpg in Resources */,
 				024AD935228711BA00ED30BA /* sanyo_08_shinonomichi.xcf in Resources */,
 				024AD974228711C700ED30BA /* kyushu_07_kumamoto.jpg in Resources */,
-				024AD988228711C700ED30BA /* Kyushu.jpg in Resources */,
+				024AD988228711C700ED30BA /* kyushu.jpg in Resources */,
 				024E693B2286793F0054DBB3 /* tokaido_09_kakegawa.jpg in Resources */,
 				024E69602286793F0054DBB3 /* tokaido_map_11_toyohashi.xcf in Resources */,
 				024AD917228711BA00ED30BA /* sanyo_map_09_shinonomichi.jpg in Resources */,
@@ -1039,7 +1042,7 @@
 				024AD981228711C700ED30BA /* kyushu_map_03_kurume.jpg in Resources */,
 				024E695B2286793F0054DBB3 /* correct_mark.xcf in Resources */,
 				024AD925228711BA00ED30BA /* sanyo_04_himeji.jpg in Resources */,
-				024E69412286793F0054DBB3 /* Tokaido.jpg in Resources */,
+				024E69412286793F0054DBB3 /* tokaido.jpg in Resources */,
 				024E69452286793F0054DBB3 /* tokaido_map_05_atami.xcf in Resources */,
 				024AD980228711C700ED30BA /* kyushu_map_02_shintosu.jpg in Resources */,
 				024AD91A228711BA00ED30BA /* sanyo_17_shinshimnoseki.jpg in Resources */,
@@ -1163,7 +1166,7 @@
 				024AD941228711BA00ED30BA /* sanyo_14_tokuyama.xcf in Resources */,
 				024E691E2286793F0054DBB3 /* tokaido_01_tokyo.jpg in Resources */,
 				024AD976228711C700ED30BA /* kyushu_map_06_shintamana.jpg in Resources */,
-				024AD904228711BA00ED30BA /* Sanyo.jpg in Resources */,
+				024AD904228711BA00ED30BA /* sanyo.jpg in Resources */,
 				024E69522286793F0054DBB3 /* tokaido_map_06_mishima.xcf in Resources */,
 				024E692F2286793F0054DBB3 /* tokaido_map_base_3.png in Resources */,
 				024AD98C228711C700ED30BA /* kyushu_10_izumi.xcf in Resources */,
@@ -1325,6 +1328,7 @@
 				02B6EDC4227C0ED10048F900 /* SettingsViewController.swift in Sources */,
 				0243EF8E227B3C290075565B /* HomeViewController.swift in Sources */,
 				0243F532227B53E80075565B /* YomiageFinishedViewController.swift in Sources */,
+				024AD99922871BF400ED30BA /* MenuViewCell.swift in Sources */,
 				024AD8C122870A6400ED30BA /* ShinaksenLines.swift in Sources */,
 				0243EF90227B433D0075565B /* ItemViewCell.swift in Sources */,
 				0243EF92227B44800075565B /* Memu.swift in Sources */,

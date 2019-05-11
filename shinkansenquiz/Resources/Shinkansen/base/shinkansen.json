@@ -2,7 +2,7 @@
     "shinkansen" : [
         {
             "id"        :"1",
-            "name"      :"Tokaido",
+            "name"      :"tokaido",
             "name_kanji":"東海道",
             "name_kana" :"とうかいどう",
             "section":[
@@ -20,7 +20,7 @@
         },
         {
             "id"        :"2",
-            "name"      :"Sanyo",
+            "name"      :"sanyo",
             "name_kanji":"山陽",
             "name_kana" :"さんよう",
             "section":[
@@ -38,7 +38,7 @@
         },
         {
             "id"        :"3",
-            "name"      :"Kyushu",
+            "name"      :"kyushu",
             "name_kanji":"九州",
             "name_kana" :"きゅうしゅう",
             "section":[
@@ -56,7 +56,7 @@
         },
         {
             "id"        :"4",
-            "name"      :"Tohoku",
+            "name"      :"tohoku",
             "name_kanji":"東北",
             "name_kana" :"とうほく",
             "section":[
@@ -110,7 +110,7 @@
         },
         {
             "id"        :"7",
-            "name"      :"Jouetsu",
+            "name"      :"jouetsu",
             "name_kanji":"上越",
             "name_kana" :"じょうえつ",
             "section":[
@@ -128,7 +128,7 @@
         },
         {
             "id"        :"8",
-            "name"      :"Nagano",
+            "name"      :"nagano",
             "name_kanji":"長野",
             "name_kana" :"ながの",
             "section":[

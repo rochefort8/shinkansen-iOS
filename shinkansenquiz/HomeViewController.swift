@@ -67,15 +67,12 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        var cell: UICollectionViewCell
-        
-        print(indexPath)
-        
-        cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ScreenshotCell", for: indexPath as IndexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MenuCell", for: indexPath as IndexPath)as! MenuViewCell
 /*
         let hue = CGFloat(indexPath.item) / 20 // CGFloat(POMAppCount)
-        cell.backgroundColor = UIColor(hue: hue, saturation: 1, brightness: 1, alpha: 1)
 */
+        let index = indexPath.row % 3 /* At this moment, 0-2 is availabe */
+        cell.configurateTheCell(menus[index])
         return cell
     }
 }
