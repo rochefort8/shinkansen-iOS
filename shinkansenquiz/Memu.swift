@@ -9,11 +9,17 @@
 import Foundation
 import SwiftyJSON
 
+struct MenuBase {
+    var name: String        = ""
+    var name_kanji: String  = ""
+    var name_kana: String   = ""
+}
+
 struct Menu {
-    var name: String
-    var name_kanji: String
-    var name_kana: String
-    var section:[Menu]
+    var name: String        = ""
+    var name_kanji: String  = ""
+    var name_kana: String   = ""
+    var section:[MenuBase]      = [MenuBase()]
 }
 
 extension Menu {
@@ -41,23 +47,20 @@ extension Menu {
         let count:Int = info.count
         for i in 0...count-1 {
             let json = JSON(info[i])
-            var section:[Menu]
+            var section:[MenuBase]
             
             section = []
             let s = JSON(json["section"])
-            section.append(Menu(name: s[0]["name"].stringValue,
+            section.append(MenuBase(name: s[0]["name"].stringValue,
                                 name_kanji: s[0]["name_kanji"].stringValue,
-                                name_kana: s[0]["name_kana"].stringValue,
-                                section:[]))
-            section.append(Menu(name: s[1]["name"].stringValue,
+                                name_kana: s[0]["name_kana"].stringValue))
+            section.append(MenuBase(name: s[1]["name"].stringValue,
                                 name_kanji: s[1]["name_kanji"].stringValue,
-                                name_kana: s[1]["name_kana"].stringValue,
-                                section:[]))
-
+                                name_kana: s[1]["name_kana"].stringValue))
             menus.append(Menu(name: json["name"].stringValue,
-                            name_kanji: json["name_kanji"].stringValue,
-                            name_kana: json["name_kana"].stringValue,
-                            section: section))
+                              name_kanji: json["name_kanji"].stringValue,
+                              name_kana: json["name_kana"].stringValue,
+                              section: section))
         }
         return menus
     }

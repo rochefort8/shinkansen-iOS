@@ -15,6 +15,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     @IBOutlet var bannerView: GADBannerView!
     
     let menus = Menu.createMenus()
+    var savedIndex:Int = 0
 
     // Huge Value for infinite loop
     let PageCount = 2000
@@ -47,15 +48,16 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     }
     
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+    
+        let viewController :QuizSetupViewController = (segue.destination as? QuizSetupViewController )!
+        viewController.menu = menus[savedIndex]
     }
-    */
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -71,8 +73,20 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
 /*
         let hue = CGFloat(indexPath.item) / 20 // CGFloat(POMAppCount)
 */
-        let index = indexPath.row % 3 /* At this moment, 0-2 is availabe */
+        let index = realIndex(index:indexPath.row)
         cell.configurateTheCell(menus[index])
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        print(realIndex(index: indexPath.row))
+        savedIndex = realIndex(index: indexPath.row)
+        performSegue(withIdentifier: "toQuizSetupView",sender: nil)
+    }
+    
+    private func realIndex(index : Int)->Int {
+        /* At this moment, 0-2 is availabe */
+        return (index % 3)
     }
 }
