@@ -131,7 +131,12 @@ class QuizViewController: UIViewController {
                     String(format: "%02d",correctStationIndex + 1) + "_" +
                     stations[correctStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )
+//        boardImageView.layer.borderWidth = 1
+//        boardImageView.layer.borderColor = UIColor.black.cgColor
         mapImageView.image  = UIImage(named: mapString + ".jpg")
+        mapImageView.layer.borderWidth = 1
+        mapImageView.layer.borderColor = UIColor.black.cgColor
+
         answer1Button.setTitle(stations[answers[0]].name_kanji,for:.normal)
         answer2Button.setTitle(stations[answers[1]].name_kanji,for:.normal)
         answer3Button.setTitle(stations[answers[2]].name_kanji,for:.normal)
