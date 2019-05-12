@@ -12,16 +12,16 @@ import AVFoundation
 import SwiftyJSON
 
 struct LineInfo {
-    var name: String
-    var name_kanji: String
-    var name_kana: String
+    var name: String        = ""
+    var name_kanji: String  = ""
+    var name_kana: String   = ""
 }
 
 struct StationInfo {
-    var id : String
-    var name: String
-    var name_kanji: String
-    var name_kana: String
+    var id : String         = ""
+    var name: String        = ""
+    var name_kanji: String  = ""
+    var name_kana: String   = ""
 }
 
 class ShinkansenLine: NSObject {
@@ -30,11 +30,11 @@ class ShinkansenLine: NSObject {
     var stationInfo: JSON = JSON.null
     
     // Constructor
-    init(name: String){
-        super.init()
+    
+    func create(name: String){
         parseJsonData(name:name)
     }
-
+    
     func getLineInfo() -> LineInfo {
         return LineInfo(name: lineInfo["name"].stringValue,
                         name_kanji: lineInfo["name_kanji"].stringValue,
@@ -81,4 +81,3 @@ class ShinkansenLine: NSObject {
         }
     }
 }
-

@@ -1,7 +1,7 @@
 {
     "name"      :"tokaido",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"東海道",
+    "name_kana" :"とうかいどう",
     "station":[
         {
             "id"        :"1",
