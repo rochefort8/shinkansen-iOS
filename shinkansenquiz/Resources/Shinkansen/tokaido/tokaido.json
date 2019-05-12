@@ -1,7 +1,7 @@
 {
     "name"      :"tokaido",
-    "name_kanji":"東海道",
-    "name_kana" :"とうかいどう",
+    "name_kanji":"",
+    "name_kana" :"",
     "station":[
         {
             "id"        :"1",
@@ -71,7 +71,7 @@
         },
         {
             "id"        :"12",
-            "name"      :"Mikawa-Anjō",
+            "name"      :"Mikawa-Anjo",
             "name_kanji":"三河安城",
             "name_kana" :"みかわあんじょう"
         },
@@ -101,7 +101,7 @@
         },
         {
             "id"        :"17",
-            "name"      :"Shin-Ōsaka",
+            "name"      :"Shin-Osaka",
             "name_kanji":"新大阪",
             "name_kana" :"しんおおさか"
         },

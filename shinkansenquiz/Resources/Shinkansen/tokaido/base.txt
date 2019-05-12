@@ -9,9 +9,9 @@
 掛川 かけがわ Kakegawa
 浜松 はままつ Hamamatsu
 豊橋 とよはし Toyohashi
-三河安城 みかわあんじょう Mikawa-Anjō
+三河安城 みかわあんじょう Mikawa-Anjo
 名古屋 なごや Nagoya
 岐阜羽島 ぎふはしま Gifu-Hashima
 米原 まいばら Maibara
 京都 きょうと Kyoto
-新大阪 しんおおさか Shin-Ōsaka
+新大阪 しんおおさか Shin-Osaka

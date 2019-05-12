@@ -128,8 +128,8 @@ class QuizViewController: UIViewController {
                     String(format: "%02d",currentStationIndex + 1) + "_" +
                     stations[currentStationIndex].name).lowercased()
         let mapString = (name + "_map_" +
-                    String(format: "%02d",correctStationIndex + 1) + "_" +
-                    stations[correctStationIndex].name).lowercased()
+                    String(format: "%02d",currentStationIndex + 1) + "_" +
+                    stations[currentStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )
 //        boardImageView.layer.borderWidth = 1
 //        boardImageView.layer.borderColor = UIColor.black.cgColor

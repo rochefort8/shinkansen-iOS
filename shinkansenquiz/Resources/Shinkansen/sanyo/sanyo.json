@@ -5,7 +5,7 @@
     "station":[
         {
             "id"        :"1",
-            "name"      :"Shin-Ōsaka",
+            "name"      :"Shin-Osaka",
             "name_kanji":"新大阪",
             "name_kana" :"しんおおさか"
         },
@@ -116,6 +116,12 @@
             "name"      :"Hakata",
             "name_kanji":"博多",
             "name_kana" :"はかた"
+        },
+        {
+            "id"        :"20",
+            "name"      :"Hakata-Minami",
+            "name_kanji":"博多南",
+            "name_kana" :"はかたみなみ"
         },
     ]
 }
