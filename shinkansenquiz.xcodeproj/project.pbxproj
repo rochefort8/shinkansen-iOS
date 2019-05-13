@@ -139,6 +139,7 @@
 		024ADAB822885C0500ED30BA /* kyushu_01_hakata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADAA022885C0500ED30BA /* kyushu_01_hakata.jpg */; };
 		024ADAB922885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADAA122885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg */; };
 		024ADABC22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADABB22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg */; };
+		024ADAC0228A30B500ED30BA /* QuizFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADABF228A30B500ED30BA /* QuizFinishedViewController.swift */; };
 		024E66AF2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */; };
 		024E691B2286793F0054DBB3 /* tokaido.json in Resources */ = {isa = PBXBuildFile; fileRef = 024E684E2286793E0054DBB3 /* tokaido.json */; };
 		024E69412286793F0054DBB3 /* tokaido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68752286793F0054DBB3 /* tokaido.jpg */; };
@@ -312,6 +313,7 @@
 		024ADAA022885C0500ED30BA /* kyushu_01_hakata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyushu_01_hakata.jpg; sourceTree = "<group>"; };
 		024ADAA122885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kyushu_map_02_shin-tosu.jpg"; sourceTree = "<group>"; };
 		024ADABB22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kyushu_map_04_chikugo-funagoya.jpg"; sourceTree = "<group>"; };
+		024ADABF228A30B500ED30BA /* QuizFinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFinishedViewController.swift; sourceTree = "<group>"; };
 		024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		024E684E2286793E0054DBB3 /* tokaido.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokaido.json; sourceTree = "<group>"; };
 		024E68752286793F0054DBB3 /* tokaido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido.jpg; sourceTree = "<group>"; };
@@ -408,6 +410,7 @@
 				024AD8C022870A6400ED30BA /* ShinaksenLines.swift */,
 				0243EF8F227B433D0075565B /* ItemViewCell.swift */,
 				024AD99C2287B0B200ED30BA /* QuizSetupViewController.swift */,
+				024ADABF228A30B500ED30BA /* QuizFinishedViewController.swift */,
 				024AD9E92287E70400ED30BA /* QuizViewController.swift */,
 				0243EF8B227B3BEA0075565B /* GoogleMobileAds.swift */,
 				0243EF9B227B50F80075565B /* YomiageViewController.swift */,
@@ -1068,6 +1071,7 @@
 				02B6EDC4227C0ED10048F900 /* SettingsViewController.swift in Sources */,
 				0243EF8E227B3C290075565B /* HomeViewController.swift in Sources */,
 				0243F532227B53E80075565B /* YomiageFinishedViewController.swift in Sources */,
+				024ADAC0228A30B500ED30BA /* QuizFinishedViewController.swift in Sources */,
 				024AD99922871BF400ED30BA /* MenuViewCell.swift in Sources */,
 				024AD8C122870A6400ED30BA /* ShinaksenLines.swift in Sources */,
 				0243EF90227B433D0075565B /* ItemViewCell.swift in Sources */,

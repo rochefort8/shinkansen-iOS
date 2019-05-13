@@ -71,6 +71,10 @@ class QuizViewController: UIViewController {
             print("Wrong")
             
         }
+        /* For testing */
+        if (currentStationIndex > 2) {
+            performSegue(withIdentifier: "toQuizFinishedView",sender: nil)
+        }
         update()
     }
     
