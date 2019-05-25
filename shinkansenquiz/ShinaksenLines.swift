@@ -17,12 +17,20 @@ struct LineInfo {
     var name_kana: String   = ""
 }
 
+struct MapInfo {
+    var id       : String   = ""
+    var location : CGPoint  = CGPoint(x: 0.0,y:0.0)
+    var text     : CGPoint  = CGPoint(x: 0.0,y:0.0)
+}
+
 struct StationInfo {
     var id : String         = ""
     var name: String        = ""
     var name_kanji: String  = ""
     var name_kana: String   = ""
+    var map      : MapInfo  = MapInfo()
 }
+
 
 class ShinkansenLine: NSObject {
     
@@ -46,10 +54,23 @@ class ShinkansenLine: NSObject {
 
     func getStation(number:Int) -> StationInfo {
         let json = JSON(stationInfo[number])
+        let json_map  = JSON(json["map"])
+        let json_location   = JSON(json_map["location"])
+        let json_text   = JSON(json_map["text"])
+
+        var mapInfo = MapInfo()
+        mapInfo.id = json_map["id"].stringValue
+        mapInfo.location = CGPoint(x :json_location["x"].doubleValue,
+                                   y :json_location["y"].doubleValue)        
+        mapInfo.text     = CGPoint(x :json_text["x"].doubleValue,
+                                   y :json_text["y"].doubleValue)
+
         return StationInfo(id:json["id"].stringValue,
                            name: json["name"].stringValue,
                            name_kanji: json["name_kanji"].stringValue,
-                           name_kana: json["name_kana"].stringValue)
+                           name_kana: json["name_kana"].stringValue,
+                           map:     mapInfo)
+        
     }
 
     func getStations() -> [StationInfo] {
@@ -57,11 +78,7 @@ class ShinkansenLine: NSObject {
         stations = []
 
         for i in 0...stationInfo.count-1 {
-            let json = JSON(stationInfo[i])
-            stations.append(StationInfo(id:json["id"].stringValue,
-                        name: json["name"].stringValue,
-                        name_kanji: json["name_kanji"].stringValue,
-                        name_kana: json["name_kana"].stringValue))
+            stations.append(getStation(number: i))
         }
         return stations
     }
