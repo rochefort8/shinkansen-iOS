@@ -15,7 +15,7 @@ class TestViewController: UIViewController {
     var shinkansenLine:ShinkansenLine = ShinkansenLine()
     var numberOfStations:Int = 0
     var stations:[StationInfo] = [StationInfo()]
-    var currentStationIndex = 0
+    var currentStationIndex = -1
 
     var pointIndex = 0
     var drawView = DrawView()
@@ -23,7 +23,7 @@ class TestViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         shinkansenLine.create(name:"tokaido")
         numberOfStations = shinkansenLine.getStationCount()
         stations = shinkansenLine.getStations()
@@ -37,19 +37,18 @@ class TestViewController: UIViewController {
                                  
         
         drawView = DrawView(frame: rect)
-        drawView.setParams(_stations: stations,_scale:scale)
+        drawView.setParams(_stations: stations,_scale:scale,_mapView: imageView)
         self.view.addSubview(drawView)
     }
     
     @IBAction func onButton(_ sender: Any) {
 
-
+        currentStationIndex += 1
         drawView.index = currentStationIndex
         drawView.setNeedsDisplay()
 
-        currentStationIndex += 1
-        if (currentStationIndex >= 4) {
-            currentStationIndex = 0
+        if (currentStationIndex >= stations.count) {
+            currentStationIndex = -1
         }        
     }
 
@@ -66,7 +65,7 @@ class TestViewController: UIViewController {
 
 class DrawView: UIView {
     
-    var index:Int = 0
+    var index:Int = -1
     {
         didSet {
             if oldValue != index {
@@ -82,18 +81,33 @@ class DrawView: UIView {
         self.backgroundColor = UIColor.clear;
     }
     
-    func setParams(_stations:[StationInfo],_scale:CGFloat) {
+    func setParams(_stations:[StationInfo],_scale:CGFloat,_mapView:UIImageView) {
         stations = _stations
         scale = _scale
+        mapView = _mapView
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     var scale:CGFloat = 1.0
+    
+    var oldMapIndex = 0
+    var mapView: UIImageView!
 
     override func draw(_ rect: CGRect) {
         
+        if (index == -1) {
+            return
+        }
+        let mapIndex:Int    = Int(stations[index + 1].map.id)!
+        if mapIndex != oldMapIndex {
+            // Update map
+            let mapString = ("tokaido" + "_map_" +
+                String(format: "%02d",mapIndex) + "_base")
+            mapView.image  = UIImage(named: mapString + ".jpg")
+            oldMapIndex = mapIndex
+        }
         
         let location_x  = stations[index + 1].map.location.x * scale
         let location_y  = stations[index + 1].map.location.y * scale
@@ -118,5 +132,5 @@ class DrawView: UIView {
         //        title.textAlignment = .center
         addSubview(title)
     }
-        
+
 }
