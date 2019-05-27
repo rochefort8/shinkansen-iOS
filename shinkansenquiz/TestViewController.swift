@@ -102,11 +102,19 @@ class DrawView: UIView {
         }
         let mapIndex:Int    = Int(stations[index + 1].map.id)!
         if mapIndex != oldMapIndex {
-            // Update map
+            // Change map
             let mapString = ("tokaido" + "_map_base_" +
                 String(format: "%02d",mapIndex))
             mapView.image  = UIImage(named: mapString + ".jpg")
             oldMapIndex = mapIndex
+            
+            // Remove all station names
+            let subviews = self.subviews
+            for subview in subviews {
+                if let subview = subview as? UILabel {
+                    subview.removeFromSuperview()
+                }
+            }
         }
         
         let location_x  = stations[index + 1].map.location.x * scale
