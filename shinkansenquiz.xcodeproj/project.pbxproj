@@ -18,6 +18,9 @@
 		0243EF9C227B50F80075565B /* YomiageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243EF9B227B50F80075565B /* YomiageViewController.swift */; };
 		0243F532227B53E80075565B /* YomiageFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243F531227B53E80075565B /* YomiageFinishedViewController.swift */; };
 		0243F538227B57400075565B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0243F537227B57400075565B /* Settings.bundle */; };
+		0247434D229C8C2800F1FAF9 /* tokaido_map_base_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0247434A229C8C2700F1FAF9 /* tokaido_map_base_03.jpg */; };
+		0247434E229C8C2800F1FAF9 /* tokaido_map_base_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0247434B229C8C2700F1FAF9 /* tokaido_map_base_02.jpg */; };
+		0247434F229C8C2800F1FAF9 /* tokaido_map_base_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0247434C229C8C2700F1FAF9 /* tokaido_map_base_01.jpg */; };
 		024AD8BF2286DEED00ED30BA /* shinkansen.json in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8BE2286DEED00ED30BA /* shinkansen.json */; };
 		024AD8C122870A6400ED30BA /* ShinaksenLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024AD8C022870A6400ED30BA /* ShinaksenLines.swift */; };
 		024AD904228711BA00ED30BA /* sanyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C3228711BA00ED30BA /* sanyo.jpg */; };
@@ -142,14 +145,12 @@
 		024ADB542290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2F2290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg */; };
 		024ADB552290EE5800ED30BA /* tokaido_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB302290EE5800ED30BA /* tokaido_04_odawara.jpg */; };
 		024ADB562290EE5800ED30BA /* tokaido_map_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB312290EE5800ED30BA /* tokaido_map_05_atami.jpg */; };
-		024ADB582290EE7D00ED30BA /* tokaido_map_01_base.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB572290EE7C00ED30BA /* tokaido_map_01_base.jpg */; };
 		024ADB5A22912AE500ED30BA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADB5922912AE500ED30BA /* TestViewController.swift */; };
 		024ADB5E22912B3000ED30BA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADB5D22912B3000ED30BA /* TestViewController.swift */; };
 		024E66AF2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */; };
 		024E691B2286793F0054DBB3 /* tokaido.json in Resources */ = {isa = PBXBuildFile; fileRef = 024E684E2286793E0054DBB3 /* tokaido.json */; };
 		024E69412286793F0054DBB3 /* tokaido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68752286793F0054DBB3 /* tokaido.jpg */; };
 		024E69422286793F0054DBB3 /* tokaido_tokyo_bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */; };
-		025E7C94229A002E0009C3E5 /* tokaido_map_02_base.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025E7C93229A002E0009C3E5 /* tokaido_map_02_base.jpg */; };
 		02AE75BC227C351C00D1E530 /* SettingsRepeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE75BB227C351C00D1E530 /* SettingsRepeatsViewController.swift */; };
 		02AE75C8227C804300D1E530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02AE75C7227C7F1C00D1E530 /* InfoPlist.strings */; };
 		02AE75C9227D6FF100D1E530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243EF5E227B1BFE0075565B /* LaunchScreen.storyboard */; };
@@ -198,6 +199,9 @@
 		0243EF9B227B50F80075565B /* YomiageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YomiageViewController.swift; sourceTree = "<group>"; };
 		0243F531227B53E80075565B /* YomiageFinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YomiageFinishedViewController.swift; sourceTree = "<group>"; };
 		0243F537227B57400075565B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0247434A229C8C2700F1FAF9 /* tokaido_map_base_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_03.jpg; sourceTree = "<group>"; };
+		0247434B229C8C2700F1FAF9 /* tokaido_map_base_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_02.jpg; sourceTree = "<group>"; };
+		0247434C229C8C2700F1FAF9 /* tokaido_map_base_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_01.jpg; sourceTree = "<group>"; };
 		024AD8BE2286DEED00ED30BA /* shinkansen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shinkansen.json; path = base/shinkansen.json; sourceTree = "<group>"; };
 		024AD8C022870A6400ED30BA /* ShinaksenLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShinaksenLines.swift; sourceTree = "<group>"; };
 		024AD8C3228711BA00ED30BA /* sanyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanyo.jpg; sourceTree = "<group>"; };
@@ -322,14 +326,12 @@
 		024ADB2F2290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_14_gifu-hashima.jpg"; sourceTree = "<group>"; };
 		024ADB302290EE5800ED30BA /* tokaido_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_04_odawara.jpg; sourceTree = "<group>"; };
 		024ADB312290EE5800ED30BA /* tokaido_map_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_05_atami.jpg; sourceTree = "<group>"; };
-		024ADB572290EE7C00ED30BA /* tokaido_map_01_base.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_01_base.jpg; sourceTree = "<group>"; };
 		024ADB5922912AE500ED30BA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = "/Users/rochefort10/projects/MobileApps/Shinkansenquiz-ios/shinkansenquiz/TestViewController.swift"; sourceTree = "<absolute>"; };
 		024ADB5D22912B3000ED30BA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		024E684E2286793E0054DBB3 /* tokaido.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokaido.json; sourceTree = "<group>"; };
 		024E68752286793F0054DBB3 /* tokaido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido.jpg; sourceTree = "<group>"; };
 		024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokaido_tokyo_bell.mp3; sourceTree = "<group>"; };
-		025E7C93229A002E0009C3E5 /* tokaido_map_02_base.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_02_base.jpg; sourceTree = "<group>"; };
 		02AE75BB227C351C00D1E530 /* SettingsRepeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRepeatsViewController.swift; sourceTree = "<group>"; };
 		02AE75BD227C7DDC00D1E530 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		02AE75BE227C7DDC00D1E530 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -598,8 +600,9 @@
 		024ADB0C2290EE5800ED30BA /* jpg */ = {
 			isa = PBXGroup;
 			children = (
-				025E7C93229A002E0009C3E5 /* tokaido_map_02_base.jpg */,
-				024ADB572290EE7C00ED30BA /* tokaido_map_01_base.jpg */,
+				0247434C229C8C2700F1FAF9 /* tokaido_map_base_01.jpg */,
+				0247434B229C8C2700F1FAF9 /* tokaido_map_base_02.jpg */,
+				0247434A229C8C2700F1FAF9 /* tokaido_map_base_03.jpg */,
 				024ADB0D2290EE5800ED30BA /* tokaido_06_mishima.jpg */,
 				024ADB0E2290EE5800ED30BA /* tokaido_07_shin-fuji.jpg */,
 				024ADB0F2290EE5800ED30BA /* tokaido_map_15_maibara.jpg */,
@@ -838,11 +841,13 @@
 				024ADB4A2290EE5800ED30BA /* tokaido_02_shinagawa.jpg in Resources */,
 				024ADA7022884BCC00ED30BA /* sanyo_map_15_shin-yamaguchi.jpg in Resources */,
 				024ADB372290EE5800ED30BA /* tokaido_map_11_toyohashi.jpg in Resources */,
+				0247434E229C8C2800F1FAF9 /* tokaido_map_base_02.jpg in Resources */,
 				024ADA6822884BCC00ED30BA /* sanyo_02_shin-kobe.jpg in Resources */,
 				024ADB502290EE5800ED30BA /* tokaido_05_atami.jpg in Resources */,
 				024ADB4D2290EE5800ED30BA /* tokaido_16_kyoto.jpg in Resources */,
 				024ADAB522885C0500ED30BA /* kyushu_10_izumi.jpg in Resources */,
 				024ADA7822884BCC00ED30BA /* sanyo_08_fukuyama.jpg in Resources */,
+				0247434F229C8C2800F1FAF9 /* tokaido_map_base_01.jpg in Resources */,
 				024ADA6B22884BCC00ED30BA /* sanyo_15_shin-yamaguchi.jpg in Resources */,
 				024AD96F228711C700ED30BA /* kyushu.json in Resources */,
 				024AD988228711C700ED30BA /* kyushu.jpg in Resources */,
@@ -894,9 +899,9 @@
 				024ADAAF22885C0500ED30BA /* kyushu_03_kurume.jpg in Resources */,
 				024ADA7A22884BCC00ED30BA /* sanyo_19_hakata.jpg in Resources */,
 				024ADB412290EE5800ED30BA /* tokaido_map_04_odawara.jpg in Resources */,
-				024ADB582290EE7D00ED30BA /* tokaido_map_01_base.jpg in Resources */,
 				024ADAAE22885C0500ED30BA /* kyushu_map_06_shin-tamana.jpg in Resources */,
 				024ADAB022885C0500ED30BA /* kyushu_11_sendai.jpg in Resources */,
+				0247434D229C8C2800F1FAF9 /* tokaido_map_base_03.jpg in Resources */,
 				024ADB4E2290EE5800ED30BA /* tokaido_11_toyohashi.jpg in Resources */,
 				024ADAA522885C0500ED30BA /* kyushu_map_12_kagoshima-chuo.jpg in Resources */,
 				024ADAB222885C0500ED30BA /* kyushu_04_chikugo-funagoya.jpg in Resources */,
@@ -927,7 +932,6 @@
 				024ADAAC22885C0500ED30BA /* kyushu_09_shin-minamata.jpg in Resources */,
 				024AD990228711C700ED30BA /* kyushu_02_shintosu.xcf in Resources */,
 				024ADA6E22884BCC00ED30BA /* sanyo_map_08_fukuyama.jpg in Resources */,
-				025E7C94229A002E0009C3E5 /* tokaido_map_02_base.jpg in Resources */,
 				024AD98A228711C700ED30BA /* kyushu_08_shinyatsushiro.xcf in Resources */,
 				024ADB482290EE5800ED30BA /* tokaido_map_06_mishima.png in Resources */,
 				024ADA7522884BCC00ED30BA /* sanyo_04_himeji.jpg in Resources */,

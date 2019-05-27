@@ -47,7 +47,7 @@ class TestViewController: UIViewController {
         drawView.index = currentStationIndex
         drawView.setNeedsDisplay()
 
-        if (currentStationIndex >= stations.count) {
+        if (currentStationIndex >= stations.count - 2) {
             currentStationIndex = -1
         }        
     }
@@ -103,8 +103,8 @@ class DrawView: UIView {
         let mapIndex:Int    = Int(stations[index + 1].map.id)!
         if mapIndex != oldMapIndex {
             // Update map
-            let mapString = ("tokaido" + "_map_" +
-                String(format: "%02d",mapIndex) + "_base")
+            let mapString = ("tokaido" + "_map_base_" +
+                String(format: "%02d",mapIndex))
             mapView.image  = UIImage(named: mapString + ".jpg")
             oldMapIndex = mapIndex
         }
