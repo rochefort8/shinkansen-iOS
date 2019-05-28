@@ -38,18 +38,29 @@ class TestViewController: UIViewController {
         
         drawView = DrawView(frame: rect)
         drawView.setParams(_stations: stations,_scale:scale,_mapView: imageView)
+        drawView.index = stations.count
         self.view.addSubview(drawView)
+        
     }
     
     @IBAction func onButton(_ sender: Any) {
-
+/*
         currentStationIndex += 1
         drawView.index = currentStationIndex
         drawView.setNeedsDisplay()
 
         if (currentStationIndex >= stations.count - 2) {
             currentStationIndex = -1
-        }        
+        }
+ */
+        currentStationIndex -= 1
+        drawView.index = currentStationIndex
+        drawView.setNeedsDisplay()
+        
+        if (currentStationIndex < 1 ) {
+            currentStationIndex = stations.count
+        }
+
     }
 
     /*
@@ -97,7 +108,7 @@ class DrawView: UIView {
 
     override func draw(_ rect: CGRect) {
         
-        if (index == -1) {
+        if index < 0 || stations.count - 1  <= index {
             return
         }
         let mapIndex:Int    = Int(stations[index + 1].map.id)!
