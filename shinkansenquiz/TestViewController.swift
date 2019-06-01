@@ -146,9 +146,13 @@ class DrawView: UIView {
         circle.stroke()
         
         let title = UILabel()
+//        title.backgroundColor = UIColor.white
+        title.font = UIFont(name: "Hiragino Kaku Gothic ProN W3", size: 20)
         title.text = stations[index].name_kanji
         title.frame = CGRect(x:text_x,y:text_y,width: 50,height:30)
         //        title.textAlignment = .center
+        
+        title.sizeToFit()
         addSubview(title)
     }
 
