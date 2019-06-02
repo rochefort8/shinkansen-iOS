@@ -72,9 +72,11 @@ class QuizViewController: UIViewController {
             
         }
         /* For testing */
+        /*
         if (currentStationIndex > 2) {
             performSegue(withIdentifier: "toQuizFinishedView",sender: nil)
         }
+ */
         update()
     }
     
@@ -131,7 +133,7 @@ class QuizViewController: UIViewController {
         let boardString = (name + "_" +
                     String(format: "%02d",currentStationIndex + 1) + "_" +
                     stations[currentStationIndex].name).lowercased()
-        let mapString = (name + "_map_" +
+        let mapString = (name + "_map_out_" +
                     String(format: "%02d",currentStationIndex + 1) + "_" +
                     stations[currentStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )

@@ -44,7 +44,6 @@ class TestViewController: UIViewController {
     }
     
     @IBAction func onButton(_ sender: Any) {
-/*
         currentStationIndex += 1
         drawView.index = currentStationIndex
         drawView.setNeedsDisplay()
@@ -52,7 +51,8 @@ class TestViewController: UIViewController {
         if (currentStationIndex >= stations.count - 2) {
             currentStationIndex = -1
         }
- */
+
+ /*
         currentStationIndex -= 1
         drawView.index = currentStationIndex
         drawView.setNeedsDisplay()
@@ -60,7 +60,7 @@ class TestViewController: UIViewController {
         if (currentStationIndex < 1 ) {
             currentStationIndex = stations.count
         }
-
+*/
     }
 
     /*
@@ -146,7 +146,7 @@ class DrawView: UIView {
         circle.stroke()
         
         let title = UILabel()
-//        title.backgroundColor = UIColor.white
+        title.backgroundColor = UIColor.white
         title.font = UIFont(name: "Hiragino Kaku Gothic ProN W3", size: 20)
         title.text = stations[index].name_kanji
         title.frame = CGRect(x:text_x,y:text_y,width: 50,height:30)

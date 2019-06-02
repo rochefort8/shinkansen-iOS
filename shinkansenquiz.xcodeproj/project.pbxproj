@@ -18,9 +18,6 @@
 		0243EF9C227B50F80075565B /* YomiageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243EF9B227B50F80075565B /* YomiageViewController.swift */; };
 		0243F532227B53E80075565B /* YomiageFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243F531227B53E80075565B /* YomiageFinishedViewController.swift */; };
 		0243F538227B57400075565B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0243F537227B57400075565B /* Settings.bundle */; };
-		0247434D229C8C2800F1FAF9 /* tokaido_map_base_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0247434A229C8C2700F1FAF9 /* tokaido_map_base_03.jpg */; };
-		0247434E229C8C2800F1FAF9 /* tokaido_map_base_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0247434B229C8C2700F1FAF9 /* tokaido_map_base_02.jpg */; };
-		0247434F229C8C2800F1FAF9 /* tokaido_map_base_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0247434C229C8C2700F1FAF9 /* tokaido_map_base_01.jpg */; };
 		024AD8BF2286DEED00ED30BA /* shinkansen.json in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8BE2286DEED00ED30BA /* shinkansen.json */; };
 		024AD8C122870A6400ED30BA /* ShinaksenLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024AD8C022870A6400ED30BA /* ShinaksenLines.swift */; };
 		024AD904228711BA00ED30BA /* sanyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024AD8C3228711BA00ED30BA /* sanyo.jpg */; };
@@ -108,49 +105,66 @@
 		024ADAB922885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADAA122885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg */; };
 		024ADABC22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADABB22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg */; };
 		024ADAC0228A30B500ED30BA /* QuizFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADABF228A30B500ED30BA /* QuizFinishedViewController.swift */; };
-		024ADB322290EE5800ED30BA /* tokaido_06_mishima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB0D2290EE5800ED30BA /* tokaido_06_mishima.jpg */; };
-		024ADB332290EE5800ED30BA /* tokaido_07_shin-fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB0E2290EE5800ED30BA /* tokaido_07_shin-fuji.jpg */; };
-		024ADB342290EE5800ED30BA /* tokaido_map_15_maibara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB0F2290EE5800ED30BA /* tokaido_map_15_maibara.jpg */; };
-		024ADB352290EE5800ED30BA /* tokaido_01_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB102290EE5800ED30BA /* tokaido_01_tokyo.jpg */; };
-		024ADB362290EE5800ED30BA /* tokaido_map_02_shinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB112290EE5800ED30BA /* tokaido_map_02_shinagawa.jpg */; };
-		024ADB372290EE5800ED30BA /* tokaido_map_11_toyohashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB122290EE5800ED30BA /* tokaido_map_11_toyohashi.jpg */; };
-		024ADB382290EE5800ED30BA /* tokaido_map_01_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB132290EE5800ED30BA /* tokaido_map_01_tokyo.jpg */; };
-		024ADB392290EE5800ED30BA /* tokaido_map_14_gifu-hashima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB142290EE5800ED30BA /* tokaido_map_14_gifu-hashima.jpg */; };
-		024ADB3A2290EE5800ED30BA /* tokaido_12_mikawa-anjo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB152290EE5800ED30BA /* tokaido_12_mikawa-anjo.jpg */; };
-		024ADB3B2290EE5800ED30BA /* tokaido_map_13_nagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB162290EE5800ED30BA /* tokaido_map_13_nagoya.jpg */; };
-		024ADB3C2290EE5800ED30BA /* tokaido_map_12_mikawa-anjo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB172290EE5800ED30BA /* tokaido_map_12_mikawa-anjo.jpg */; };
-		024ADB3D2290EE5800ED30BA /* tokaido_13_nagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB182290EE5800ED30BA /* tokaido_13_nagoya.jpg */; };
-		024ADB3E2290EE5800ED30BA /* tokaido_map_10_hamamatsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB192290EE5800ED30BA /* tokaido_map_10_hamamatsu.jpg */; };
-		024ADB3F2290EE5800ED30BA /* tokaido_08_shizuoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB1A2290EE5800ED30BA /* tokaido_08_shizuoka.jpg */; };
-		024ADB402290EE5800ED30BA /* tokaido_map_08_shizuoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB1B2290EE5800ED30BA /* tokaido_map_08_shizuoka.jpg */; };
-		024ADB412290EE5800ED30BA /* tokaido_map_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB1C2290EE5800ED30BA /* tokaido_map_04_odawara.jpg */; };
-		024ADB422290EE5800ED30BA /* tokaido_17_shin-osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB1D2290EE5800ED30BA /* tokaido_17_shin-osaka.jpg */; };
-		024ADB432290EE5800ED30BA /* tokaido_map_base_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB1E2290EE5800ED30BA /* tokaido_map_base_2.png */; };
-		024ADB442290EE5800ED30BA /* tokaido_map_16_kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB1F2290EE5800ED30BA /* tokaido_map_16_kyoto.jpg */; };
-		024ADB452290EE5800ED30BA /* tokaido_map_base_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB202290EE5800ED30BA /* tokaido_map_base_3.png */; };
-		024ADB462290EE5800ED30BA /* tokaido_map_07_shin-fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB212290EE5800ED30BA /* tokaido_map_07_shin-fuji.jpg */; };
-		024ADB472290EE5800ED30BA /* tokaido_map_06_mishima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB222290EE5800ED30BA /* tokaido_map_06_mishima.jpg */; };
-		024ADB482290EE5800ED30BA /* tokaido_map_06_mishima.png in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB232290EE5800ED30BA /* tokaido_map_06_mishima.png */; };
-		024ADB492290EE5800ED30BA /* tokaido_15_maibara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB242290EE5800ED30BA /* tokaido_15_maibara.jpg */; };
-		024ADB4A2290EE5800ED30BA /* tokaido_02_shinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB252290EE5800ED30BA /* tokaido_02_shinagawa.jpg */; };
-		024ADB4B2290EE5800ED30BA /* tokaido_03_shin-yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB262290EE5800ED30BA /* tokaido_03_shin-yokohama.jpg */; };
-		024ADB4C2290EE5800ED30BA /* tokaido_map_17_shin-osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB272290EE5800ED30BA /* tokaido_map_17_shin-osaka.jpg */; };
-		024ADB4D2290EE5800ED30BA /* tokaido_16_kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB282290EE5800ED30BA /* tokaido_16_kyoto.jpg */; };
-		024ADB4E2290EE5800ED30BA /* tokaido_11_toyohashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB292290EE5800ED30BA /* tokaido_11_toyohashi.jpg */; };
-		024ADB4F2290EE5800ED30BA /* tokaido_10_hamamatsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2A2290EE5800ED30BA /* tokaido_10_hamamatsu.jpg */; };
-		024ADB502290EE5800ED30BA /* tokaido_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2B2290EE5800ED30BA /* tokaido_05_atami.jpg */; };
-		024ADB512290EE5800ED30BA /* tokaido_map_03_shin-yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2C2290EE5800ED30BA /* tokaido_map_03_shin-yokohama.jpg */; };
-		024ADB522290EE5800ED30BA /* tokaido_09_kakegawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2D2290EE5800ED30BA /* tokaido_09_kakegawa.jpg */; };
-		024ADB532290EE5800ED30BA /* tokaido_map_09_kakegawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2E2290EE5800ED30BA /* tokaido_map_09_kakegawa.jpg */; };
-		024ADB542290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB2F2290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg */; };
-		024ADB552290EE5800ED30BA /* tokaido_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB302290EE5800ED30BA /* tokaido_04_odawara.jpg */; };
-		024ADB562290EE5800ED30BA /* tokaido_map_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADB312290EE5800ED30BA /* tokaido_map_05_atami.jpg */; };
 		024ADB5A22912AE500ED30BA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADB5922912AE500ED30BA /* TestViewController.swift */; };
 		024ADB5E22912B3000ED30BA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADB5D22912B3000ED30BA /* TestViewController.swift */; };
 		024E66AF2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */; };
 		024E691B2286793F0054DBB3 /* tokaido.json in Resources */ = {isa = PBXBuildFile; fileRef = 024E684E2286793E0054DBB3 /* tokaido.json */; };
 		024E69412286793F0054DBB3 /* tokaido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68752286793F0054DBB3 /* tokaido.jpg */; };
 		024E69422286793F0054DBB3 /* tokaido_tokyo_bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */; };
+		0299BDE422A35F6B00B60776 /* tokaido_map_in_11_toyohashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDBF22A35F6B00B60776 /* tokaido_map_in_11_toyohashi.jpg */; };
+		0299BDE522A35F6B00B60776 /* tokaido_map_out_14_gifu-hashima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC022A35F6B00B60776 /* tokaido_map_out_14_gifu-hashima.jpg */; };
+		0299BDE622A35F6B00B60776 /* tokaido_map_out_02_shinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC122A35F6B00B60776 /* tokaido_map_out_02_shinagawa.jpg */; };
+		0299BDE722A35F6B00B60776 /* tokaido_map_in_01_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC222A35F6B00B60776 /* tokaido_map_in_01_tokyo.jpg */; };
+		0299BDE822A35F6B00B60776 /* tokaido_map_out_11_toyohashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC322A35F6B00B60776 /* tokaido_map_out_11_toyohashi.jpg */; };
+		0299BDE922A35F6B00B60776 /* tokaido_map_out_17_shin-osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC422A35F6B00B60776 /* tokaido_map_out_17_shin-osaka.jpg */; };
+		0299BDEA22A35F6B00B60776 /* tokaido_map_in_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC522A35F6B00B60776 /* tokaido_map_in_04_odawara.jpg */; };
+		0299BDEB22A35F6C00B60776 /* tokaido_map_out_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC622A35F6B00B60776 /* tokaido_map_out_05_atami.jpg */; };
+		0299BDEC22A35F6C00B60776 /* tokaido_map_out_13_nagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC722A35F6B00B60776 /* tokaido_map_out_13_nagoya.jpg */; };
+		0299BDED22A35F6C00B60776 /* tokaido_map_in_02_shinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC822A35F6B00B60776 /* tokaido_map_in_02_shinagawa.jpg */; };
+		0299BDEE22A35F6C00B60776 /* tokaido_map_base_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDC922A35F6B00B60776 /* tokaido_map_base_03.jpg */; };
+		0299BDEF22A35F6C00B60776 /* tokaido_map_out_16_kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDCA22A35F6B00B60776 /* tokaido_map_out_16_kyoto.jpg */; };
+		0299BDF022A35F6C00B60776 /* tokaido_map_out_10_hamamatsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDCB22A35F6B00B60776 /* tokaido_map_out_10_hamamatsu.jpg */; };
+		0299BDF122A35F6C00B60776 /* tokaido_map_base_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDCC22A35F6B00B60776 /* tokaido_map_base_02.jpg */; };
+		0299BDF222A35F6C00B60776 /* tokaido_map_in_09_kakegawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDCD22A35F6B00B60776 /* tokaido_map_in_09_kakegawa.jpg */; };
+		0299BDF322A35F6C00B60776 /* tokaido_map_in_15_maibara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDCE22A35F6B00B60776 /* tokaido_map_in_15_maibara.jpg */; };
+		0299BDF422A35F6C00B60776 /* tokaido_map_out_12_mikawa-anjo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDCF22A35F6B00B60776 /* tokaido_map_out_12_mikawa-anjo.jpg */; };
+		0299BDF522A35F6C00B60776 /* tokaido_map_out_06_mishima.png in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD022A35F6B00B60776 /* tokaido_map_out_06_mishima.png */; };
+		0299BDF622A35F6C00B60776 /* tokaido_map_out_06_mishima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD122A35F6B00B60776 /* tokaido_map_out_06_mishima.jpg */; };
+		0299BDF722A35F6C00B60776 /* tokaido_map_in_03_shin-yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD222A35F6B00B60776 /* tokaido_map_in_03_shin-yokohama.jpg */; };
+		0299BDF822A35F6C00B60776 /* tokaido_map_base_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD322A35F6B00B60776 /* tokaido_map_base_01.jpg */; };
+		0299BDF922A35F6C00B60776 /* tokaido_map_in_14_gifu-hashima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD422A35F6B00B60776 /* tokaido_map_in_14_gifu-hashima.jpg */; };
+		0299BDFA22A35F6C00B60776 /* tokaido_map_in_10_hamamatsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD522A35F6B00B60776 /* tokaido_map_in_10_hamamatsu.jpg */; };
+		0299BDFB22A35F6C00B60776 /* tokaido_map_out_08_shizuoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD622A35F6B00B60776 /* tokaido_map_out_08_shizuoka.jpg */; };
+		0299BDFC22A35F6C00B60776 /* tokaido_map_out_07_shin-fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD722A35F6B00B60776 /* tokaido_map_out_07_shin-fuji.jpg */; };
+		0299BDFD22A35F6C00B60776 /* tokaido_map_in_07_shin-fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD822A35F6B00B60776 /* tokaido_map_in_07_shin-fuji.jpg */; };
+		0299BDFE22A35F6C00B60776 /* tokaido_map_in_13_nagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDD922A35F6B00B60776 /* tokaido_map_in_13_nagoya.jpg */; };
+		0299BDFF22A35F6C00B60776 /* tokaido_map_in_16_kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDDA22A35F6B00B60776 /* tokaido_map_in_16_kyoto.jpg */; };
+		0299BE0022A35F6C00B60776 /* tokaido_map_out_03_shin-yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDDB22A35F6B00B60776 /* tokaido_map_out_03_shin-yokohama.jpg */; };
+		0299BE0122A35F6C00B60776 /* tokaido_map_in_12_mikawa-anjo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDDC22A35F6B00B60776 /* tokaido_map_in_12_mikawa-anjo.jpg */; };
+		0299BE0222A35F6C00B60776 /* tokaido_map_out_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDDD22A35F6B00B60776 /* tokaido_map_out_04_odawara.jpg */; };
+		0299BE0322A35F6C00B60776 /* tokaido_map_out_15_maibara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDDE22A35F6B00B60776 /* tokaido_map_out_15_maibara.jpg */; };
+		0299BE0422A35F6C00B60776 /* tokaido_map_in_06_mishima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDDF22A35F6B00B60776 /* tokaido_map_in_06_mishima.jpg */; };
+		0299BE0522A35F6C00B60776 /* tokaido_map_out_09_kakegawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDE022A35F6B00B60776 /* tokaido_map_out_09_kakegawa.jpg */; };
+		0299BE0622A35F6C00B60776 /* tokaido_map_in_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDE122A35F6B00B60776 /* tokaido_map_in_05_atami.jpg */; };
+		0299BE0722A35F6C00B60776 /* tokaido_map_out_01_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDE222A35F6B00B60776 /* tokaido_map_out_01_tokyo.jpg */; };
+		0299BE0822A35F6C00B60776 /* tokaido_map_in_08_shizuoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BDE322A35F6B00B60776 /* tokaido_map_in_08_shizuoka.jpg */; };
+		0299BE1B22A35F7B00B60776 /* tokaido_06_mishima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE0A22A35F7B00B60776 /* tokaido_06_mishima.jpg */; };
+		0299BE1C22A35F7B00B60776 /* tokaido_07_shin-fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE0B22A35F7B00B60776 /* tokaido_07_shin-fuji.jpg */; };
+		0299BE1D22A35F7B00B60776 /* tokaido_01_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE0C22A35F7B00B60776 /* tokaido_01_tokyo.jpg */; };
+		0299BE1E22A35F7B00B60776 /* tokaido_12_mikawa-anjo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE0D22A35F7B00B60776 /* tokaido_12_mikawa-anjo.jpg */; };
+		0299BE1F22A35F7B00B60776 /* tokaido_13_nagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE0E22A35F7B00B60776 /* tokaido_13_nagoya.jpg */; };
+		0299BE2022A35F7B00B60776 /* tokaido_08_shizuoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE0F22A35F7B00B60776 /* tokaido_08_shizuoka.jpg */; };
+		0299BE2122A35F7B00B60776 /* tokaido_17_shin-osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1022A35F7B00B60776 /* tokaido_17_shin-osaka.jpg */; };
+		0299BE2222A35F7B00B60776 /* tokaido_15_maibara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1122A35F7B00B60776 /* tokaido_15_maibara.jpg */; };
+		0299BE2322A35F7B00B60776 /* tokaido_02_shinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1222A35F7B00B60776 /* tokaido_02_shinagawa.jpg */; };
+		0299BE2422A35F7B00B60776 /* tokaido_03_shin-yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1322A35F7B00B60776 /* tokaido_03_shin-yokohama.jpg */; };
+		0299BE2522A35F7B00B60776 /* tokaido_16_kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1422A35F7B00B60776 /* tokaido_16_kyoto.jpg */; };
+		0299BE2622A35F7B00B60776 /* tokaido_11_toyohashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1522A35F7B00B60776 /* tokaido_11_toyohashi.jpg */; };
+		0299BE2722A35F7B00B60776 /* tokaido_10_hamamatsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1622A35F7B00B60776 /* tokaido_10_hamamatsu.jpg */; };
+		0299BE2822A35F7B00B60776 /* tokaido_05_atami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1722A35F7B00B60776 /* tokaido_05_atami.jpg */; };
+		0299BE2922A35F7B00B60776 /* tokaido_09_kakegawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1822A35F7B00B60776 /* tokaido_09_kakegawa.jpg */; };
+		0299BE2A22A35F7B00B60776 /* tokaido_14_gifu-hashima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1922A35F7B00B60776 /* tokaido_14_gifu-hashima.jpg */; };
+		0299BE2B22A35F7B00B60776 /* tokaido_04_odawara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0299BE1A22A35F7B00B60776 /* tokaido_04_odawara.jpg */; };
 		02AE75BC227C351C00D1E530 /* SettingsRepeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE75BB227C351C00D1E530 /* SettingsRepeatsViewController.swift */; };
 		02AE75C8227C804300D1E530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02AE75C7227C7F1C00D1E530 /* InfoPlist.strings */; };
 		02AE75C9227D6FF100D1E530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243EF5E227B1BFE0075565B /* LaunchScreen.storyboard */; };
@@ -199,9 +213,6 @@
 		0243EF9B227B50F80075565B /* YomiageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YomiageViewController.swift; sourceTree = "<group>"; };
 		0243F531227B53E80075565B /* YomiageFinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YomiageFinishedViewController.swift; sourceTree = "<group>"; };
 		0243F537227B57400075565B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		0247434A229C8C2700F1FAF9 /* tokaido_map_base_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_03.jpg; sourceTree = "<group>"; };
-		0247434B229C8C2700F1FAF9 /* tokaido_map_base_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_02.jpg; sourceTree = "<group>"; };
-		0247434C229C8C2700F1FAF9 /* tokaido_map_base_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_01.jpg; sourceTree = "<group>"; };
 		024AD8BE2286DEED00ED30BA /* shinkansen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shinkansen.json; path = base/shinkansen.json; sourceTree = "<group>"; };
 		024AD8C022870A6400ED30BA /* ShinaksenLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShinaksenLines.swift; sourceTree = "<group>"; };
 		024AD8C3228711BA00ED30BA /* sanyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanyo.jpg; sourceTree = "<group>"; };
@@ -289,49 +300,66 @@
 		024ADAA122885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kyushu_map_02_shin-tosu.jpg"; sourceTree = "<group>"; };
 		024ADABB22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kyushu_map_04_chikugo-funagoya.jpg"; sourceTree = "<group>"; };
 		024ADABF228A30B500ED30BA /* QuizFinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFinishedViewController.swift; sourceTree = "<group>"; };
-		024ADB0D2290EE5800ED30BA /* tokaido_06_mishima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_06_mishima.jpg; sourceTree = "<group>"; };
-		024ADB0E2290EE5800ED30BA /* tokaido_07_shin-fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_07_shin-fuji.jpg"; sourceTree = "<group>"; };
-		024ADB0F2290EE5800ED30BA /* tokaido_map_15_maibara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_15_maibara.jpg; sourceTree = "<group>"; };
-		024ADB102290EE5800ED30BA /* tokaido_01_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_01_tokyo.jpg; sourceTree = "<group>"; };
-		024ADB112290EE5800ED30BA /* tokaido_map_02_shinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_02_shinagawa.jpg; sourceTree = "<group>"; };
-		024ADB122290EE5800ED30BA /* tokaido_map_11_toyohashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_11_toyohashi.jpg; sourceTree = "<group>"; };
-		024ADB132290EE5800ED30BA /* tokaido_map_01_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_01_tokyo.jpg; sourceTree = "<group>"; };
-		024ADB142290EE5800ED30BA /* tokaido_map_14_gifu-hashima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_14_gifu-hashima.jpg"; sourceTree = "<group>"; };
-		024ADB152290EE5800ED30BA /* tokaido_12_mikawa-anjo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_12_mikawa-anjo.jpg"; sourceTree = "<group>"; };
-		024ADB162290EE5800ED30BA /* tokaido_map_13_nagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_13_nagoya.jpg; sourceTree = "<group>"; };
-		024ADB172290EE5800ED30BA /* tokaido_map_12_mikawa-anjo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_12_mikawa-anjo.jpg"; sourceTree = "<group>"; };
-		024ADB182290EE5800ED30BA /* tokaido_13_nagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_13_nagoya.jpg; sourceTree = "<group>"; };
-		024ADB192290EE5800ED30BA /* tokaido_map_10_hamamatsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_10_hamamatsu.jpg; sourceTree = "<group>"; };
-		024ADB1A2290EE5800ED30BA /* tokaido_08_shizuoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_08_shizuoka.jpg; sourceTree = "<group>"; };
-		024ADB1B2290EE5800ED30BA /* tokaido_map_08_shizuoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_08_shizuoka.jpg; sourceTree = "<group>"; };
-		024ADB1C2290EE5800ED30BA /* tokaido_map_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_04_odawara.jpg; sourceTree = "<group>"; };
-		024ADB1D2290EE5800ED30BA /* tokaido_17_shin-osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_17_shin-osaka.jpg"; sourceTree = "<group>"; };
-		024ADB1E2290EE5800ED30BA /* tokaido_map_base_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokaido_map_base_2.png; sourceTree = "<group>"; };
-		024ADB1F2290EE5800ED30BA /* tokaido_map_16_kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_16_kyoto.jpg; sourceTree = "<group>"; };
-		024ADB202290EE5800ED30BA /* tokaido_map_base_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokaido_map_base_3.png; sourceTree = "<group>"; };
-		024ADB212290EE5800ED30BA /* tokaido_map_07_shin-fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_07_shin-fuji.jpg"; sourceTree = "<group>"; };
-		024ADB222290EE5800ED30BA /* tokaido_map_06_mishima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_06_mishima.jpg; sourceTree = "<group>"; };
-		024ADB232290EE5800ED30BA /* tokaido_map_06_mishima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokaido_map_06_mishima.png; sourceTree = "<group>"; };
-		024ADB242290EE5800ED30BA /* tokaido_15_maibara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_15_maibara.jpg; sourceTree = "<group>"; };
-		024ADB252290EE5800ED30BA /* tokaido_02_shinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_02_shinagawa.jpg; sourceTree = "<group>"; };
-		024ADB262290EE5800ED30BA /* tokaido_03_shin-yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_03_shin-yokohama.jpg"; sourceTree = "<group>"; };
-		024ADB272290EE5800ED30BA /* tokaido_map_17_shin-osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_17_shin-osaka.jpg"; sourceTree = "<group>"; };
-		024ADB282290EE5800ED30BA /* tokaido_16_kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_16_kyoto.jpg; sourceTree = "<group>"; };
-		024ADB292290EE5800ED30BA /* tokaido_11_toyohashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_11_toyohashi.jpg; sourceTree = "<group>"; };
-		024ADB2A2290EE5800ED30BA /* tokaido_10_hamamatsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_10_hamamatsu.jpg; sourceTree = "<group>"; };
-		024ADB2B2290EE5800ED30BA /* tokaido_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_05_atami.jpg; sourceTree = "<group>"; };
-		024ADB2C2290EE5800ED30BA /* tokaido_map_03_shin-yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_03_shin-yokohama.jpg"; sourceTree = "<group>"; };
-		024ADB2D2290EE5800ED30BA /* tokaido_09_kakegawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_09_kakegawa.jpg; sourceTree = "<group>"; };
-		024ADB2E2290EE5800ED30BA /* tokaido_map_09_kakegawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_09_kakegawa.jpg; sourceTree = "<group>"; };
-		024ADB2F2290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_14_gifu-hashima.jpg"; sourceTree = "<group>"; };
-		024ADB302290EE5800ED30BA /* tokaido_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_04_odawara.jpg; sourceTree = "<group>"; };
-		024ADB312290EE5800ED30BA /* tokaido_map_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_05_atami.jpg; sourceTree = "<group>"; };
 		024ADB5922912AE500ED30BA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = "/Users/rochefort10/projects/MobileApps/Shinkansenquiz-ios/shinkansenquiz/TestViewController.swift"; sourceTree = "<absolute>"; };
 		024ADB5D22912B3000ED30BA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		024E684E2286793E0054DBB3 /* tokaido.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokaido.json; sourceTree = "<group>"; };
 		024E68752286793F0054DBB3 /* tokaido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido.jpg; sourceTree = "<group>"; };
 		024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokaido_tokyo_bell.mp3; sourceTree = "<group>"; };
+		0299BDBF22A35F6B00B60776 /* tokaido_map_in_11_toyohashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_11_toyohashi.jpg; sourceTree = "<group>"; };
+		0299BDC022A35F6B00B60776 /* tokaido_map_out_14_gifu-hashima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_out_14_gifu-hashima.jpg"; sourceTree = "<group>"; };
+		0299BDC122A35F6B00B60776 /* tokaido_map_out_02_shinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_02_shinagawa.jpg; sourceTree = "<group>"; };
+		0299BDC222A35F6B00B60776 /* tokaido_map_in_01_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_01_tokyo.jpg; sourceTree = "<group>"; };
+		0299BDC322A35F6B00B60776 /* tokaido_map_out_11_toyohashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_11_toyohashi.jpg; sourceTree = "<group>"; };
+		0299BDC422A35F6B00B60776 /* tokaido_map_out_17_shin-osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_out_17_shin-osaka.jpg"; sourceTree = "<group>"; };
+		0299BDC522A35F6B00B60776 /* tokaido_map_in_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_04_odawara.jpg; sourceTree = "<group>"; };
+		0299BDC622A35F6B00B60776 /* tokaido_map_out_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_05_atami.jpg; sourceTree = "<group>"; };
+		0299BDC722A35F6B00B60776 /* tokaido_map_out_13_nagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_13_nagoya.jpg; sourceTree = "<group>"; };
+		0299BDC822A35F6B00B60776 /* tokaido_map_in_02_shinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_02_shinagawa.jpg; sourceTree = "<group>"; };
+		0299BDC922A35F6B00B60776 /* tokaido_map_base_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_03.jpg; sourceTree = "<group>"; };
+		0299BDCA22A35F6B00B60776 /* tokaido_map_out_16_kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_16_kyoto.jpg; sourceTree = "<group>"; };
+		0299BDCB22A35F6B00B60776 /* tokaido_map_out_10_hamamatsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_10_hamamatsu.jpg; sourceTree = "<group>"; };
+		0299BDCC22A35F6B00B60776 /* tokaido_map_base_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_02.jpg; sourceTree = "<group>"; };
+		0299BDCD22A35F6B00B60776 /* tokaido_map_in_09_kakegawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_09_kakegawa.jpg; sourceTree = "<group>"; };
+		0299BDCE22A35F6B00B60776 /* tokaido_map_in_15_maibara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_15_maibara.jpg; sourceTree = "<group>"; };
+		0299BDCF22A35F6B00B60776 /* tokaido_map_out_12_mikawa-anjo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_out_12_mikawa-anjo.jpg"; sourceTree = "<group>"; };
+		0299BDD022A35F6B00B60776 /* tokaido_map_out_06_mishima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokaido_map_out_06_mishima.png; sourceTree = "<group>"; };
+		0299BDD122A35F6B00B60776 /* tokaido_map_out_06_mishima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_06_mishima.jpg; sourceTree = "<group>"; };
+		0299BDD222A35F6B00B60776 /* tokaido_map_in_03_shin-yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_in_03_shin-yokohama.jpg"; sourceTree = "<group>"; };
+		0299BDD322A35F6B00B60776 /* tokaido_map_base_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_base_01.jpg; sourceTree = "<group>"; };
+		0299BDD422A35F6B00B60776 /* tokaido_map_in_14_gifu-hashima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_in_14_gifu-hashima.jpg"; sourceTree = "<group>"; };
+		0299BDD522A35F6B00B60776 /* tokaido_map_in_10_hamamatsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_10_hamamatsu.jpg; sourceTree = "<group>"; };
+		0299BDD622A35F6B00B60776 /* tokaido_map_out_08_shizuoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_08_shizuoka.jpg; sourceTree = "<group>"; };
+		0299BDD722A35F6B00B60776 /* tokaido_map_out_07_shin-fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_out_07_shin-fuji.jpg"; sourceTree = "<group>"; };
+		0299BDD822A35F6B00B60776 /* tokaido_map_in_07_shin-fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_in_07_shin-fuji.jpg"; sourceTree = "<group>"; };
+		0299BDD922A35F6B00B60776 /* tokaido_map_in_13_nagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_13_nagoya.jpg; sourceTree = "<group>"; };
+		0299BDDA22A35F6B00B60776 /* tokaido_map_in_16_kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_16_kyoto.jpg; sourceTree = "<group>"; };
+		0299BDDB22A35F6B00B60776 /* tokaido_map_out_03_shin-yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_out_03_shin-yokohama.jpg"; sourceTree = "<group>"; };
+		0299BDDC22A35F6B00B60776 /* tokaido_map_in_12_mikawa-anjo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_map_in_12_mikawa-anjo.jpg"; sourceTree = "<group>"; };
+		0299BDDD22A35F6B00B60776 /* tokaido_map_out_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_04_odawara.jpg; sourceTree = "<group>"; };
+		0299BDDE22A35F6B00B60776 /* tokaido_map_out_15_maibara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_15_maibara.jpg; sourceTree = "<group>"; };
+		0299BDDF22A35F6B00B60776 /* tokaido_map_in_06_mishima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_06_mishima.jpg; sourceTree = "<group>"; };
+		0299BDE022A35F6B00B60776 /* tokaido_map_out_09_kakegawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_09_kakegawa.jpg; sourceTree = "<group>"; };
+		0299BDE122A35F6B00B60776 /* tokaido_map_in_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_05_atami.jpg; sourceTree = "<group>"; };
+		0299BDE222A35F6B00B60776 /* tokaido_map_out_01_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_out_01_tokyo.jpg; sourceTree = "<group>"; };
+		0299BDE322A35F6B00B60776 /* tokaido_map_in_08_shizuoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_08_shizuoka.jpg; sourceTree = "<group>"; };
+		0299BE0A22A35F7B00B60776 /* tokaido_06_mishima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_06_mishima.jpg; sourceTree = "<group>"; };
+		0299BE0B22A35F7B00B60776 /* tokaido_07_shin-fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_07_shin-fuji.jpg"; sourceTree = "<group>"; };
+		0299BE0C22A35F7B00B60776 /* tokaido_01_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_01_tokyo.jpg; sourceTree = "<group>"; };
+		0299BE0D22A35F7B00B60776 /* tokaido_12_mikawa-anjo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_12_mikawa-anjo.jpg"; sourceTree = "<group>"; };
+		0299BE0E22A35F7B00B60776 /* tokaido_13_nagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_13_nagoya.jpg; sourceTree = "<group>"; };
+		0299BE0F22A35F7B00B60776 /* tokaido_08_shizuoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_08_shizuoka.jpg; sourceTree = "<group>"; };
+		0299BE1022A35F7B00B60776 /* tokaido_17_shin-osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_17_shin-osaka.jpg"; sourceTree = "<group>"; };
+		0299BE1122A35F7B00B60776 /* tokaido_15_maibara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_15_maibara.jpg; sourceTree = "<group>"; };
+		0299BE1222A35F7B00B60776 /* tokaido_02_shinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_02_shinagawa.jpg; sourceTree = "<group>"; };
+		0299BE1322A35F7B00B60776 /* tokaido_03_shin-yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_03_shin-yokohama.jpg"; sourceTree = "<group>"; };
+		0299BE1422A35F7B00B60776 /* tokaido_16_kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_16_kyoto.jpg; sourceTree = "<group>"; };
+		0299BE1522A35F7B00B60776 /* tokaido_11_toyohashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_11_toyohashi.jpg; sourceTree = "<group>"; };
+		0299BE1622A35F7B00B60776 /* tokaido_10_hamamatsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_10_hamamatsu.jpg; sourceTree = "<group>"; };
+		0299BE1722A35F7B00B60776 /* tokaido_05_atami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_05_atami.jpg; sourceTree = "<group>"; };
+		0299BE1822A35F7B00B60776 /* tokaido_09_kakegawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_09_kakegawa.jpg; sourceTree = "<group>"; };
+		0299BE1922A35F7B00B60776 /* tokaido_14_gifu-hashima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tokaido_14_gifu-hashima.jpg"; sourceTree = "<group>"; };
+		0299BE1A22A35F7B00B60776 /* tokaido_04_odawara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_04_odawara.jpg; sourceTree = "<group>"; };
 		02AE75BB227C351C00D1E530 /* SettingsRepeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRepeatsViewController.swift; sourceTree = "<group>"; };
 		02AE75BD227C7DDC00D1E530 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		02AE75BE227C7DDC00D1E530 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -597,53 +625,6 @@
 			path = GIMP;
 			sourceTree = "<group>";
 		};
-		024ADB0C2290EE5800ED30BA /* jpg */ = {
-			isa = PBXGroup;
-			children = (
-				0247434C229C8C2700F1FAF9 /* tokaido_map_base_01.jpg */,
-				0247434B229C8C2700F1FAF9 /* tokaido_map_base_02.jpg */,
-				0247434A229C8C2700F1FAF9 /* tokaido_map_base_03.jpg */,
-				024ADB0D2290EE5800ED30BA /* tokaido_06_mishima.jpg */,
-				024ADB0E2290EE5800ED30BA /* tokaido_07_shin-fuji.jpg */,
-				024ADB0F2290EE5800ED30BA /* tokaido_map_15_maibara.jpg */,
-				024ADB102290EE5800ED30BA /* tokaido_01_tokyo.jpg */,
-				024ADB112290EE5800ED30BA /* tokaido_map_02_shinagawa.jpg */,
-				024ADB122290EE5800ED30BA /* tokaido_map_11_toyohashi.jpg */,
-				024ADB132290EE5800ED30BA /* tokaido_map_01_tokyo.jpg */,
-				024ADB142290EE5800ED30BA /* tokaido_map_14_gifu-hashima.jpg */,
-				024ADB152290EE5800ED30BA /* tokaido_12_mikawa-anjo.jpg */,
-				024ADB162290EE5800ED30BA /* tokaido_map_13_nagoya.jpg */,
-				024ADB172290EE5800ED30BA /* tokaido_map_12_mikawa-anjo.jpg */,
-				024ADB182290EE5800ED30BA /* tokaido_13_nagoya.jpg */,
-				024ADB192290EE5800ED30BA /* tokaido_map_10_hamamatsu.jpg */,
-				024ADB1A2290EE5800ED30BA /* tokaido_08_shizuoka.jpg */,
-				024ADB1B2290EE5800ED30BA /* tokaido_map_08_shizuoka.jpg */,
-				024ADB1C2290EE5800ED30BA /* tokaido_map_04_odawara.jpg */,
-				024ADB1D2290EE5800ED30BA /* tokaido_17_shin-osaka.jpg */,
-				024ADB1E2290EE5800ED30BA /* tokaido_map_base_2.png */,
-				024ADB1F2290EE5800ED30BA /* tokaido_map_16_kyoto.jpg */,
-				024ADB202290EE5800ED30BA /* tokaido_map_base_3.png */,
-				024ADB212290EE5800ED30BA /* tokaido_map_07_shin-fuji.jpg */,
-				024ADB222290EE5800ED30BA /* tokaido_map_06_mishima.jpg */,
-				024ADB232290EE5800ED30BA /* tokaido_map_06_mishima.png */,
-				024ADB242290EE5800ED30BA /* tokaido_15_maibara.jpg */,
-				024ADB252290EE5800ED30BA /* tokaido_02_shinagawa.jpg */,
-				024ADB262290EE5800ED30BA /* tokaido_03_shin-yokohama.jpg */,
-				024ADB272290EE5800ED30BA /* tokaido_map_17_shin-osaka.jpg */,
-				024ADB282290EE5800ED30BA /* tokaido_16_kyoto.jpg */,
-				024ADB292290EE5800ED30BA /* tokaido_11_toyohashi.jpg */,
-				024ADB2A2290EE5800ED30BA /* tokaido_10_hamamatsu.jpg */,
-				024ADB2B2290EE5800ED30BA /* tokaido_05_atami.jpg */,
-				024ADB2C2290EE5800ED30BA /* tokaido_map_03_shin-yokohama.jpg */,
-				024ADB2D2290EE5800ED30BA /* tokaido_09_kakegawa.jpg */,
-				024ADB2E2290EE5800ED30BA /* tokaido_map_09_kakegawa.jpg */,
-				024ADB2F2290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg */,
-				024ADB302290EE5800ED30BA /* tokaido_04_odawara.jpg */,
-				024ADB312290EE5800ED30BA /* tokaido_map_05_atami.jpg */,
-			);
-			path = jpg;
-			sourceTree = "<group>";
-		};
 		024E68432286793E0054DBB3 /* Shinkansen */ = {
 			isa = PBXGroup;
 			children = (
@@ -658,7 +639,8 @@
 		024E684D2286793E0054DBB3 /* tokaido */ = {
 			isa = PBXGroup;
 			children = (
-				024ADB0C2290EE5800ED30BA /* jpg */,
+				0299BE0922A35F7B00B60776 /* board */,
+				0299BDBE22A35F6B00B60776 /* maps */,
 				024E684E2286793E0054DBB3 /* tokaido.json */,
 				024E68752286793F0054DBB3 /* tokaido.jpg */,
 				024E68762286793F0054DBB3 /* sound */,
@@ -680,6 +662,74 @@
 				024ADB5922912AE500ED30BA /* TestViewController.swift */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		0299BDBE22A35F6B00B60776 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				0299BDBF22A35F6B00B60776 /* tokaido_map_in_11_toyohashi.jpg */,
+				0299BDC022A35F6B00B60776 /* tokaido_map_out_14_gifu-hashima.jpg */,
+				0299BDC822A35F6B00B60776 /* tokaido_map_in_02_shinagawa.jpg */,
+				0299BDC122A35F6B00B60776 /* tokaido_map_out_02_shinagawa.jpg */,
+				0299BDC222A35F6B00B60776 /* tokaido_map_in_01_tokyo.jpg */,
+				0299BDC322A35F6B00B60776 /* tokaido_map_out_11_toyohashi.jpg */,
+				0299BDC422A35F6B00B60776 /* tokaido_map_out_17_shin-osaka.jpg */,
+				0299BDC522A35F6B00B60776 /* tokaido_map_in_04_odawara.jpg */,
+				0299BDC622A35F6B00B60776 /* tokaido_map_out_05_atami.jpg */,
+				0299BDC722A35F6B00B60776 /* tokaido_map_out_13_nagoya.jpg */,
+				0299BDC922A35F6B00B60776 /* tokaido_map_base_03.jpg */,
+				0299BDCA22A35F6B00B60776 /* tokaido_map_out_16_kyoto.jpg */,
+				0299BDCB22A35F6B00B60776 /* tokaido_map_out_10_hamamatsu.jpg */,
+				0299BDCC22A35F6B00B60776 /* tokaido_map_base_02.jpg */,
+				0299BDCD22A35F6B00B60776 /* tokaido_map_in_09_kakegawa.jpg */,
+				0299BDCE22A35F6B00B60776 /* tokaido_map_in_15_maibara.jpg */,
+				0299BDCF22A35F6B00B60776 /* tokaido_map_out_12_mikawa-anjo.jpg */,
+				0299BDD022A35F6B00B60776 /* tokaido_map_out_06_mishima.png */,
+				0299BDD122A35F6B00B60776 /* tokaido_map_out_06_mishima.jpg */,
+				0299BDD222A35F6B00B60776 /* tokaido_map_in_03_shin-yokohama.jpg */,
+				0299BDD322A35F6B00B60776 /* tokaido_map_base_01.jpg */,
+				0299BDD422A35F6B00B60776 /* tokaido_map_in_14_gifu-hashima.jpg */,
+				0299BDD522A35F6B00B60776 /* tokaido_map_in_10_hamamatsu.jpg */,
+				0299BDD622A35F6B00B60776 /* tokaido_map_out_08_shizuoka.jpg */,
+				0299BDD722A35F6B00B60776 /* tokaido_map_out_07_shin-fuji.jpg */,
+				0299BDD822A35F6B00B60776 /* tokaido_map_in_07_shin-fuji.jpg */,
+				0299BDD922A35F6B00B60776 /* tokaido_map_in_13_nagoya.jpg */,
+				0299BDDA22A35F6B00B60776 /* tokaido_map_in_16_kyoto.jpg */,
+				0299BDDB22A35F6B00B60776 /* tokaido_map_out_03_shin-yokohama.jpg */,
+				0299BDDC22A35F6B00B60776 /* tokaido_map_in_12_mikawa-anjo.jpg */,
+				0299BDDD22A35F6B00B60776 /* tokaido_map_out_04_odawara.jpg */,
+				0299BDDE22A35F6B00B60776 /* tokaido_map_out_15_maibara.jpg */,
+				0299BDDF22A35F6B00B60776 /* tokaido_map_in_06_mishima.jpg */,
+				0299BDE022A35F6B00B60776 /* tokaido_map_out_09_kakegawa.jpg */,
+				0299BDE122A35F6B00B60776 /* tokaido_map_in_05_atami.jpg */,
+				0299BDE222A35F6B00B60776 /* tokaido_map_out_01_tokyo.jpg */,
+				0299BDE322A35F6B00B60776 /* tokaido_map_in_08_shizuoka.jpg */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		0299BE0922A35F7B00B60776 /* board */ = {
+			isa = PBXGroup;
+			children = (
+				0299BE0C22A35F7B00B60776 /* tokaido_01_tokyo.jpg */,
+				0299BE1222A35F7B00B60776 /* tokaido_02_shinagawa.jpg */,
+				0299BE1322A35F7B00B60776 /* tokaido_03_shin-yokohama.jpg */,
+				0299BE1A22A35F7B00B60776 /* tokaido_04_odawara.jpg */,
+				0299BE1722A35F7B00B60776 /* tokaido_05_atami.jpg */,
+				0299BE0A22A35F7B00B60776 /* tokaido_06_mishima.jpg */,
+				0299BE0B22A35F7B00B60776 /* tokaido_07_shin-fuji.jpg */,
+				0299BE0F22A35F7B00B60776 /* tokaido_08_shizuoka.jpg */,
+				0299BE1822A35F7B00B60776 /* tokaido_09_kakegawa.jpg */,
+				0299BE1622A35F7B00B60776 /* tokaido_10_hamamatsu.jpg */,
+				0299BE1522A35F7B00B60776 /* tokaido_11_toyohashi.jpg */,
+				0299BE0D22A35F7B00B60776 /* tokaido_12_mikawa-anjo.jpg */,
+				0299BE0E22A35F7B00B60776 /* tokaido_13_nagoya.jpg */,
+				0299BE1922A35F7B00B60776 /* tokaido_14_gifu-hashima.jpg */,
+				0299BE1122A35F7B00B60776 /* tokaido_15_maibara.jpg */,
+				0299BE1422A35F7B00B60776 /* tokaido_16_kyoto.jpg */,
+				0299BE1022A35F7B00B60776 /* tokaido_17_shin-osaka.jpg */,
+			);
+			path = board;
 			sourceTree = "<group>";
 		};
 		2D9A78C5D8FE3B539E7A0DDA /* Frameworks */ = {
@@ -826,58 +876,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				02AE75C9227D6FF100D1E530 /* LaunchScreen.storyboard in Resources */,
+				0299BDF822A35F6C00B60776 /* tokaido_map_base_01.jpg in Resources */,
 				024ADAA422885C0500ED30BA /* kyushu_map_08_shin-yatsushiro.jpg in Resources */,
 				024E691B2286793F0054DBB3 /* tokaido.json in Resources */,
 				024ADA7922884BCC00ED30BA /* sanyo_05_aioi.jpg in Resources */,
 				024ADA6322884BCC00ED30BA /* sanyo_map_19_hakata.jpg in Resources */,
-				024ADB3F2290EE5800ED30BA /* tokaido_08_shizuoka.jpg in Resources */,
-				024ADB322290EE5800ED30BA /* tokaido_06_mishima.jpg in Resources */,
 				024ADA822288511100ED30BA /* sanyo_map_20_hakata-minami.jpg in Resources */,
-				024ADB4C2290EE5800ED30BA /* tokaido_map_17_shin-osaka.jpg in Resources */,
-				024ADB3E2290EE5800ED30BA /* tokaido_map_10_hamamatsu.jpg in Resources */,
 				024ADAB422885C0500ED30BA /* kyushu_02_shin-tosu.jpg in Resources */,
-				024ADB342290EE5800ED30BA /* tokaido_map_15_maibara.jpg in Resources */,
 				024ADA5E22884BCC00ED30BA /* sanyo_map_02_shin-kobe.jpg in Resources */,
-				024ADB4A2290EE5800ED30BA /* tokaido_02_shinagawa.jpg in Resources */,
 				024ADA7022884BCC00ED30BA /* sanyo_map_15_shin-yamaguchi.jpg in Resources */,
-				024ADB372290EE5800ED30BA /* tokaido_map_11_toyohashi.jpg in Resources */,
-				0247434E229C8C2800F1FAF9 /* tokaido_map_base_02.jpg in Resources */,
+				0299BDE922A35F6B00B60776 /* tokaido_map_out_17_shin-osaka.jpg in Resources */,
+				0299BDFB22A35F6C00B60776 /* tokaido_map_out_08_shizuoka.jpg in Resources */,
 				024ADA6822884BCC00ED30BA /* sanyo_02_shin-kobe.jpg in Resources */,
-				024ADB502290EE5800ED30BA /* tokaido_05_atami.jpg in Resources */,
-				024ADB4D2290EE5800ED30BA /* tokaido_16_kyoto.jpg in Resources */,
 				024ADAB522885C0500ED30BA /* kyushu_10_izumi.jpg in Resources */,
+				0299BDEE22A35F6C00B60776 /* tokaido_map_base_03.jpg in Resources */,
+				0299BDEC22A35F6C00B60776 /* tokaido_map_out_13_nagoya.jpg in Resources */,
 				024ADA7822884BCC00ED30BA /* sanyo_08_fukuyama.jpg in Resources */,
-				0247434F229C8C2800F1FAF9 /* tokaido_map_base_01.jpg in Resources */,
+				0299BE0022A35F6C00B60776 /* tokaido_map_out_03_shin-yokohama.jpg in Resources */,
+				0299BDFA22A35F6C00B60776 /* tokaido_map_in_10_hamamatsu.jpg in Resources */,
+				0299BE0822A35F6C00B60776 /* tokaido_map_in_08_shizuoka.jpg in Resources */,
+				0299BDEF22A35F6C00B60776 /* tokaido_map_out_16_kyoto.jpg in Resources */,
 				024ADA6B22884BCC00ED30BA /* sanyo_15_shin-yamaguchi.jpg in Resources */,
 				024AD96F228711C700ED30BA /* kyushu.json in Resources */,
 				024AD988228711C700ED30BA /* kyushu.jpg in Resources */,
+				0299BDF322A35F6C00B60776 /* tokaido_map_in_15_maibara.jpg in Resources */,
 				024E69422286793F0054DBB3 /* tokaido_tokyo_bell.mp3 in Resources */,
 				024ADAA822885C0500ED30BA /* kyushu_08_shin-yatsushiro.jpg in Resources */,
 				024ADAA322885C0500ED30BA /* kyushu_map_07_kumamoto.jpg in Resources */,
 				024ADAB822885C0500ED30BA /* kyushu_01_hakata.jpg in Resources */,
+				0299BE2322A35F7B00B60776 /* tokaido_02_shinagawa.jpg in Resources */,
 				024ADA5C22884BCC00ED30BA /* sanyo_map_10_mihara.jpg in Resources */,
-				024ADB532290EE5800ED30BA /* tokaido_map_09_kakegawa.jpg in Resources */,
-				024ADB462290EE5800ED30BA /* tokaido_map_07_shin-fuji.jpg in Resources */,
 				024ADA6F22884BCC00ED30BA /* sanyo_14_tokuyama.jpg in Resources */,
-				024ADB3D2290EE5800ED30BA /* tokaido_13_nagoya.jpg in Resources */,
-				024ADB562290EE5800ED30BA /* tokaido_map_05_atami.jpg in Resources */,
 				024E69412286793F0054DBB3 /* tokaido.jpg in Resources */,
 				02AE75C8227C804300D1E530 /* InfoPlist.strings in Resources */,
-				024ADB4B2290EE5800ED30BA /* tokaido_03_shin-yokohama.jpg in Resources */,
-				024ADB392290EE5800ED30BA /* tokaido_map_14_gifu-hashima.jpg in Resources */,
 				024ADA6022884BCC00ED30BA /* sanyo_06_okayama.jpg in Resources */,
 				024ADA5D22884BCC00ED30BA /* sanyo_01_shin-osaka.jpg in Resources */,
 				0243EF5D227B1BFE0075565B /* Assets.xcassets in Resources */,
 				0243EF5B227B1BFD0075565B /* Main.storyboard in Resources */,
 				024ADA6C22884BCC00ED30BA /* sanyo_12_hiroshima.jpg in Resources */,
+				0299BE0722A35F6C00B60776 /* tokaido_map_out_01_tokyo.jpg in Resources */,
 				024ADA7622884BCC00ED30BA /* sanyo_map_04_himeji.jpg in Resources */,
-				024ADB422290EE5800ED30BA /* tokaido_17_shin-osaka.jpg in Resources */,
-				024ADB402290EE5800ED30BA /* tokaido_map_08_shizuoka.jpg in Resources */,
+				0299BDF122A35F6C00B60776 /* tokaido_map_base_02.jpg in Resources */,
 				024ADAAB22885C0500ED30BA /* kyushu_07_kumamoto.jpg in Resources */,
 				024ADA7722884BCC00ED30BA /* sanyo_07_shin-kurashiki.jpg in Resources */,
-				024ADB332290EE5800ED30BA /* tokaido_07_shin-fuji.jpg in Resources */,
 				024ADA8022884CFA00ED30BA /* sanyo_map_11_higashi-hiroshima.jpg in Resources */,
+				0299BE0122A35F6C00B60776 /* tokaido_map_in_12_mikawa-anjo.jpg in Resources */,
 				024AD905228711BA00ED30BA /* sanyo.json in Resources */,
+				0299BE2522A35F7B00B60776 /* tokaido_16_kyoto.jpg in Resources */,
 				024ADAB322885C0500ED30BA /* kyushu_06_shin-tamana.jpg in Resources */,
 				024ADA7D22884BCC00ED30BA /* sanyo_map_13_shin-iwakuni.jpg in Resources */,
 				024AD8BF2286DEED00ED30BA /* shinkansen.json in Resources */,
@@ -887,74 +932,93 @@
 				024ADAB122885C0500ED30BA /* kyushu_map_09_shin-minamata.jpg in Resources */,
 				024ADA7122884BCC00ED30BA /* sanyo_map_16_asa.jpg in Resources */,
 				024AD98E228711C700ED30BA /* kyushu_map_1.xcf in Resources */,
-				024ADB552290EE5800ED30BA /* tokaido_04_odawara.jpg in Resources */,
 				024ADA6622884BCC00ED30BA /* sanyo_10_mihara.jpg in Resources */,
+				0299BDF622A35F6C00B60776 /* tokaido_map_out_06_mishima.jpg in Resources */,
 				024ADAAD22885C0500ED30BA /* kyushu_12_kagoshima-chuo.jpg in Resources */,
+				0299BDEA22A35F6B00B60776 /* tokaido_map_in_04_odawara.jpg in Resources */,
 				024ADAA722885C0500ED30BA /* kyushu_map_01_hakata.jpg in Resources */,
 				024ADA5B22884BCC00ED30BA /* sanyo_map_09_shin-onomichi.jpg in Resources */,
 				024ADAA622885C0500ED30BA /* kyushu_map_11_sendai.jpg in Resources */,
 				024AD98F228711C700ED30BA /* kyushu_map_2.xcf in Resources */,
-				024ADB492290EE5800ED30BA /* tokaido_15_maibara.jpg in Resources */,
 				024ADA6A22884BCC00ED30BA /* sanyo_map_03_nishi-akashi.jpg in Resources */,
+				0299BE2922A35F7B00B60776 /* tokaido_09_kakegawa.jpg in Resources */,
+				0299BE2422A35F7B00B60776 /* tokaido_03_shin-yokohama.jpg in Resources */,
 				024ADAAF22885C0500ED30BA /* kyushu_03_kurume.jpg in Resources */,
+				0299BE0222A35F6C00B60776 /* tokaido_map_out_04_odawara.jpg in Resources */,
 				024ADA7A22884BCC00ED30BA /* sanyo_19_hakata.jpg in Resources */,
-				024ADB412290EE5800ED30BA /* tokaido_map_04_odawara.jpg in Resources */,
+				0299BDE522A35F6B00B60776 /* tokaido_map_out_14_gifu-hashima.jpg in Resources */,
+				0299BDFF22A35F6C00B60776 /* tokaido_map_in_16_kyoto.jpg in Resources */,
+				0299BDE422A35F6B00B60776 /* tokaido_map_in_11_toyohashi.jpg in Resources */,
+				0299BE2022A35F7B00B60776 /* tokaido_08_shizuoka.jpg in Resources */,
 				024ADAAE22885C0500ED30BA /* kyushu_map_06_shin-tamana.jpg in Resources */,
+				0299BDF222A35F6C00B60776 /* tokaido_map_in_09_kakegawa.jpg in Resources */,
+				0299BDF722A35F6C00B60776 /* tokaido_map_in_03_shin-yokohama.jpg in Resources */,
 				024ADAB022885C0500ED30BA /* kyushu_11_sendai.jpg in Resources */,
-				0247434D229C8C2800F1FAF9 /* tokaido_map_base_03.jpg in Resources */,
-				024ADB4E2290EE5800ED30BA /* tokaido_11_toyohashi.jpg in Resources */,
 				024ADAA522885C0500ED30BA /* kyushu_map_12_kagoshima-chuo.jpg in Resources */,
 				024ADAB222885C0500ED30BA /* kyushu_04_chikugo-funagoya.jpg in Resources */,
+				0299BDE622A35F6B00B60776 /* tokaido_map_out_02_shinagawa.jpg in Resources */,
 				024ADA7222884BCC00ED30BA /* sanyo_map_07_shin-kurashiki.jpg in Resources */,
+				0299BE2822A35F7B00B60776 /* tokaido_05_atami.jpg in Resources */,
 				024AD996228711C700ED30BA /* kyushu_01_hakata.xcf in Resources */,
 				024ADA7322884BCC00ED30BA /* sanyo_map_05_aioi.jpg in Resources */,
-				024ADB452290EE5800ED30BA /* tokaido_map_base_3.png in Resources */,
 				024AD98B228711C700ED30BA /* kyushu_04_chikugofunakoya.xcf in Resources */,
+				0299BDF922A35F6C00B60776 /* tokaido_map_in_14_gifu-hashima.jpg in Resources */,
 				024ADA5922884BCC00ED30BA /* sanyo_map_14_tokuyama.jpg in Resources */,
 				024ADAA922885C0500ED30BA /* kyushu_map_05_shin-omuta.jpg in Resources */,
+				0299BE1E22A35F7B00B60776 /* tokaido_12_mikawa-anjo.jpg in Resources */,
 				024ADA5A22884BCC00ED30BA /* sanyo_16_asa.jpg in Resources */,
 				024ADAAA22885C0500ED30BA /* kyushu_map_10_izumi.jpg in Resources */,
-				024ADB4F2290EE5800ED30BA /* tokaido_10_hamamatsu.jpg in Resources */,
+				0299BDFC22A35F6C00B60776 /* tokaido_map_out_07_shin-fuji.jpg in Resources */,
+				0299BE1C22A35F7B00B60776 /* tokaido_07_shin-fuji.jpg in Resources */,
 				024ADA8A2288599F00ED30BA /* sanyo_map_01_shin-osaka.jpg in Resources */,
-				024ADB472290EE5800ED30BA /* tokaido_map_06_mishima.jpg in Resources */,
-				024ADB512290EE5800ED30BA /* tokaido_map_03_shin-yokohama.jpg in Resources */,
-				024ADB3B2290EE5800ED30BA /* tokaido_map_13_nagoya.jpg in Resources */,
+				0299BDE722A35F6B00B60776 /* tokaido_map_in_01_tokyo.jpg in Resources */,
 				024ADAB722885C0500ED30BA /* kyushu_05_shin-omuta.jpg in Resources */,
 				024ADA6222884BCC00ED30BA /* sanyo_03_nishi-akashi.jpg in Resources */,
 				024ADA6722884BCC00ED30BA /* sanyo_09_shin-onomichi.jpg in Resources */,
+				0299BE1D22A35F7B00B60776 /* tokaido_01_tokyo.jpg in Resources */,
 				024AD995228711C700ED30BA /* kyushu_09_shinminamata.xcf in Resources */,
 				024AD991228711C700ED30BA /* kyushu_06_shintamana.xcf in Resources */,
 				024ADAB622885C0500ED30BA /* kyushu_map_03_kurume.jpg in Resources */,
 				024AD992228711C700ED30BA /* kyushu_12_kagoshimachuo.xcf in Resources */,
-				024ADB382290EE5800ED30BA /* tokaido_map_01_tokyo.jpg in Resources */,
 				024ADA6922884BCC00ED30BA /* sanyo_18_kokura.jpg in Resources */,
 				024ADA6522884BCC00ED30BA /* sanyo_map_12_hiroshima.jpg in Resources */,
 				024ADAAC22885C0500ED30BA /* kyushu_09_shin-minamata.jpg in Resources */,
 				024AD990228711C700ED30BA /* kyushu_02_shintosu.xcf in Resources */,
+				0299BE2622A35F7B00B60776 /* tokaido_11_toyohashi.jpg in Resources */,
+				0299BDF022A35F6C00B60776 /* tokaido_map_out_10_hamamatsu.jpg in Resources */,
+				0299BDFE22A35F6C00B60776 /* tokaido_map_in_13_nagoya.jpg in Resources */,
 				024ADA6E22884BCC00ED30BA /* sanyo_map_08_fukuyama.jpg in Resources */,
+				0299BE2B22A35F7B00B60776 /* tokaido_04_odawara.jpg in Resources */,
 				024AD98A228711C700ED30BA /* kyushu_08_shinyatsushiro.xcf in Resources */,
-				024ADB482290EE5800ED30BA /* tokaido_map_06_mishima.png in Resources */,
 				024ADA7522884BCC00ED30BA /* sanyo_04_himeji.jpg in Resources */,
-				024ADB352290EE5800ED30BA /* tokaido_01_tokyo.jpg in Resources */,
-				024ADB542290EE5800ED30BA /* tokaido_14_gifu-hashima.jpg in Resources */,
+				0299BE1F22A35F7B00B60776 /* tokaido_13_nagoya.jpg in Resources */,
+				0299BE2222A35F7B00B60776 /* tokaido_15_maibara.jpg in Resources */,
+				0299BDFD22A35F6C00B60776 /* tokaido_map_in_07_shin-fuji.jpg in Resources */,
 				024AD994228711C700ED30BA /* kyushu_11_sendai.xcf in Resources */,
 				024ADA7E22884BCC00ED30BA /* sanyo_map_17_shin-shimonoseki.jpg in Resources */,
+				0299BDF422A35F6C00B60776 /* tokaido_map_out_12_mikawa-anjo.jpg in Resources */,
+				0299BE0322A35F6C00B60776 /* tokaido_map_out_15_maibara.jpg in Resources */,
+				0299BE2122A35F7B00B60776 /* tokaido_17_shin-osaka.jpg in Resources */,
+				0299BE0522A35F6C00B60776 /* tokaido_map_out_09_kakegawa.jpg in Resources */,
+				0299BE2722A35F7B00B60776 /* tokaido_10_hamamatsu.jpg in Resources */,
+				0299BE0422A35F6C00B60776 /* tokaido_map_in_06_mishima.jpg in Resources */,
 				024AD98D228711C700ED30BA /* kyushu_05_shinoomuta.xcf in Resources */,
+				0299BDEB22A35F6C00B60776 /* tokaido_map_out_05_atami.jpg in Resources */,
+				0299BE0622A35F6C00B60776 /* tokaido_map_in_05_atami.jpg in Resources */,
 				024ADA6422884BCC00ED30BA /* sanyo_13_shin-iwakuni.jpg in Resources */,
-				024ADB522290EE5800ED30BA /* tokaido_09_kakegawa.jpg in Resources */,
-				024ADB432290EE5800ED30BA /* tokaido_map_base_2.png in Resources */,
+				0299BDE822A35F6B00B60776 /* tokaido_map_out_11_toyohashi.jpg in Resources */,
+				0299BE2A22A35F7B00B60776 /* tokaido_14_gifu-hashima.jpg in Resources */,
 				024AD904228711BA00ED30BA /* sanyo.jpg in Resources */,
 				024AD98C228711C700ED30BA /* kyushu_10_izumi.xcf in Resources */,
+				0299BDF522A35F6C00B60776 /* tokaido_map_out_06_mishima.png in Resources */,
 				024AD993228711C700ED30BA /* kyushu_03_kurume.xcf in Resources */,
 				024ADAB922885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg in Resources */,
-				024ADB3C2290EE5800ED30BA /* tokaido_map_12_mikawa-anjo.jpg in Resources */,
+				0299BDED22A35F6C00B60776 /* tokaido_map_in_02_shinagawa.jpg in Resources */,
 				024AD997228711C700ED30BA /* kyushu_07_kumamoto.xcf in Resources */,
-				024ADB362290EE5800ED30BA /* tokaido_map_02_shinagawa.jpg in Resources */,
+				0299BE1B22A35F7B00B60776 /* tokaido_06_mishima.jpg in Resources */,
 				024ADA862288514F00ED30BA /* sanyo_17_shin-shimonoseki.jpg in Resources */,
-				024ADB442290EE5800ED30BA /* tokaido_map_16_kyoto.jpg in Resources */,
 				024ADA6D22884BCC00ED30BA /* sanyo_map_06_okayama.jpg in Resources */,
 				0243F538227B57400075565B /* Settings.bundle in Resources */,
-				024ADB3A2290EE5800ED30BA /* tokaido_12_mikawa-anjo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
