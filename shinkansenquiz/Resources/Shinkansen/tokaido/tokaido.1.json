@@ -1,0 +1,109 @@
+{
+    "name"      :"tokaido",
+    "name_kanji":"",
+    "name_kana" :"",
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Tokyo",
+            "name_kanji":"東京",
+            "name_kana" :"とうきょう"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Shinagawa",
+            "name_kanji":"品川",
+            "name_kana" :"しながわ"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Shin-Yokohama",
+            "name_kanji":"新横浜",
+            "name_kana" :"しんよこはま"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Odawara",
+            "name_kanji":"小田原",
+            "name_kana" :"おだわら"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Atami",
+            "name_kanji":"熱海",
+            "name_kana" :"あたみ"
+        },
+        {
+            "id"        :"6",
+            "name"      :"Mishima",
+            "name_kanji":"三島",
+            "name_kana" :"みしま"
+        },
+        {
+            "id"        :"7",
+            "name"      :"Shin-Fuji",
+            "name_kanji":"新富士",
+            "name_kana" :"しんふじ"
+        },
+        {
+            "id"        :"8",
+            "name"      :"Shizuoka",
+            "name_kanji":"静岡",
+            "name_kana" :"しずおか"
+        },
+        {
+            "id"        :"9",
+            "name"      :"Kakegawa",
+            "name_kanji":"掛川",
+            "name_kana" :"かけがわ"
+        },
+        {
+            "id"        :"10",
+            "name"      :"Hamamatsu",
+            "name_kanji":"浜松",
+            "name_kana" :"はままつ"
+        },
+        {
+            "id"        :"11",
+            "name"      :"Toyohashi",
+            "name_kanji":"豊橋",
+            "name_kana" :"とよはし"
+        },
+        {
+            "id"        :"12",
+            "name"      :"Mikawa-Anjo",
+            "name_kanji":"三河安城",
+            "name_kana" :"みかわあんじょう"
+        },
+        {
+            "id"        :"13",
+            "name"      :"Nagoya",
+            "name_kanji":"名古屋",
+            "name_kana" :"なごや"
+        },
+        {
+            "id"        :"14",
+            "name"      :"Gifu-Hashima",
+            "name_kanji":"岐阜羽島",
+            "name_kana" :"ぎふはしま"
+        },
+        {
+            "id"        :"15",
+            "name"      :"Maibara",
+            "name_kanji":"米原",
+            "name_kana" :"まいばら"
+        },
+        {
+            "id"        :"16",
+            "name"      :"Kyoto",
+            "name_kanji":"京都",
+            "name_kana" :"きょうと"
+        },
+        {
+            "id"        :"17",
+            "name"      :"Shin-Osaka",
+            "name_kanji":"新大阪",
+            "name_kana" :"しんおおさか"
+        },
+    ]
+}
