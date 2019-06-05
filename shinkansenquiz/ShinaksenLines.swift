@@ -80,6 +80,7 @@ class ShinkansenLine: NSObject {
         for i in 0...stationInfo.count-1 {
             stations.append(getStation(number: i))
         }
+        stations.reverse()
         return stations
     }
 

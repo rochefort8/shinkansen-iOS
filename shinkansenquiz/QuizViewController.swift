@@ -129,13 +129,25 @@ class QuizViewController: UIViewController {
             answers[i] = answers[j]
             answers[j] = tmp
         }
+        
         /* Update View */
+        /*
         let boardString = (name + "_" +
                     String(format: "%02d",currentStationIndex + 1) + "_" +
                     stations[currentStationIndex].name).lowercased()
+         */
+        let boardString = (name + "_board_" +
+//            String(format: "%02d",stations.count - currentStationIndex) + "_" +
+            stations[currentStationIndex].name).lowercased()
+
+        /*
         let mapString = (name + "_map_out_" +
                     String(format: "%02d",currentStationIndex + 1) + "_" +
                     stations[currentStationIndex].name).lowercased()
+         */
+        let mapString = (name + "_map_in_" +
+            String(format: "%02d",currentStationIndex + 1) + "_" +
+            stations[currentStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )
 //        boardImageView.layer.borderWidth = 1
 //        boardImageView.layer.borderColor = UIColor.black.cgColor
