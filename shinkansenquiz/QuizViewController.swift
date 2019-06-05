@@ -11,6 +11,7 @@ import UIKit
 class QuizViewController: UIViewController {
 
     var name:String = ""
+    var isOutbound:Bool = true
     
     @IBOutlet var collectMarkView: UIImageView!
     @IBOutlet var mapImageView: UIImageView!
@@ -40,7 +41,9 @@ class QuizViewController: UIViewController {
         shinkansenLine.create(name:name)
         numberOfStations = shinkansenLine.getStationCount()
         stations = shinkansenLine.getStations()
-        
+        if !isOutbound {
+            stations.reverse()
+        }
         navigationItem.title = shinkansenLine.getLineInfo().name_kanji + "新幹線"
         
         answer1Button.titleLabel?.numberOfLines = 2
@@ -145,7 +148,11 @@ class QuizViewController: UIViewController {
                     String(format: "%02d",currentStationIndex + 1) + "_" +
                     stations[currentStationIndex].name).lowercased()
          */
-        let mapString = (name + "_map_in_" +
+        var directionString = "_map_out_"
+        if !isOutbound {
+            directionString = "_map_in_"
+        }
+        let mapString = (name + directionString +
             String(format: "%02d",currentStationIndex + 1) + "_" +
             stations[currentStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )
