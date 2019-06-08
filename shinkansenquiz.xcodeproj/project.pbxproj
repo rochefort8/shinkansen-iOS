@@ -111,6 +111,8 @@
 		024E691B2286793F0054DBB3 /* tokaido.json in Resources */ = {isa = PBXBuildFile; fileRef = 024E684E2286793E0054DBB3 /* tokaido.json */; };
 		024E69412286793F0054DBB3 /* tokaido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024E68752286793F0054DBB3 /* tokaido.jpg */; };
 		024E69422286793F0054DBB3 /* tokaido_tokyo_bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */; };
+		02623A2022ABEE9500549111 /* Quiz_correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02623A1E22ABEE9500549111 /* Quiz_correct.mp3 */; };
+		02623A2122ABEE9600549111 /* Quiz_wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02623A1F22ABEE9500549111 /* Quiz_wrong.mp3 */; };
 		0269B4CD22A7406E00332577 /* tokaido_board_kakegawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0269B4BC22A7406D00332577 /* tokaido_board_kakegawa.jpg */; };
 		0269B4CE22A7406E00332577 /* tokaido_board_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0269B4BD22A7406D00332577 /* tokaido_board_tokyo.jpg */; };
 		0269B4CF22A7406E00332577 /* tokaido_board_toyohashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0269B4BE22A7406D00332577 /* tokaido_board_toyohashi.jpg */; };
@@ -306,6 +308,8 @@
 		024E684E2286793E0054DBB3 /* tokaido.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokaido.json; sourceTree = "<group>"; };
 		024E68752286793F0054DBB3 /* tokaido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido.jpg; sourceTree = "<group>"; };
 		024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokaido_tokyo_bell.mp3; sourceTree = "<group>"; };
+		02623A1E22ABEE9500549111 /* Quiz_correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Quiz_correct.mp3; sourceTree = "<group>"; };
+		02623A1F22ABEE9500549111 /* Quiz_wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Quiz_wrong.mp3; sourceTree = "<group>"; };
 		0269B4BC22A7406D00332577 /* tokaido_board_kakegawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_board_kakegawa.jpg; sourceTree = "<group>"; };
 		0269B4BD22A7406D00332577 /* tokaido_board_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_board_tokyo.jpg; sourceTree = "<group>"; };
 		0269B4BE22A7406D00332577 /* tokaido_board_toyohashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_board_toyohashi.jpg; sourceTree = "<group>"; };
@@ -493,6 +497,7 @@
 		0243F132227B52300075565B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				02623A1D22ABEE9500549111 /* sound */,
 				024E68432286793E0054DBB3 /* Shinkansen */,
 				0243F133227B52300075565B /* images */,
 			);
@@ -662,6 +667,15 @@
 				024ADB5922912AE500ED30BA /* TestViewController.swift */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		02623A1D22ABEE9500549111 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				02623A1E22ABEE9500549111 /* Quiz_correct.mp3 */,
+				02623A1F22ABEE9500549111 /* Quiz_wrong.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 		0299BDBE22A35F6B00B60776 /* maps */ = {
@@ -885,6 +899,7 @@
 				0269B52222A7408400332577 /* tokaido_map_base_02.jpg in Resources */,
 				024ADA5E22884BCC00ED30BA /* sanyo_map_02_shin-kobe.jpg in Resources */,
 				024ADA7022884BCC00ED30BA /* sanyo_map_15_shin-yamaguchi.jpg in Resources */,
+				02623A2022ABEE9500549111 /* Quiz_correct.mp3 in Resources */,
 				024ADA6822884BCC00ED30BA /* sanyo_02_shin-kobe.jpg in Resources */,
 				0269B50522A7408400332577 /* tokaido_map_in_03_maibara.jpg in Resources */,
 				0269B4D922A7406E00332577 /* tokaido_board_shizuoka.jpg in Resources */,
@@ -1017,6 +1032,7 @@
 				024ADA862288514F00ED30BA /* sanyo_17_shin-shimonoseki.jpg in Resources */,
 				024ADA6D22884BCC00ED30BA /* sanyo_map_06_okayama.jpg in Resources */,
 				0269B4CF22A7406E00332577 /* tokaido_board_toyohashi.jpg in Resources */,
+				02623A2122ABEE9600549111 /* Quiz_wrong.mp3 in Resources */,
 				0269B52622A7408400332577 /* tokaido_map_out_09_kakegawa.jpg in Resources */,
 				0243F538227B57400075565B /* Settings.bundle in Resources */,
 			);

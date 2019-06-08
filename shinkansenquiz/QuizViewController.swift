@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class QuizViewController: UIViewController {
+class QuizViewController: UIViewController, AVAudioPlayerDelegate {
 
     var name:String = ""
     var isOutbound:Bool = true
@@ -27,6 +28,7 @@ class QuizViewController: UIViewController {
     @IBOutlet var answer1Text_Kana: UILabel!
     @IBOutlet var answer2Text_Kana: UILabel!
     @IBOutlet var answer3Text_Kana: UILabel!
+    @IBOutlet var questionText: UILabel!
     
     var shinkansenLine:ShinkansenLine = ShinkansenLine()
     var numberOfStations:Int = 0
@@ -35,6 +37,8 @@ class QuizViewController: UIViewController {
     
     var answers:[Int] = [0,0,0]
     var correctButtonIndex = 0
+    
+    var audioPlayer:AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,21 +77,41 @@ class QuizViewController: UIViewController {
         validateAnswerAndUpdate(index:2)
     }
     
+    private func enableAnswerButton(isEnabled:Bool) {
+        answer1Button.isEnabled = isEnabled
+        answer2Button.isEnabled = isEnabled
+        answer3Button.isEnabled = isEnabled
+    }
+    
     private func validateAnswerAndUpdate(index:Int) {
         if (answers[index] == currentStationIndex + 1) {
+            
+        /* Choose correct answer */
             print("Correct")
-            currentStationIndex += 1
+            collectMarkView.isHidden = false
+            enableAnswerButton(isEnabled: false)
+            questionText.text = "正解！"
+            startAudio(isCorrect: true)
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                self.questionText.text = "次の駅は？"
+                self.enableAnswerButton(isEnabled: true)
+                self.collectMarkView.isHidden = true
+                self.currentStationIndex += 1
+                self.update()
+            }
         } else {
             print("Wrong")
-            
+            enableAnswerButton(isEnabled: false)
+            mapImageView.shake(duration: 1)
+            answer1Button.shake(duration: 1)
+            answer2Button.shake(duration: 1)
+            answer3Button.shake(duration: 1)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.enableAnswerButton(isEnabled: true)
+                self.update()
+            }
         }
-        /* For testing */
-        /*
-        if (currentStationIndex > 2) {
-            performSegue(withIdentifier: "toQuizFinishedView",sender: nil)
-        }
- */
-        update()
     }
     
     /*
@@ -175,5 +199,63 @@ class QuizViewController: UIViewController {
         answer1Text_Kana.text   = stations[answers[0]].name_kana
         answer2Text_Kana.text   = stations[answers[1]].name_kana
         answer3Text_Kana.text   = stations[answers[2]].name_kana
+    }
+    
+    private func startAudio(isCorrect:Bool) {
+ 
+        var resourceName = "Quiz_"
+        if (isCorrect == true) {
+            resourceName += "correct"
+        } else {
+            // Cuurently no sound
+            return
+        }
+        
+        let audioPath = Bundle.main.path(forResource: resourceName, ofType:"mp3")!
+        let audioUrl = URL(fileURLWithPath: audioPath)
+        var audioError:NSError?
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: audioUrl)
+        } catch let error as NSError {
+            audioError = error
+            audioPlayer = nil
+        }
+        
+        if let error = audioError {
+            print("Error \(error.localizedDescription)")
+        }
+        
+        audioPlayer.delegate = self
+        audioPlayer.play();
+    }
+
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        print("Audio End with",flag)
+    }
+    
+}
+
+/*
+ * Shaker
+ * https://gist.github.com/mourad-brahim/cf0bfe9bec5f33a6ea66
+ */
+extension UIView {
+    func shake(duration: CFTimeInterval) {
+        let translation = CAKeyframeAnimation(keyPath: "transform.translation.x");
+        translation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
+        translation.values = [-5, 5, -5, 5, -3, 3, -2, 2, 0]
+        
+        let rotation = CAKeyframeAnimation(keyPath: "transform.rotation.z")
+        rotation.values = [-5, 5, -5, 5, -3, 3, -2, 2, 0].map {
+            ( degrees: Double) -> Double in
+            let radians: Double = (.pi * degrees) / 180.0
+            return radians
+        }
+        
+        let shakeGroup: CAAnimationGroup = CAAnimationGroup()
+        shakeGroup.animations = [translation, rotation]
+        shakeGroup.duration = duration
+        self.layer.add(shakeGroup, forKey: "shakeIt")
     }
 }

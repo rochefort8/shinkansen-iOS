@@ -694,14 +694,14 @@
                                     <constraint firstAttribute="width" secondItem="ryd-jl-eQI" secondAttribute="height" multiplier="4:3" id="VbQ-p3-Zpy"/>
                                 </constraints>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CorrectMarkImage" translatesAutoresizingMaskIntoConstraints="NO" id="n0M-bu-0Bd">
-                                <rect key="frame" x="0.0" y="138" width="414" height="414"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CorrectMarkImage" translatesAutoresizingMaskIntoConstraints="NO" id="n0M-bu-0Bd">
+                                <rect key="frame" x="0.0" y="286" width="414" height="414"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="n0M-bu-0Bd" secondAttribute="height" multiplier="1:1" id="2rT-Bn-YfH"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-Lp-GvL">
-                                <rect key="frame" x="10" y="631.33333333333337" width="394" height="24"/>
+                                <rect key="frame" x="10" y="728" width="394" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="静岡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq3-4Z-7k0" userLabel="Route">
                                         <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="24"/>
@@ -727,7 +727,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="41d-Tc-o02">
-                                <rect key="frame" x="10" y="660.33333333333337" width="394" height="18"/>
+                                <rect key="frame" x="10" y="757" width="394" height="18"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しずおか" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iag-Vi-baR" userLabel="Route">
                                         <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="18"/>
@@ -753,7 +753,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="1X7-s7-RRn">
-                                <rect key="frame" x="10" y="616.33333333333337" width="394" height="80"/>
+                                <rect key="frame" x="10" y="713" width="394" height="80"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3H0-z2-lHp" userLabel="Answer1">
                                         <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="80"/>
@@ -819,15 +819,15 @@
                             <constraint firstItem="41d-Tc-o02" firstAttribute="top" secondItem="pKp-Lp-GvL" secondAttribute="bottom" constant="5" id="Jad-jD-hWH"/>
                             <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="1X7-s7-RRn" secondAttribute="trailing" constant="10" id="NsI-d9-uwY"/>
                             <constraint firstItem="Afs-sO-9rj" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="O5b-1L-jTa"/>
+                            <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="n0M-bu-0Bd" secondAttribute="top" id="SXv-dO-eKD"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="Ul5-d9-RAc" secondAttribute="bottom" constant="4" id="ULM-m0-vLr"/>
                             <constraint firstItem="pKp-Lp-GvL" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="VlE-FV-vdV"/>
                             <constraint firstAttribute="trailing" secondItem="Afs-sO-9rj" secondAttribute="trailing" id="VoP-f6-wVq"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="X9J-J8-lCE"/>
                             <constraint firstItem="n0M-bu-0Bd" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="Ym3-qb-opw"/>
-                            <constraint firstItem="1X7-s7-RRn" firstAttribute="top" secondItem="ryd-jl-eQI" secondAttribute="bottom" constant="20" id="auq-Xv-ypI"/>
-                            <constraint firstItem="n0M-bu-0Bd" firstAttribute="top" secondItem="U0R-w9-3ib" secondAttribute="bottom" constant="50" id="b3v-BK-2tv"/>
                             <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="pKp-Lp-GvL" secondAttribute="trailing" constant="10" id="b9L-Bm-IlX"/>
                             <constraint firstAttribute="trailing" secondItem="n0M-bu-0Bd" secondAttribute="trailing" id="bZL-9x-L9V"/>
+                            <constraint firstItem="yWA-9J-nzZ" firstAttribute="top" secondItem="1X7-s7-RRn" secondAttribute="bottom" constant="20" id="mV4-sF-j1Y"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="rF3-KD-gQ4"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="sM8-cj-dtg"/>
                             <constraint firstItem="Ul5-d9-RAc" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="tSY-o0-3HV"/>
@@ -850,6 +850,7 @@
                         <outlet property="boardImageView" destination="Afs-sO-9rj" id="woG-Yc-akd"/>
                         <outlet property="collectMarkView" destination="n0M-bu-0Bd" id="Cmq-kt-COV"/>
                         <outlet property="mapImageView" destination="ryd-jl-eQI" id="Qad-hg-K89"/>
+                        <outlet property="questionText" destination="Ul5-d9-RAc" id="wIj-nn-ytg"/>
                         <segue destination="XvZ-Dd-Ie1" kind="show" identifier="toQuizFinishedView" id="ZQO-YB-bpy"/>
                     </connections>
                 </viewController>
