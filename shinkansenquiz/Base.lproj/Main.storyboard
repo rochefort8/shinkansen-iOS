@@ -677,59 +677,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="次の駅は？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-d9-RAc" userLabel="Route">
-                                <rect key="frame" x="0.0" y="253.33333333333337" width="414" height="29"/>
+                                <rect key="frame" x="0.0" y="253.33333333333334" width="414" height="28.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H0-z2-lHp" userLabel="Answer1">
-                                <rect key="frame" x="10.000000000000007" y="723" width="124.66666666666669" height="80"/>
-                                <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="WKF-ti-YiH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
-                                <state key="normal">
-                                    <string key="title" base64-UTF8="YES">
-6Z2Z5bKhERERERE
-</string>
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onAnswer1Button:" destination="Bjr-24-JyB" eventType="touchUpInside" id="OT4-kr-Qq3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4Xb-4Y-2qE" userLabel="Answer2">
-                                <rect key="frame" x="144.66666666666666" y="723" width="124.66666666666666" height="80"/>
-                                <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="SYM-76-lTY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
-                                <state key="normal" title="品川">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onAnswer2Button:" destination="Bjr-24-JyB" eventType="touchUpInside" id="tEd-aD-y7j"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWy-Qs-Cqn" userLabel="Answer3">
-                                <rect key="frame" x="279.33333333333331" y="723" width="124.66666666666669" height="80"/>
-                                <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="B49-Sk-2e9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
-                                <state key="normal" title="新横浜">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onAnswer3Button:" destination="Bjr-24-JyB" eventType="touchUpInside" id="qxe-gr-kdF"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BoardImage" translatesAutoresizingMaskIntoConstraints="NO" id="Afs-sO-9rj">
                                 <rect key="frame" x="0.0" y="88.000000000000014" width="414" height="155.33333333333337"/>
                                 <constraints>
@@ -737,7 +689,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="MapImage" translatesAutoresizingMaskIntoConstraints="NO" id="ryd-jl-eQI">
-                                <rect key="frame" x="0.0" y="286.33333333333337" width="414" height="310.33333333333337"/>
+                                <rect key="frame" x="0.0" y="286" width="414" height="310.33333333333326"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ryd-jl-eQI" secondAttribute="height" multiplier="4:3" id="VbQ-p3-Zpy"/>
                                 </constraints>
@@ -748,43 +700,153 @@
                                     <constraint firstAttribute="width" secondItem="n0M-bu-0Bd" secondAttribute="height" multiplier="1:1" id="2rT-Bn-YfH"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-Lp-GvL">
+                                <rect key="frame" x="10" y="631.33333333333337" width="394" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="静岡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq3-4Z-7k0" userLabel="Route">
+                                        <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="24"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="24"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="品川" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSH-t6-NiV" userLabel="Route">
+                                        <rect key="frame" x="134.33333333333334" y="0.0" width="125.33333333333334" height="24"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="24"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新横浜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoI-wa-e6f" userLabel="Route">
+                                        <rect key="frame" x="268.66666666666669" y="0.0" width="125.33333333333331" height="24"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="24"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="BbS-Kd-Oc0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="41d-Tc-o02">
+                                <rect key="frame" x="10" y="660.33333333333337" width="394" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しずおか" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iag-Vi-baR" userLabel="Route">
+                                        <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しながわ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuB-go-pFZ" userLabel="Route">
+                                        <rect key="frame" x="134.33333333333334" y="0.0" width="125.33333333333334" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しんよこはま" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggu-jo-QNw" userLabel="Route">
+                                        <rect key="frame" x="268.66666666666669" y="0.0" width="125.33333333333331" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="W17-FJ-pR0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="1X7-s7-RRn">
+                                <rect key="frame" x="10" y="616.33333333333337" width="394" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3H0-z2-lHp" userLabel="Answer1">
+                                        <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="80"/>
+                                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="WKF-ti-YiH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAnswer1Button:" destination="Bjr-24-JyB" eventType="touchUpInside" id="OT4-kr-Qq3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4Xb-4Y-2qE" userLabel="Answer2">
+                                        <rect key="frame" x="134.33333333333334" y="0.0" width="125.33333333333334" height="80"/>
+                                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="SYM-76-lTY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAnswer2Button:" destination="Bjr-24-JyB" eventType="touchUpInside" id="tEd-aD-y7j"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWy-Qs-Cqn" userLabel="Answer3">
+                                        <rect key="frame" x="268.66666666666669" y="0.0" width="125.33333333333331" height="80"/>
+                                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="B49-Sk-2e9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAnswer3Button:" destination="Bjr-24-JyB" eventType="touchUpInside" id="qxe-gr-kdF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="RRH-QL-JKy"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Afs-sO-9rj" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="1pd-7m-1hF"/>
                             <constraint firstItem="Ul5-d9-RAc" firstAttribute="top" secondItem="Afs-sO-9rj" secondAttribute="bottom" constant="10" id="2a1-un-khp"/>
                             <constraint firstAttribute="trailing" secondItem="Afs-sO-9rj" secondAttribute="trailing" id="49d-YQ-mRx"/>
+                            <constraint firstItem="1X7-s7-RRn" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="62Q-lq-7iR"/>
                             <constraint firstAttribute="trailing" secondItem="Ul5-d9-RAc" secondAttribute="trailing" id="6Nr-FA-tH4"/>
-                            <constraint firstItem="3H0-z2-lHp" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" constant="10" id="AzP-XG-Con"/>
-                            <constraint firstItem="4Xb-4Y-2qE" firstAttribute="width" secondItem="3H0-z2-lHp" secondAttribute="width" id="Bg0-Lt-Z7k"/>
+                            <constraint firstItem="pKp-Lp-GvL" firstAttribute="top" secondItem="1X7-s7-RRn" secondAttribute="top" constant="15" id="9Q2-bI-Bhr"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="Dgp-72-Pfa"/>
-                            <constraint firstItem="4Xb-4Y-2qE" firstAttribute="leading" secondItem="3H0-z2-lHp" secondAttribute="trailing" constant="10" id="FsO-IW-SiU"/>
                             <constraint firstItem="Afs-sO-9rj" firstAttribute="top" secondItem="U0R-w9-3ib" secondAttribute="bottom" id="Gi6-rd-l5l"/>
-                            <constraint firstAttribute="trailing" secondItem="tWy-Qs-Cqn" secondAttribute="trailing" constant="10" id="LDY-GA-oDF"/>
+                            <constraint firstItem="41d-Tc-o02" firstAttribute="top" secondItem="pKp-Lp-GvL" secondAttribute="bottom" constant="5" id="Jad-jD-hWH"/>
+                            <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="1X7-s7-RRn" secondAttribute="trailing" constant="10" id="NsI-d9-uwY"/>
                             <constraint firstItem="Afs-sO-9rj" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="O5b-1L-jTa"/>
-                            <constraint firstItem="4Xb-4Y-2qE" firstAttribute="centerX" secondItem="Afs-sO-9rj" secondAttribute="centerX" id="Pg5-Qm-Ltw"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="Ul5-d9-RAc" secondAttribute="bottom" constant="4" id="ULM-m0-vLr"/>
+                            <constraint firstItem="pKp-Lp-GvL" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="VlE-FV-vdV"/>
                             <constraint firstAttribute="trailing" secondItem="Afs-sO-9rj" secondAttribute="trailing" id="VoP-f6-wVq"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="X9J-J8-lCE"/>
-                            <constraint firstItem="tWy-Qs-Cqn" firstAttribute="width" secondItem="3H0-z2-lHp" secondAttribute="width" id="YFq-kH-i4m"/>
                             <constraint firstItem="n0M-bu-0Bd" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="Ym3-qb-opw"/>
+                            <constraint firstItem="1X7-s7-RRn" firstAttribute="top" secondItem="ryd-jl-eQI" secondAttribute="bottom" constant="20" id="auq-Xv-ypI"/>
                             <constraint firstItem="n0M-bu-0Bd" firstAttribute="top" secondItem="U0R-w9-3ib" secondAttribute="bottom" constant="50" id="b3v-BK-2tv"/>
+                            <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="pKp-Lp-GvL" secondAttribute="trailing" constant="10" id="b9L-Bm-IlX"/>
                             <constraint firstAttribute="trailing" secondItem="n0M-bu-0Bd" secondAttribute="trailing" id="bZL-9x-L9V"/>
-                            <constraint firstItem="yWA-9J-nzZ" firstAttribute="top" secondItem="4Xb-4Y-2qE" secondAttribute="bottom" constant="10" id="d0G-AR-dO5"/>
-                            <constraint firstItem="yWA-9J-nzZ" firstAttribute="top" secondItem="3H0-z2-lHp" secondAttribute="bottom" constant="10" id="dCe-3d-bU1"/>
-                            <constraint firstItem="yWA-9J-nzZ" firstAttribute="top" secondItem="tWy-Qs-Cqn" secondAttribute="bottom" constant="10" id="iTI-PA-nV7"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="rF3-KD-gQ4"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="sM8-cj-dtg"/>
                             <constraint firstItem="Ul5-d9-RAc" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="tSY-o0-3HV"/>
-                            <constraint firstItem="tWy-Qs-Cqn" firstAttribute="leading" secondItem="4Xb-4Y-2qE" secondAttribute="trailing" constant="10" id="xeP-0t-UUT"/>
+                            <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="41d-Tc-o02" secondAttribute="trailing" constant="10" id="usp-An-Qju"/>
+                            <constraint firstItem="41d-Tc-o02" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="yfh-4c-J0Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="H04-zF-QNj"/>
                     </view>
                     <navigationItem key="navigationItem" title="東京 (とうきょう)" id="AVo-1V-TSR"/>
                     <connections>
                         <outlet property="answer1Button" destination="3H0-z2-lHp" id="6Gg-na-AFz"/>
+                        <outlet property="answer1Text_Kana" destination="Iag-Vi-baR" id="ceu-t0-fEk"/>
+                        <outlet property="answer1Text_Kanji" destination="Mq3-4Z-7k0" id="xR3-6c-Ihv"/>
                         <outlet property="answer2Button" destination="4Xb-4Y-2qE" id="6uQ-pz-1vZ"/>
+                        <outlet property="answer2Text_Kana" destination="UuB-go-pFZ" id="trw-8d-DhW"/>
+                        <outlet property="answer2Text_Kanji" destination="WSH-t6-NiV" id="fts-Cb-SUV"/>
                         <outlet property="answer3Button" destination="tWy-Qs-Cqn" id="ZLk-6X-RcH"/>
+                        <outlet property="answer3Text_Kana" destination="ggu-jo-QNw" id="KXS-lI-PGe"/>
+                        <outlet property="answer3Text_Kanji" destination="BoI-wa-e6f" id="LHB-Fh-MGn"/>
                         <outlet property="boardImageView" destination="Afs-sO-9rj" id="woG-Yc-akd"/>
                         <outlet property="collectMarkView" destination="n0M-bu-0Bd" id="Cmq-kt-COV"/>
                         <outlet property="mapImageView" destination="ryd-jl-eQI" id="Qad-hg-K89"/>
@@ -793,7 +855,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAW-p5-UvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1409" y="-545"/>
+            <point key="canvasLocation" x="1408.6956521739132" y="-545.08928571428567"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="Ayp-aM-hwe">

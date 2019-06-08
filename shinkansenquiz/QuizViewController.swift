@@ -21,6 +21,13 @@ class QuizViewController: UIViewController {
     @IBOutlet var answer2Button: UIButton!
     @IBOutlet var answer3Button: UIButton!
     
+    @IBOutlet var answer1Text_Kanji: UILabel!
+    @IBOutlet var answer2Text_Kanji: UILabel!
+    @IBOutlet var answer3Text_Kanji: UILabel!
+    @IBOutlet var answer1Text_Kana: UILabel!
+    @IBOutlet var answer2Text_Kana: UILabel!
+    @IBOutlet var answer3Text_Kana: UILabel!
+    
     var shinkansenLine:ShinkansenLine = ShinkansenLine()
     var numberOfStations:Int = 0
     var stations:[StationInfo] = [StationInfo()]
@@ -161,9 +168,12 @@ class QuizViewController: UIViewController {
         mapImageView.image  = UIImage(named: mapString + ".jpg")
         mapImageView.layer.borderWidth = 1
         mapImageView.layer.borderColor = UIColor.black.cgColor
-
-        answer1Button.setTitle(stations[answers[0]].name_kanji,for:.normal)
-        answer2Button.setTitle(stations[answers[1]].name_kanji,for:.normal)
-        answer3Button.setTitle(stations[answers[2]].name_kanji,for:.normal)
+        
+        answer1Text_Kanji.text  = stations[answers[0]].name_kanji
+        answer2Text_Kanji.text  = stations[answers[1]].name_kanji
+        answer3Text_Kanji.text  = stations[answers[2]].name_kanji
+        answer1Text_Kana.text   = stations[answers[0]].name_kana
+        answer2Text_Kana.text   = stations[answers[1]].name_kana
+        answer3Text_Kana.text   = stations[answers[2]].name_kana
     }
 }
