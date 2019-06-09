@@ -37,8 +37,9 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     
     var answers:[Int] = [0,0,0]
     var correctButtonIndex = 0
-    
     var audioPlayer:AVAudioPlayer!
+    
+    var coverNextStationView:UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,14 +56,14 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         if !isOutbound {
             stations.reverse()
         }
-        navigationItem.title = shinkansenLine.getLineInfo().name_kanji + "新幹線"
         
-        answer1Button.titleLabel?.numberOfLines = 2
-        answer2Button.titleLabel?.numberOfLines = 2
-        answer3Button.titleLabel?.numberOfLines = 2
+        let lineInfo = shinkansenLine.getLineInfo()
+        navigationItem.title = lineInfo.name_kanji + "新幹線"
+        createCoverView()
         
         currentStationIndex = 0
         update()
+        
     }
     
     @IBAction func onAnswer1Button(_ sender: Any) {
@@ -82,18 +83,44 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         answer2Button.isEnabled = isEnabled
         answer3Button.isEnabled = isEnabled
     }
+
+    private func createCoverView() {
+
+        let lineInfo = shinkansenLine.getLineInfo()
+
+        let image:UIImage = UIImage(named:lineInfo.cover_view.name)!
+        coverNextStationView = UIImageView(image:image)
+        let width = image.size.width
+        let height = image.size.height
+        let scale = view.bounds.width / 640.0
+        
+        coverNextStationView.frame = CGRect(x:0, y:0, width:width*scale, height:height*scale)
+        
+        var x:CGFloat = 0.0, y = boardImageView.frame.origin.y
+        if  (isOutbound == true) {
+            x = x + lineInfo.cover_view.location_out.x * scale
+            y = y + lineInfo.cover_view.location_out.y * scale
+        } else {
+            x = x + lineInfo.cover_view.location_in.x * scale
+            y = y + lineInfo.cover_view.location_in.y * scale
+        }
+        coverNextStationView.layer.position = CGPoint(x: x, y: y)
+        self.view.addSubview(coverNextStationView)
+    }
     
     private func validateAnswerAndUpdate(index:Int) {
         if (answers[index] == currentStationIndex + 1) {
             
-        /* Choose correct answer */
+        /* Correct answer */
             print("Correct")
             collectMarkView.isHidden = false
             enableAnswerButton(isEnabled: false)
+            coverNextStationView.isHidden = true
             questionText.text = "正解！"
             startAudio(isCorrect: true)
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                self.coverNextStationView.isHidden = false
                 self.questionText.text = "次の駅は？"
                 self.enableAnswerButton(isEnabled: true)
                 self.collectMarkView.isHidden = true
@@ -101,7 +128,8 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
                 self.update()
             }
         } else {
-            print("Wrong")
+
+        /* Incorrect answer */
             enableAnswerButton(isEnabled: false)
             mapImageView.shake(duration: 1)
             answer1Button.shake(duration: 1)

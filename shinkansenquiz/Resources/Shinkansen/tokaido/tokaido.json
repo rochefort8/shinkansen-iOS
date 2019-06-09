@@ -1,262 +1,118 @@
 {
     "name"      :"tokaido",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"東海道",
+    "name_kana" :"とうかいどう",
+    "coverview"       : {
+        "name"    : "tokaido_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
     "station":[
         {
             "id"        :"1",
             "name"      :"Tokyo",
             "name_kanji":"東京",
-            "name_kana" :"とうきょう",
-            "map"       : {
-                "id"    : "1",
-                "location" : {
-                    "x" : "290.0", "y" : "109.0"
-                },
-                "text" :  {
-                    "x" : "230.0", "y" : "89.0"
-                } 
-            }
+            "name_kana" :"とうきょう"
         },
         {
             "id"        :"2",
             "name"      :"Shinagawa",
             "name_kanji":"品川",
             "name_kana" :"しながわ",
-            "map"       : {
-                "id"    : "1",
-                "location" : {
-                    "x" : "287.5", "y" : "132.0"
-                },
-                "text" :  {
-                    "x" : "227.5", "y" : "122.0"
-                } 
-            }
         },
         {
             "id"        :"3",
             "name"      :"Shin-Yokohama",
             "name_kanji":"新横浜",
             "name_kana" :"しんよこはま",
-            "map"       : {
-                "id"    : "1",
-                "location" : {
-                    "x" : "264.5", "y" : "166.0"
-                },
-                "text" :  {
-                    "x" : "194.0", "y" : "140.0"
-                } 
-            }
         },
         {
             "id"        :"4",
             "name"      :"Odawara",
             "name_kanji":"小田原",
             "name_kana" :"おだわら",
-            "map"       : {
-                "id"    : "1",
-                "location" : {
-                    "x" : "147.5", "y" : "240.5"
-                },
-                "text" :  {
-                    "x" : "90.0", "y" : "200.5"
-                } 
-            }
         },
         {
             "id"        :"5",
             "name"      :"Atami",
             "name_kanji":"熱海",
             "name_kana" :"あたみ",
-            "map"       : {
-                "id"    : "1",
-                "location" : {
-                    "x" : "107.5", "y" : "304.5"
-                },
-                "text" :  {
-                    "x" : "112.5", "y" : "290.0"
-                } 
-            }
         },
         {
             "id"        :"6",
             "name"      :"Mishima",
             "name_kanji":"三島",
             "name_kana" :"みしま",
-            "map"       : {
-                "id"    : "1",
-                "location" : {
-                    "x" : "59.0", "y" : "294.0"
-                },
-                "text" :  {
-                    "x" : "9.0", "y" : "284.0"
-                } 
-            }
         },
         {
             "id"        :"7",
             "name"      :"Shin-Fuji",
             "name_kanji":"新富士",
             "name_kana" :"しんふじ",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "366.0", "y" : "186.0"
-                },
-                "text" :  {
-                    "x" : "316.0", "y" : "150.0"
-                } 
-            }
         },
         {
             "id"        :"8",
             "name"      :"Shizuoka",
             "name_kanji":"静岡",
             "name_kana" :"しずおか",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "325.0", "y" : "228.0"
-                },
-                "text" :  {
-                    "x" : "265.0", "y" : "208.0"
-                } 
-            }
         },
         {
             "id"        :"9",
             "name"      :"Kakegawa",
             "name_kanji":"掛川",
             "name_kana" :"かけがわ",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "268.0", "y" : "268.0"
-                },
-                "text" :  {
-                    "x" : "248.0", "y" : "220.0"
-                } 
-            }
         },
         {
             "id"        :"10",
             "name"      :"Hamamatsu",
             "name_kanji":"浜松",
             "name_kana" :"はままつ",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "205.0", "y" : "269.0"
-                },
-                "text" :  {
-                    "x" : "175.0", "y" : "240.0"
-                } 
-            }
         },
         {
             "id"        :"11",
             "name"      :"Toyohashi",
             "name_kanji":"豊橋",
             "name_kana" :"とよはし",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "153.0", "y" : "241.0"
-                },
-                "text" :  {
-                    "x" : "103.0", "y" : "251.0"
-                } 
-            }
         },
         {
             "id"        :"12",
             "name"      :"Mikawa-Anjo",
             "name_kanji":"三河安城",
             "name_kana" :"みかわあんじょう",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "112.0", "y" : "219.0"
-                },
-                "text" :  {
-                    "x" : "12.0", "y" : "205.0"
-                } 
-            }
         },
         {
             "id"        :"13",
             "name"      :"Nagoya",
             "name_kanji":"名古屋",
             "name_kana" :"なごや",
-            "map"       : {
-                "id"    : "2",
-                "location" : {
-                    "x" : "78.0", "y" : "175.0"
-                },
-                "text" :  {
-                    "x" : "28.0", "y" : "155.0"
-                } 
-            }
         },
         {
             "id"        :"14",
             "name"      :"Gifu-Hashima",
             "name_kanji":"岐阜羽島",
             "name_kana" :"ぎふはしま",
-            "map"       : {
-                "id"    : "3",
-                "location" : {
-                    "x" : "379.0", "y" : "160.0"
-                },
-                "text" :  {
-                    "x" : "350.0", "y" : "130.0"
-                } 
-            }
         },
         {
             "id"        :"15",
             "name"      :"Maibara",
             "name_kanji":"米原",
             "name_kana" :"まいばら",
-            "map"       : {
-                "id"    : "3",
-                "location" : {
-                    "x" : "310.0", "y" : "137.0"
-                },
-                "text" :  {
-                    "x" : "250.0", "y" : "125.0"
-                } 
-            }
         },
         {
             "id"        :"16",
             "name"      :"Kyoto",
             "name_kanji":"京都",
             "name_kana" :"きょうと",
-            "map"       : {
-                "id"    : "3",
-                "location" : {
-                    "x" : "177.0", "y" : "232.0"
-                },
-                "text" :  {
-                    "x" : "115.0", "y" : "220.0"
-                } 
-            }
         },
         {
             "id"        :"17",
             "name"      :"Shin-Osaka",
             "name_kanji":"新大阪",
             "name_kana" :"しんおおさか",
-            "map"       : {
-                "id"    : "3",
-                "location" : {
-                    "x" : "100.0", "y" : "313.0"
-                },
-                "text" :  {
-                    "x" : "50.0", "y" : "293.0"
-                } 
-            }
         }
     ]
 }

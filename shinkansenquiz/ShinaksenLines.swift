@@ -11,10 +11,17 @@ import AVFoundation
 
 import SwiftyJSON
 
+struct CoverView {
+    var name         : String   = ""
+    var location_out : CGPoint  = CGPoint(x: 0.0,y:0.0)
+    var location_in  : CGPoint  = CGPoint(x: 0.0,y:0.0)
+}
+
 struct LineInfo {
     var name: String        = ""
     var name_kanji: String  = ""
-    var name_kana: String   = ""
+    var name_kana : String   = ""
+    var cover_view: CoverView  = CoverView()
 }
 
 struct MapInfo {
@@ -44,9 +51,22 @@ class ShinkansenLine: NSObject {
     }
     
     func getLineInfo() -> LineInfo {
+        let json = JSON(lineInfo["coverview"])
+        let json_location_out   = JSON(json["out"])
+        let json_location_in    = JSON(json["in"])
+
+        var coverView = CoverView()
+        
+        coverView.name         = json["name"].stringValue
+        coverView.location_out = CGPoint(x :json_location_out["x"].doubleValue,
+                                         y :json_location_out["y"].doubleValue)
+        coverView.location_in  = CGPoint(x :json_location_in["x"].doubleValue,
+                                         y :json_location_in["y"].doubleValue)
+
         return LineInfo(name: lineInfo["name"].stringValue,
                         name_kanji: lineInfo["name_kanji"].stringValue,
-                        name_kana: lineInfo["name_kana"].stringValue)
+                        name_kana: lineInfo["name_kana"].stringValue,
+                        cover_view: coverView)
     }
     func getStationCount() -> Int{
         return stationInfo.count
