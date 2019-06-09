@@ -677,8 +677,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="次の駅は？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-d9-RAc" userLabel="Route">
-                                <rect key="frame" x="0.0" y="253.33333333333334" width="414" height="28.666666666666657"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <rect key="frame" x="0.0" y="253.33333333333337" width="414" height="28"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="28"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -689,13 +689,13 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="MapImage" translatesAutoresizingMaskIntoConstraints="NO" id="ryd-jl-eQI">
-                                <rect key="frame" x="0.0" y="286" width="414" height="310.33333333333326"/>
+                                <rect key="frame" x="0.0" y="301.33333333333337" width="414" height="310.33333333333337"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ryd-jl-eQI" secondAttribute="height" multiplier="4:3" id="VbQ-p3-Zpy"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CorrectMarkImage" translatesAutoresizingMaskIntoConstraints="NO" id="n0M-bu-0Bd">
-                                <rect key="frame" x="51.666666666666657" y="286" width="310.66666666666674" height="310.33333333333326"/>
+                                <rect key="frame" x="51.666666666666657" y="301.33333333333337" width="310.66666666666674" height="310.33333333333337"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="n0M-bu-0Bd" secondAttribute="height" multiplier="1:1" id="2rT-Bn-YfH"/>
                                 </constraints>
@@ -822,7 +822,7 @@
                             <constraint firstItem="Afs-sO-9rj" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="O5b-1L-jTa"/>
                             <constraint firstItem="n0M-bu-0Bd" firstAttribute="centerX" secondItem="ryd-jl-eQI" secondAttribute="centerX" id="PvV-HZ-gKu"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="n0M-bu-0Bd" secondAttribute="top" id="SXv-dO-eKD"/>
-                            <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="Ul5-d9-RAc" secondAttribute="bottom" constant="4" id="ULM-m0-vLr"/>
+                            <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="Ul5-d9-RAc" secondAttribute="bottom" constant="20" id="ULM-m0-vLr"/>
                             <constraint firstItem="pKp-Lp-GvL" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="VlE-FV-vdV"/>
                             <constraint firstAttribute="trailing" secondItem="Afs-sO-9rj" secondAttribute="trailing" id="VoP-f6-wVq"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="X9J-J8-lCE"/>
