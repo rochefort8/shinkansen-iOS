@@ -78,10 +78,23 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         validateAnswerAndUpdate(index:2)
     }
     
+    @IBAction func onNext(_ sender: Any) {
+        self.currentStationIndex += 1
+        self.update()
+    }
+    
+    @IBAction func onStop(_ sender: Any) {
+        moveToFinalView()
+    }
+
     private func enableAnswerButton(isEnabled:Bool) {
         answer1Button.isEnabled = isEnabled
         answer2Button.isEnabled = isEnabled
         answer3Button.isEnabled = isEnabled
+    }
+
+    private func moveToFinalView() {
+        self.performSegue(withIdentifier: "toQuizFinishedView", sender: nil)
     }
 
     private func createCoverView() {

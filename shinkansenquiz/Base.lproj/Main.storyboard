@@ -701,7 +701,7 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-Lp-GvL">
-                                <rect key="frame" x="10" y="728" width="394" height="24"/>
+                                <rect key="frame" x="10" y="636.66666666666663" width="394" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="静岡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq3-4Z-7k0" userLabel="Route">
                                         <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="24"/>
@@ -727,7 +727,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="41d-Tc-o02">
-                                <rect key="frame" x="10" y="757" width="394" height="18"/>
+                                <rect key="frame" x="10" y="665.66666666666663" width="394" height="18"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しずおか" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iag-Vi-baR" userLabel="Route">
                                         <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="18"/>
@@ -753,7 +753,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="1X7-s7-RRn">
-                                <rect key="frame" x="10" y="713" width="394" height="80"/>
+                                <rect key="frame" x="10" y="621.66666666666663" width="394" height="80"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3H0-z2-lHp" userLabel="Answer1">
                                         <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="80"/>
@@ -805,6 +805,41 @@
                                     <constraint firstAttribute="height" constant="80" id="RRH-QL-JKy"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x8I-ys-90n">
+                                <rect key="frame" x="10" y="753" width="394" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjD-Eq-Ca8">
+                                        <rect key="frame" x="0.0" y="0.0" width="192" height="50"/>
+                                        <color key="backgroundColor" red="0.14063111010000001" green="0.29241071429999999" blue="0.036181005340000003" alpha="0.75219801220000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="次の駅へ" image="NextIcon">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onNext:" destination="Bjr-24-JyB" eventType="touchUpInside" id="Nxx-yT-pFw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbf-BA-Iw9">
+                                        <rect key="frame" x="202" y="0.0" width="192" height="50"/>
+                                        <color key="backgroundColor" red="0.14063111010000001" green="0.29241071429999999" blue="0.036181005340000003" alpha="0.75219801220000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="20"/>
+                                        <inset key="titleEdgeInsets" minX="11" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="終わる" image="StopIcon">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onStop:" destination="Bjr-24-JyB" eventType="touchUpInside" id="bqF-8m-jFb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="750" constant="80" id="iR1-QQ-6Uv"/>
+                                    <constraint firstAttribute="height" constant="50" id="yy6-qn-ioE"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -821,13 +856,16 @@
                             <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="1X7-s7-RRn" secondAttribute="trailing" constant="10" id="NsI-d9-uwY"/>
                             <constraint firstItem="Afs-sO-9rj" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="O5b-1L-jTa"/>
                             <constraint firstItem="n0M-bu-0Bd" firstAttribute="centerX" secondItem="ryd-jl-eQI" secondAttribute="centerX" id="PvV-HZ-gKu"/>
+                            <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="x8I-ys-90n" secondAttribute="trailing" constant="10" id="Rf1-aM-FdP"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="n0M-bu-0Bd" secondAttribute="top" id="SXv-dO-eKD"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="top" secondItem="Ul5-d9-RAc" secondAttribute="bottom" constant="20" id="ULM-m0-vLr"/>
+                            <constraint firstItem="1X7-s7-RRn" firstAttribute="top" secondItem="ryd-jl-eQI" secondAttribute="bottom" constant="10" id="UnZ-Ap-6sH"/>
                             <constraint firstItem="pKp-Lp-GvL" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="VlE-FV-vdV"/>
                             <constraint firstAttribute="trailing" secondItem="Afs-sO-9rj" secondAttribute="trailing" id="VoP-f6-wVq"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="X9J-J8-lCE"/>
+                            <constraint firstItem="yWA-9J-nzZ" firstAttribute="top" secondItem="x8I-ys-90n" secondAttribute="bottom" constant="10" id="ZWc-Ix-mpP"/>
                             <constraint firstItem="H04-zF-QNj" firstAttribute="trailing" secondItem="pKp-Lp-GvL" secondAttribute="trailing" constant="10" id="b9L-Bm-IlX"/>
-                            <constraint firstItem="yWA-9J-nzZ" firstAttribute="top" secondItem="1X7-s7-RRn" secondAttribute="bottom" constant="20" id="mV4-sF-j1Y"/>
+                            <constraint firstItem="x8I-ys-90n" firstAttribute="leading" secondItem="H04-zF-QNj" secondAttribute="leading" constant="10" id="bK8-Mt-SSd"/>
                             <constraint firstItem="ryd-jl-eQI" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="rF3-KD-gQ4"/>
                             <constraint firstAttribute="trailing" secondItem="ryd-jl-eQI" secondAttribute="trailing" id="sM8-cj-dtg"/>
                             <constraint firstItem="Ul5-d9-RAc" firstAttribute="leading" secondItem="eZR-YM-TFv" secondAttribute="leading" id="tSY-o0-3HV"/>
@@ -911,8 +949,10 @@
         <image name="CorrectMarkImage" width="360" height="360"/>
         <image name="HomeIcon" width="30" height="30"/>
         <image name="MapImage" width="480" height="360"/>
+        <image name="NextIcon" width="32" height="32"/>
         <image name="RedSignalImage" width="180" height="323"/>
         <image name="SettingsIcon" width="30" height="30"/>
+        <image name="StopIcon" width="32" height="32"/>
         <image name="TokaidoMainImage" width="960" height="720"/>
         <image name="tokaido_map_10_hamamatsu.jpg" width="480" height="360"/>
     </resources>
