@@ -889,7 +889,9 @@
                         <outlet property="boardImageView" destination="Afs-sO-9rj" id="woG-Yc-akd"/>
                         <outlet property="collectMarkView" destination="n0M-bu-0Bd" id="Cmq-kt-COV"/>
                         <outlet property="mapImageView" destination="ryd-jl-eQI" id="Qad-hg-K89"/>
+                        <outlet property="nextButton" destination="hjD-Eq-Ca8" id="WhM-tI-zYA"/>
                         <outlet property="questionText" destination="Ul5-d9-RAc" id="wIj-nn-ytg"/>
+                        <outlet property="stopButton" destination="rbf-BA-Iw9" id="0fZ-hM-pfI"/>
                         <segue destination="XvZ-Dd-Ie1" kind="show" identifier="toQuizFinishedView" id="ZQO-YB-bpy"/>
                     </connections>
                 </viewController>

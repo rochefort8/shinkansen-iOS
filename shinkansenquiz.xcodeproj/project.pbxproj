@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021C74BD22B60D6200777B89 /* tokaido_map_in_17_tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 021C74BC22B60D6200777B89 /* tokaido_map_in_17_tokyo.jpg */; };
 		0243EF56227B1BFC0075565B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243EF55227B1BFC0075565B /* AppDelegate.swift */; };
 		0243EF5B227B1BFD0075565B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243EF59227B1BFD0075565B /* Main.storyboard */; };
 		0243EF5D227B1BFE0075565B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0243EF5C227B1BFE0075565B /* Assets.xcassets */; };
@@ -199,6 +200,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021C74BC22B60D6200777B89 /* tokaido_map_in_17_tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokaido_map_in_17_tokyo.jpg; sourceTree = "<group>"; };
 		0243EF52227B1BFC0075565B /* shinkansenquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shinkansenquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0243EF55227B1BFC0075565B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0243EF5A227B1BFD0075565B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -702,6 +704,7 @@
 				0269B4EF22A7408300332577 /* tokaido_map_in_14_odawara.jpg */,
 				0269B4EB22A7408200332577 /* tokaido_map_in_15_shin-yokohama.jpg */,
 				0269B4E422A7408200332577 /* tokaido_map_in_16_shinagawa.jpg */,
+				021C74BC22B60D6200777B89 /* tokaido_map_in_17_tokyo.jpg */,
 				0269B4FA22A7408400332577 /* tokaido_map_out_01_tokyo.jpg */,
 				0269B4EA22A7408200332577 /* tokaido_map_out_02_shinagawa.jpg */,
 				0269B4FB22A7408400332577 /* tokaido_map_out_03_shin-yokohama.jpg */,
@@ -948,6 +951,7 @@
 				0269B4D322A7406E00332577 /* tokaido_board_hamamatsu.jpg in Resources */,
 				024ADA7D22884BCC00ED30BA /* sanyo_map_13_shin-iwakuni.jpg in Resources */,
 				024AD8BF2286DEED00ED30BA /* shinkansen.json in Resources */,
+				021C74BD22B60D6200777B89 /* tokaido_map_in_17_tokyo.jpg in Resources */,
 				024ADABC22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg in Resources */,
 				024ADA7422884BCC00ED30BA /* sanyo_map_18_kokura.jpg in Resources */,
 				024ADA852288514F00ED30BA /* sanyo_11_higashi-hiroshima.jpg in Resources */,

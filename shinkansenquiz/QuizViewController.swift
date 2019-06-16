@@ -21,6 +21,8 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet var answer1Button: UIButton!
     @IBOutlet var answer2Button: UIButton!
     @IBOutlet var answer3Button: UIButton!
+    @IBOutlet var nextButton: UIButton!
+    @IBOutlet var stopButton: UIButton!
     
     @IBOutlet var answer1Text_Kanji: UILabel!
     @IBOutlet var answer2Text_Kanji: UILabel!
@@ -79,18 +81,19 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func onNext(_ sender: Any) {
-        self.currentStationIndex += 1
-        self.update()
+        incrementCurrentStationIndexAndUpdate()
     }
     
     @IBAction func onStop(_ sender: Any) {
         moveToFinalView()
     }
 
-    private func enableAnswerButton(isEnabled:Bool) {
+    private func enableButtons(isEnabled:Bool) {
         answer1Button.isEnabled = isEnabled
         answer2Button.isEnabled = isEnabled
         answer3Button.isEnabled = isEnabled
+        nextButton.isEnabled    = isEnabled
+        stopButton.isEnabled    = isEnabled
     }
 
     private func moveToFinalView() {
@@ -121,35 +124,50 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         self.view.addSubview(coverNextStationView)
     }
     
+    private func incrementCurrentStationIndexAndUpdate() {
+        self.currentStationIndex += 1
+        if (self.currentStationIndex < self.numberOfStations - 1) {
+            self.coverNextStationView.isHidden = false
+            self.questionText.text = "次の駅は？"
+            self.enableButtons(isEnabled: true)
+            self.collectMarkView.isHidden = true
+            self.update()
+        } else {
+            self.coverNextStationView.isHidden = true
+            self.questionText.text = "終点到着〜お疲れさま〜"
+            self.enableButtons(isEnabled: true)
+            self.collectMarkView.isHidden = true
+            self.updateBoardAndMapImage()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.moveToFinalView()
+            }
+        }
+    }
+    
     private func validateAnswerAndUpdate(index:Int) {
         if (answers[index] == currentStationIndex + 1) {
             
         /* Correct answer */
             print("Correct")
             collectMarkView.isHidden = false
-            enableAnswerButton(isEnabled: false)
+            enableButtons(isEnabled: false)
             coverNextStationView.isHidden = true
             questionText.text = "正解！"
             startAudio(isCorrect: true)
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                self.coverNextStationView.isHidden = false
-                self.questionText.text = "次の駅は？"
-                self.enableAnswerButton(isEnabled: true)
-                self.collectMarkView.isHidden = true
-                self.currentStationIndex += 1
-                self.update()
+                self.incrementCurrentStationIndexAndUpdate()
             }
         } else {
 
         /* Incorrect answer */
-            enableAnswerButton(isEnabled: false)
+            enableButtons(isEnabled: false)
             mapImageView.shake(duration: 1)
             answer1Button.shake(duration: 1)
             answer2Button.shake(duration: 1)
             answer3Button.shake(duration: 1)
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                self.enableAnswerButton(isEnabled: true)
+                self.enableButtons(isEnabled: true)
                 self.update()
             }
         }
@@ -164,12 +182,36 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    private func updateBoardAndMapImage() {
+        /* Update board/map image view first */
+        let boardString = (name + "_board_" +
+            //            String(format: "%02d",stations.count - currentStationIndex) + "_" +
+            stations[currentStationIndex].name).lowercased()
+        var directionString = "_map_out_"
+        if !isOutbound {
+            directionString = "_map_in_"
+        }
+        let mapString = (name + directionString +
+            String(format: "%02d",currentStationIndex + 1) + "_" +
+            stations[currentStationIndex].name).lowercased()
+        boardImageView.image = UIImage(named: boardString + ".jpg" )
+        //        boardImageView.layer.borderWidth = 1
+        //        boardImageView.layer.borderColor = UIColor.black.cgColor
+        mapImageView.image  = UIImage(named: mapString + ".jpg")
+        mapImageView.layer.borderWidth = 1
+        mapImageView.layer.borderColor = UIColor.black.cgColor
+    }
 
     private func update() {
+        
         if (currentStationIndex >= numberOfStations - 1) {
-            print("Nothig to do..")
+            /* Final distination */
+//            updateBoardAndMapImage()
+//            coverNextStationView.isHidden = true
             return
         }
+        
         let correctStationIndex = currentStationIndex + 1   /* Next station (Correct) */
         var closeToTheNextIndex = 0                         /* Previios station */
         var randomIndex = 0
@@ -206,33 +248,7 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         }
         
         /* Update View */
-        /*
-        let boardString = (name + "_" +
-                    String(format: "%02d",currentStationIndex + 1) + "_" +
-                    stations[currentStationIndex].name).lowercased()
-         */
-        let boardString = (name + "_board_" +
-//            String(format: "%02d",stations.count - currentStationIndex) + "_" +
-            stations[currentStationIndex].name).lowercased()
-
-        /*
-        let mapString = (name + "_map_out_" +
-                    String(format: "%02d",currentStationIndex + 1) + "_" +
-                    stations[currentStationIndex].name).lowercased()
-         */
-        var directionString = "_map_out_"
-        if !isOutbound {
-            directionString = "_map_in_"
-        }
-        let mapString = (name + directionString +
-            String(format: "%02d",currentStationIndex + 1) + "_" +
-            stations[currentStationIndex].name).lowercased()
-        boardImageView.image = UIImage(named: boardString + ".jpg" )
-//        boardImageView.layer.borderWidth = 1
-//        boardImageView.layer.borderColor = UIColor.black.cgColor
-        mapImageView.image  = UIImage(named: mapString + ".jpg")
-        mapImageView.layer.borderWidth = 1
-        mapImageView.layer.borderColor = UIColor.black.cgColor
+        updateBoardAndMapImage()
         
         answer1Text_Kanji.text  = stations[answers[0]].name_kanji
         answer2Text_Kanji.text  = stations[answers[1]].name_kanji
