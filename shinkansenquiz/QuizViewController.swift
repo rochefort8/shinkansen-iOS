@@ -11,7 +11,7 @@ import AVFoundation
 
 class QuizViewController: UIViewController, AVAudioPlayerDelegate {
 
-    var name:String = ""
+    var lineName:String = ""
     var isOutbound:Bool = true
     
     @IBOutlet var collectMarkView: UIImageView!
@@ -36,6 +36,8 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     var numberOfStations:Int = 0
     var stations:[StationInfo] = [StationInfo()]
     var currentStationIndex = 0
+    var numberOfCorrectAnswers = 0
+    var numberOfIncorrects = 0
     
     var answers:[Int] = [0,0,0]
     var correctButtonIndex = 0
@@ -52,7 +54,7 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         tabBarController?.tabBar.isHidden = true
         navigationItem.hidesBackButton = true
         
-        shinkansenLine.create(name:name)
+        shinkansenLine.create(name:lineName)
         numberOfStations = shinkansenLine.getStationCount()
         stations = shinkansenLine.getStations()
         if !isOutbound {
@@ -81,11 +83,28 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func onNext(_ sender: Any) {
+        numberOfIncorrects = 0
         incrementCurrentStationIndexAndUpdate()
     }
     
     @IBAction func onStop(_ sender: Any) {
-        moveToFinalView()
+        
+        let alert: UIAlertController = UIAlertController(
+            title: navigationItem.title, message: "終了しますか？", preferredStyle:  UIAlertController.Style.alert)
+        
+        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
+            (action: UIAlertAction!) -> Void in
+            /* Back to root view */
+            self.navigationController?.popToRootViewController(animated: true)
+        })
+        let cancelAction: UIAlertAction = UIAlertAction(
+            title: "キャンセル", style: UIAlertAction.Style.cancel, handler:{
+            (action: UIAlertAction!) -> Void in
+        })
+        
+        alert.addAction(cancelAction)
+        alert.addAction(defaultAction)
+        present(alert, animated: true, completion: nil)
     }
 
     private func enableButtons(isEnabled:Bool) {
@@ -130,12 +149,12 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
             self.coverNextStationView.isHidden = false
             self.questionText.text = "次の駅は？"
             self.enableButtons(isEnabled: true)
-            self.collectMarkView.isHidden = true
+            self.collectMarkView.isHidden = false
             self.update()
         } else {
             self.coverNextStationView.isHidden = true
             self.questionText.text = "終点到着〜お疲れさま〜"
-            self.enableButtons(isEnabled: true)
+            self.enableButtons(isEnabled: false)
             self.collectMarkView.isHidden = true
             self.updateBoardAndMapImage()
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
@@ -149,6 +168,11 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
             
         /* Correct answer */
             print("Correct")
+            if (numberOfIncorrects == 0) {
+                numberOfCorrectAnswers += 1
+            } else {
+                numberOfIncorrects = 0
+            }
             collectMarkView.isHidden = false
             enableButtons(isEnabled: false)
             coverNextStationView.isHidden = true
@@ -159,7 +183,7 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
                 self.incrementCurrentStationIndexAndUpdate()
             }
         } else {
-
+            numberOfIncorrects += 1
         /* Incorrect answer */
             enableButtons(isEnabled: false)
             mapImageView.shake(duration: 1)
@@ -173,26 +197,29 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        let viewController : QuizFinishedViewController = (segue.destination as? QuizFinishedViewController )!
+        viewController.lineName                 = lineName
+        viewController.numberOfStations         = numberOfStations
+        viewController.numberOfCorrectAnswers   = numberOfCorrectAnswers
+        viewController.lineName_kanji           = shinkansenLine.getLineInfo().name_kanji
     }
-    */
     
     private func updateBoardAndMapImage() {
         /* Update board/map image view first */
-        let boardString = (name + "_board_" +
+        let boardString = (lineName + "_board_" +
             //            String(format: "%02d",stations.count - currentStationIndex) + "_" +
             stations[currentStationIndex].name).lowercased()
         var directionString = "_map_out_"
         if !isOutbound {
             directionString = "_map_in_"
         }
-        let mapString = (name + directionString +
+        let mapString = (lineName + directionString +
             String(format: "%02d",currentStationIndex + 1) + "_" +
             stations[currentStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )
@@ -207,10 +234,9 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         
         if (currentStationIndex >= numberOfStations - 1) {
             /* Final distination */
-//            updateBoardAndMapImage()
-//            coverNextStationView.isHidden = true
             return
         }
+        print("# of corrects=" + String(numberOfCorrectAnswers) + "/" + String(currentStationIndex))
         
         let correctStationIndex = currentStationIndex + 1   /* Next station (Correct) */
         var closeToTheNextIndex = 0                         /* Previios station */

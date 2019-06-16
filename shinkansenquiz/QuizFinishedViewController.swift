@@ -14,14 +14,27 @@ class QuizFinishedViewController: UIViewController {
     @IBOutlet var bannerView: GADBannerView!
     @IBOutlet var doAgainButton: UIButton!
     @IBOutlet var backButton: UIButton!
-    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var shinkansenView: UIImageView!
+    
+    @IBOutlet var message: UILabel!
+    
+    var lineName:String = ""
+    var lineName_kanji = ""
+    var numberOfStations = 0
+    var numberOfCorrectAnswers = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        // Do any additional setup after loading the view.
         let banner = GoogleMobileAds()
         banner.createBannarView(view: bannerView, parent: self)
+        
+        message.text = String(numberOfCorrectAnswers) + "個 (" + String(numberOfStations) + "駅)正解！"
+        navigationItem.hidesBackButton = true
+        navigationItem.title = lineName_kanji + "新幹線"
+        let name = lineName + "_" + String(Int.random(in: 0 ... 2)) + ".jpg"
+        shinkansenView.image = UIImage(named: name)
     }
     
 
