@@ -33,13 +33,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func checkForUpdate() {
         let siren = Siren.shared
         siren.presentationManager = PresentationManager(forceLanguageLocalization: .japanese)
-        siren.wail { (results, error) in
-            if let results = results {
-                print("AlertAction ", results.alertAction)
-                print("Localization ", results.localization)
-                print("LookupModel ", results.lookupModel)
-                print("UpdateType ", results.updateType)
-            } else if let error = error {
+        siren.rulesManager = RulesManager(globalRules: .critical)
+        
+        siren.wail { results in
+            switch results {
+            case .success(let updateResults):
+                print("AlertAction ", updateResults.alertAction)
+                print("Localization ", updateResults.localization)
+                print("Model ", updateResults.model)
+                print("UpdateType ", updateResults.updateType)
+            case .failure(let error):
                 print(error.localizedDescription)
             }
         }
