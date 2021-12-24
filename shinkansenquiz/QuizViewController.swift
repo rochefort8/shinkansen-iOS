@@ -21,8 +21,6 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet var answer1Button: UIButton!
     @IBOutlet var answer2Button: UIButton!
     @IBOutlet var answer3Button: UIButton!
-    @IBOutlet var nextButton: UIButton!
-    @IBOutlet var stopButton: UIButton!
     
     @IBOutlet var answer1Text_Kanji: UILabel!
     @IBOutlet var answer2Text_Kanji: UILabel!
@@ -111,8 +109,6 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
         answer1Button.isEnabled = isEnabled
         answer2Button.isEnabled = isEnabled
         answer3Button.isEnabled = isEnabled
-        nextButton.isEnabled    = isEnabled
-        stopButton.isEnabled    = isEnabled
     }
 
     private func moveToFinalView() {

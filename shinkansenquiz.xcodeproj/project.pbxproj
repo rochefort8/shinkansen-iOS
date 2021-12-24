@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -77,7 +77,6 @@
 		024ADA7D22884BCC00ED30BA /* sanyo_map_13_shin-iwakuni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA5722884BCC00ED30BA /* sanyo_map_13_shin-iwakuni.jpg */; };
 		024ADA7E22884BCC00ED30BA /* sanyo_map_17_shin-shimonoseki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA5822884BCC00ED30BA /* sanyo_map_17_shin-shimonoseki.jpg */; };
 		024ADA8022884CFA00ED30BA /* sanyo_map_11_higashi-hiroshima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA7F22884CFA00ED30BA /* sanyo_map_11_higashi-hiroshima.jpg */; };
-		024ADA822288511100ED30BA /* sanyo_map_20_hakata-minami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA812288511000ED30BA /* sanyo_map_20_hakata-minami.jpg */; };
 		024ADA852288514F00ED30BA /* sanyo_11_higashi-hiroshima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA832288514F00ED30BA /* sanyo_11_higashi-hiroshima.jpg */; };
 		024ADA862288514F00ED30BA /* sanyo_17_shin-shimonoseki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA842288514F00ED30BA /* sanyo_17_shin-shimonoseki.jpg */; };
 		024ADA8A2288599F00ED30BA /* sanyo_map_01_shin-osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADA892288599F00ED30BA /* sanyo_map_01_shin-osaka.jpg */; };
@@ -106,7 +105,6 @@
 		024ADAB922885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADAA122885C0500ED30BA /* kyushu_map_02_shin-tosu.jpg */; };
 		024ADABC22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024ADABB22885CE600ED30BA /* kyushu_map_04_chikugo-funagoya.jpg */; };
 		024ADAC0228A30B500ED30BA /* QuizFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADABF228A30B500ED30BA /* QuizFinishedViewController.swift */; };
-		024ADB5A22912AE500ED30BA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024ADB5922912AE500ED30BA /* TestViewController.swift */; };
 		024E66AF2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E66AE2280DEF90054DBB3 /* HomeCollectionViewFlowLayout.swift */; };
 		024E691B2286793F0054DBB3 /* tokaido.json in Resources */ = {isa = PBXBuildFile; fileRef = 024E684E2286793E0054DBB3 /* tokaido.json */; };
 		024E69422286793F0054DBB3 /* tokaido_tokyo_bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024E68772286793F0054DBB3 /* tokaido_tokyo_bell.mp3 */; };
@@ -175,9 +173,7 @@
 		02B6EDC4227C0ED10048F900 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6EDC3227C0ED10048F900 /* SettingsViewController.swift */; };
 		1EE7E57D081FA4808403B3DF /* Pods_shinkansenquiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9A9B70F2C60EABD2CF3426 /* Pods_shinkansenquiz.framework */; };
 		25DF2822550F39F3A47D2B25 /* Pods_shinkansenquizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3431EACB9B117E21076949C6 /* Pods_shinkansenquizTests.framework */; };
-		3ECB0826262E65CD3C4AA2CA /* Pods_asaborakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5383429EFBB6E82CEB762E1C /* Pods_asaborakeUITests.framework */; };
 		867C44E7470D41B106B8C5BC /* Pods_shinkansenquizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5086840A007081AF02459BD /* Pods_shinkansenquizUITests.framework */; };
-		CE56DAEBE431750A69C956CB /* Pods_asaborakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB2ABB9AF98A84510F7FC88 /* Pods_asaborakeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,7 +270,6 @@
 		024ADA5722884BCC00ED30BA /* sanyo_map_13_shin-iwakuni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_map_13_shin-iwakuni.jpg"; sourceTree = "<group>"; };
 		024ADA5822884BCC00ED30BA /* sanyo_map_17_shin-shimonoseki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_map_17_shin-shimonoseki.jpg"; sourceTree = "<group>"; };
 		024ADA7F22884CFA00ED30BA /* sanyo_map_11_higashi-hiroshima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_map_11_higashi-hiroshima.jpg"; sourceTree = "<group>"; };
-		024ADA812288511000ED30BA /* sanyo_map_20_hakata-minami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_map_20_hakata-minami.jpg"; sourceTree = "<group>"; };
 		024ADA832288514F00ED30BA /* sanyo_11_higashi-hiroshima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_11_higashi-hiroshima.jpg"; sourceTree = "<group>"; };
 		024ADA842288514F00ED30BA /* sanyo_17_shin-shimonoseki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_17_shin-shimonoseki.jpg"; sourceTree = "<group>"; };
 		024ADA892288599F00ED30BA /* sanyo_map_01_shin-osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanyo_map_01_shin-osaka.jpg"; sourceTree = "<group>"; };
@@ -373,23 +368,15 @@
 		02AE75D5227F3A9F00D1E530 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B6EDC3227C0ED10048F900 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0C41B1EEDBF45770D8D1883B /* Pods-shinkansenquiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shinkansenquiz.release.xcconfig"; path = "Target Support Files/Pods-shinkansenquiz/Pods-shinkansenquiz.release.xcconfig"; sourceTree = "<group>"; };
-		1AB2ABB9AF98A84510F7FC88 /* Pods_asaborakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asaborakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		312840D515A7D669DD76C0E6 /* Pods-asaborakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asaborakeTests.debug.xcconfig"; path = "Target Support Files/Pods-asaborakeTests/Pods-asaborakeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3431EACB9B117E21076949C6 /* Pods_shinkansenquizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shinkansenquizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39A57D233D5C581AA654E365 /* Pods-asaborake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asaborake.debug.xcconfig"; path = "Target Support Files/Pods-asaborake/Pods-asaborake.debug.xcconfig"; sourceTree = "<group>"; };
-		46C78E40B041B48C6746D99B /* Pods-asaborakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asaborakeUITests.release.xcconfig"; path = "Target Support Files/Pods-asaborakeUITests/Pods-asaborakeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		47D917662F18805FD1D2768A /* Pods-shinkansenquizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shinkansenquizUITests.debug.xcconfig"; path = "Target Support Files/Pods-shinkansenquizUITests/Pods-shinkansenquizUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5383429EFBB6E82CEB762E1C /* Pods_asaborakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asaborakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9A9B70F2C60EABD2CF3426 /* Pods_shinkansenquiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shinkansenquiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		812EB4EF693AE6ADA882BA42 /* Pods-asaborakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asaborakeTests.release.xcconfig"; path = "Target Support Files/Pods-asaborakeTests/Pods-asaborakeTests.release.xcconfig"; sourceTree = "<group>"; };
 		828D3F17AAB9685B19D370DF /* Pods-shinkansenquizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shinkansenquizUITests.release.xcconfig"; path = "Target Support Files/Pods-shinkansenquizUITests/Pods-shinkansenquizUITests.release.xcconfig"; sourceTree = "<group>"; };
 		98BCBD3A997B5DF155B5F26A /* Pods-shinkansenquizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shinkansenquizTests.release.xcconfig"; path = "Target Support Files/Pods-shinkansenquizTests/Pods-shinkansenquizTests.release.xcconfig"; sourceTree = "<group>"; };
 		A563E626EB8F5D1577A884B2 /* Pods-shinkansenquiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shinkansenquiz.debug.xcconfig"; path = "Target Support Files/Pods-shinkansenquiz/Pods-shinkansenquiz.debug.xcconfig"; sourceTree = "<group>"; };
 		B5086840A007081AF02459BD /* Pods_shinkansenquizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shinkansenquizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C53DB21946C3F4A15F07F8 /* Pods-shinkansenquizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shinkansenquizTests.debug.xcconfig"; path = "Target Support Files/Pods-shinkansenquizTests/Pods-shinkansenquizTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6DD8F0BA965F0F216443A54 /* Pods-asaborake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asaborake.release.xcconfig"; path = "Target Support Files/Pods-asaborake/Pods-asaborake.release.xcconfig"; sourceTree = "<group>"; };
 		DA96297990AC54949F2FB996 /* Pods_asaborake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asaborake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3BE7C30E9ACAAF56BC58038 /* Pods-asaborakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asaborakeUITests.debug.xcconfig"; path = "Target Support Files/Pods-asaborakeUITests/Pods-asaborakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,7 +392,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE56DAEBE431750A69C956CB /* Pods_asaborakeTests.framework in Frameworks */,
 				25DF2822550F39F3A47D2B25 /* Pods_shinkansenquizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +400,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECB0826262E65CD3C4AA2CA /* Pods_asaborakeUITests.framework in Frameworks */,
 				867C44E7470D41B106B8C5BC /* Pods_shinkansenquizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,7 +543,6 @@
 				024ADA5822884BCC00ED30BA /* sanyo_map_17_shin-shimonoseki.jpg */,
 				024ADA4E22884BCB00ED30BA /* sanyo_map_18_kokura.jpg */,
 				024ADA3D22884BCA00ED30BA /* sanyo_map_19_hakata.jpg */,
-				024ADA812288511000ED30BA /* sanyo_map_20_hakata-minami.jpg */,
 			);
 			path = jpg;
 			sourceTree = "<group>";
@@ -750,8 +734,6 @@
 			isa = PBXGroup;
 			children = (
 				DA96297990AC54949F2FB996 /* Pods_asaborake.framework */,
-				1AB2ABB9AF98A84510F7FC88 /* Pods_asaborakeTests.framework */,
-				5383429EFBB6E82CEB762E1C /* Pods_asaborakeUITests.framework */,
 				5D9A9B70F2C60EABD2CF3426 /* Pods_shinkansenquiz.framework */,
 				3431EACB9B117E21076949C6 /* Pods_shinkansenquizTests.framework */,
 				B5086840A007081AF02459BD /* Pods_shinkansenquizUITests.framework */,
@@ -762,12 +744,6 @@
 		4A095EF1A38D8F863810E0F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				39A57D233D5C581AA654E365 /* Pods-asaborake.debug.xcconfig */,
-				C6DD8F0BA965F0F216443A54 /* Pods-asaborake.release.xcconfig */,
-				312840D515A7D669DD76C0E6 /* Pods-asaborakeTests.debug.xcconfig */,
-				812EB4EF693AE6ADA882BA42 /* Pods-asaborakeTests.release.xcconfig */,
-				E3BE7C30E9ACAAF56BC58038 /* Pods-asaborakeUITests.debug.xcconfig */,
-				46C78E40B041B48C6746D99B /* Pods-asaborakeUITests.release.xcconfig */,
 				A563E626EB8F5D1577A884B2 /* Pods-shinkansenquiz.debug.xcconfig */,
 				0C41B1EEDBF45770D8D1883B /* Pods-shinkansenquiz.release.xcconfig */,
 				C5C53DB21946C3F4A15F07F8 /* Pods-shinkansenquizTests.debug.xcconfig */,
@@ -851,6 +827,7 @@
 				TargetAttributes = {
 					0243EF51227B1BFC0075565B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1320;
 					};
 					0243EF65227B1BFE0075565B = {
 						CreatedOnToolsVersion = 10.1;
@@ -871,6 +848,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 0243EF49227B1BFC0075565B;
 			productRefGroup = 0243EF53227B1BFC0075565B /* Products */;
@@ -894,7 +872,6 @@
 				024E691B2286793F0054DBB3 /* tokaido.json in Resources */,
 				024ADA7922884BCC00ED30BA /* sanyo_05_aioi.jpg in Resources */,
 				024ADA6322884BCC00ED30BA /* sanyo_map_19_hakata.jpg in Resources */,
-				024ADA822288511100ED30BA /* sanyo_map_20_hakata-minami.jpg in Resources */,
 				024ADAB422885C0500ED30BA /* kyushu_02_shin-tosu.jpg in Resources */,
 				0269B52222A7408400332577 /* tokaido_map_base_02.jpg in Resources */,
 				024ADA5E22884BCC00ED30BA /* sanyo_map_02_shin-kobe.jpg in Resources */,
@@ -1082,24 +1059,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-shinkansenquiz/Pods-shinkansenquiz-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CircleProgressView/CircleProgressView.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-shinkansenquiz/Pods-shinkansenquiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-shinkansenquiz/Pods-shinkansenquiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1180,7 +1144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02AE75BC227C351C00D1E530 /* SettingsRepeatsViewController.swift in Sources */,
-				024ADB5A22912AE500ED30BA /* TestViewController.swift in Sources */,
 				0243EF8C227B3BEB0075565B /* GoogleMobileAds.swift in Sources */,
 				0243EF56227B1BFC0075565B /* AppDelegate.swift in Sources */,
 				024AD99D2287B0B200ED30BA /* QuizSetupViewController.swift in Sources */,
@@ -1389,7 +1352,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rochefort10.shinkansenquiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1408,7 +1371,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rochefort10.shinkansenquiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

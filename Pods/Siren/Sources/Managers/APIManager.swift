@@ -19,25 +19,16 @@ public struct APIManager {
     }
 
     /// Return results or errors obtained from performing a version check with Siren.
-    typealias CompletionHandler = (LookupModel?, KnownError?) -> Void
+    typealias CompletionHandler = (Result<APIModel, KnownError>) -> Void
 
     /// The region or country of an App Store in which the app is available.
-    /// By default, all version check requests are performed against the US App Store.
-    /// If the app is not available in the US App Store, set it to the identifier of at least one App Store region within which it is available.
-    ///
-    /// [List of country codes](https://help.apple.com/app-store-connect/#/dev997f9cf7c)
-    ///
-    let countryCode: String?
+    let country: AppStoreCountry
 
     /// Initializes `APIManager` to the region or country of an App Store in which the app is available.
     /// By default, all version check requests are performed against the US App Store.
-    /// If the app is not available in the US App Store, set it to the identifier of at least one App Store region within which it is available.
-    ///
-    /// [List of country codes](https://help.apple.com/app-store-connect/#/dev997f9cf7c)
-    ///
-    /// - Parameter countryCode: The country code for the App Store in which the app is availabe. Defaults to nil (e.g., the US App Store)
-    public init(countryCode: String? = nil) {
-        self.countryCode = countryCode
+    /// - Parameter country: The country for the App Store in which the app is available.
+    public init(country: AppStoreCountry = .unitedStates) {
+      self.country = country
     }
 
     /// The default `APIManager`.
@@ -47,12 +38,20 @@ public struct APIManager {
 }
 
 extension APIManager {
+    /// Convenience initializer that initializes `APIManager` to the region or country of an App Store in which the app is available.
+    /// If nil, version check requests are performed against the US App Store.
+    ///
+    /// - Parameter countryCode: The raw country code for the App Store in which the app is available.
+    public init(countryCode: String?) {
+      self.init(country: .init(code: countryCode))
+    }
+
     /// Creates and performs a URLRequest against the iTunes Lookup API.
     ///
     /// - Parameter handler: The completion handler for the iTunes Lookup API request.
     func performVersionCheckRequest(completion handler: CompletionHandler?) {
         guard Bundle.main.bundleIdentifier != nil else {
-            handler?(nil, .missingBundleID)
+            handler?(.failure(.missingBundleID))
             return
         }
 
@@ -64,7 +63,7 @@ extension APIManager {
                 self.processVersionCheckResults(withData: data, response: response, error: error, completion: handler)
             }.resume()
         } catch {
-            handler?(nil, .malformedURL)
+            handler?(.failure(.malformedURL))
         }
     }
 
@@ -80,25 +79,25 @@ extension APIManager {
                                             error: Error?,
                                             completion handler: CompletionHandler?) {
         if let error = error {
-            handler?(nil, .appStoreDataRetrievalFailure(underlyingError: error))
+            handler?(.failure(.appStoreDataRetrievalFailure(underlyingError: error)))
         } else {
             guard let data = data else {
-                handler?(nil, .appStoreDataRetrievalFailure(underlyingError: nil))
+                handler?(.failure(.appStoreDataRetrievalFailure(underlyingError: nil)))
                 return
             }
             do {
-                let lookupModel = try JSONDecoder().decode(LookupModel.self, from: data)
+                let apiModel = try JSONDecoder().decode(APIModel.self, from: data)
 
-                guard !lookupModel.results.isEmpty else {
-                    handler?(nil, .appStoreDataRetrievalEmptyResults)
+                guard !apiModel.results.isEmpty else {
+                    handler?(.failure(.appStoreDataRetrievalEmptyResults))
                     return
                 }
 
                 DispatchQueue.main.async {
-                    handler?(lookupModel, nil)
+                    handler?(.success(apiModel))
                 }
             } catch {
-                handler?(nil, .appStoreJSONParsingFailure(underlyingError: error))
+                handler?(.failure(.appStoreJSONParsingFailure(underlyingError: error)))
             }
         }
     }
@@ -115,7 +114,7 @@ extension APIManager {
 
         var items: [URLQueryItem] = [URLQueryItem(name: Constants.bundleID, value: Bundle.main.bundleIdentifier)]
 
-        if let countryCode = countryCode {
+        if let countryCode = country.code {
             let item = URLQueryItem(name: Constants.country, value: countryCode)
             items.append(item)
         }

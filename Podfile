@@ -6,10 +6,10 @@ target 'shinkansenquiz' do
   use_frameworks!
 
   # Pods for shinkansenquiz
-  pod 'SwiftyJSON',:git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+  pod 'SwiftyJSON'
   pod 'Google-Mobile-Ads-SDK'
-  pod 'CircleProgressView', '~> 1.0'
-  pod 'Siren', :git => 'https://github.com/ArtSabintsev/Siren.git', :branch => 'swift4.2'
+  pod 'CircleProgressView'
+  pod 'Siren'
 
   target 'shinkansenquizTests' do
     inherit! :search_paths
