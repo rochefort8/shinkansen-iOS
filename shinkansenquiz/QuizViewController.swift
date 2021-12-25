@@ -145,7 +145,7 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
             self.coverNextStationView.isHidden = false
             self.questionText.text = "次の駅は？"
             self.enableButtons(isEnabled: true)
-            self.collectMarkView.isHidden = false
+            self.collectMarkView.isHidden = true
             self.update()
         } else {
             self.coverNextStationView.isHidden = true
@@ -209,7 +209,7 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     private func updateBoardAndMapImage() {
         /* Update board/map image view first */
         let boardString = (lineName + "_board_" +
-            //            String(format: "%02d",stations.count - currentStationIndex) + "_" +
+            String(format: "%02d",currentStationIndex + 1) + "_" +
             stations[currentStationIndex].name).lowercased()
         var directionString = "_map_out_"
         if !isOutbound {
