@@ -1,7 +1,16 @@
 {
     "name"      :"sanyo",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"山陽",
+    "name_kana" :"さんよう",
+    "coverview"       : {
+        "name"    : "sanyo_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
     "station":[
         {
             "id"        :"1",
