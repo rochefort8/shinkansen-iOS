@@ -126,11 +126,5 @@
             "name_kanji":"博多",
             "name_kana" :"はかた"
         },
-        {
-            "id"        :"20",
-            "name"      :"Hakata-Minami",
-            "name_kanji":"博多南",
-            "name_kana" :"はかたみなみ"
-        },
     ]
 }
