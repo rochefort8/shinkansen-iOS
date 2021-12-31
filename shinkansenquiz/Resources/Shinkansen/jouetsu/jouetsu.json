@@ -1,7 +1,16 @@
 {
     "name"      :"jouetsu",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"上越",
+    "name_kana" :"じょうえつ",
+    "coverview"       : {
+        "name"    : "tohoku_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
     "station":[
         {
             "id"        :"1",

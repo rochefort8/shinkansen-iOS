@@ -86,7 +86,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     }
     
     private func realIndex(index : Int)->Int {
-        /* At this moment, 0-2 is availabe */
-        return (index % 3)
+        /* At this moment, 0-3 is availabe */
+        return (index % 5)
     }
 }
