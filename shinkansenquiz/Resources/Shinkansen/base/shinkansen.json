@@ -66,14 +66,32 @@
                     "name_kana" :"とうきょう"
                 },
                 {
-                    "name"      :"Shin_Hakodate_Hokuto",
-                    "name_kanji":"新函館北斗",
-                    "name_kana" :"しんはこだてほくと"
+                    "name"      :"Shin_Aomori",
+                    "name_kanji":"新青森",
+                    "name_kana" :"しんあおもり"
                 }            
             ]
         },
         {
             "id"        :"5",
+            "name"      :"jouetsu",
+            "name_kanji":"上越",
+            "name_kana" :"じょうえつ",
+            "section":[
+                {
+                    "name"      :"Tokyo上野 うえの Ueno",
+                    "name_kanji":"東京",
+                    "name_kana" :"とうきょう"
+                },
+                {
+                    "name"      :"Niigata",
+                    "name_kanji":"新潟",
+                    "name_kana" :"にいがた"
+                }
+            ]
+        },
+        {
+            "id"        :"6",
             "name"      :"Akita",
             "name_kanji":"秋田",
             "name_kana" :"あきた",
@@ -91,7 +109,7 @@
             ]
         },
         {
-            "id"        :"6",
+            "id"        :"7",
             "name"      :"Yamagata",
             "name_kanji":"山形",
             "name_kana" :"やまがた",
@@ -106,24 +124,6 @@
                     "name_kanji":"新庄",
                     "name_kana" :"しんじょう"
                 }
-            ]
-        },
-        {
-            "id"        :"7",
-            "name"      :"jouetsu",
-            "name_kanji":"上越",
-            "name_kana" :"じょうえつ",
-            "section":[
-                {
-                    "name"      :"Tokyo上野 うえの Ueno",
-                    "name_kanji":"東京",
-                    "name_kana" :"とうきょう"
-                },
-                {
-                    "name"      :"Niigata",
-                    "name_kanji":"新潟",
-                    "name_kana" :"にいがた"
-                }            
             ]
         },
         {
