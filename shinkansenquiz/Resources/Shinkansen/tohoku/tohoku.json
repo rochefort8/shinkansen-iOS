@@ -1,7 +1,16 @@
 {
     "name"      :"tohoku",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"東北",
+    "name_kana" :"東北",
+    "coverview"       : {
+        "name"    : "tohoku_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
     "station":[
         {
             "id"        :"1",
@@ -140,24 +149,6 @@
             "name"      :"Shin-Aomori",
             "name_kanji":"新青森",
             "name_kana" :"しんあおもり"
-        },
-        {
-            "id"        :"24",
-            "name"      :"Oku-Tsugaru-Imabetsu",
-            "name_kanji":"奥津軽いまべつ",
-            "name_kana" :"おくつがるいまべつ"
-        },
-        {
-            "id"        :"25",
-            "name"      :"Kikonai",
-            "name_kanji":"木古内",
-            "name_kana" :"きこない"
-        },
-        {
-            "id"        :"26",
-            "name"      :"Shin-Hakodate-Hokuto",
-            "name_kanji":"新函館北斗",
-            "name_kana" :"しんはこだてほくと"
-        },
+        }
     ]
 }
