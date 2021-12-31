@@ -208,14 +208,14 @@ class QuizViewController: UIViewController, AVAudioPlayerDelegate {
     
     private func updateBoardAndMapImage() {
         /* Update board/map image view first */
-        let boardString = (lineName + "_board_" +
+        var directionString = "_out_"
+        if !isOutbound {
+            directionString = "_in_"
+        }
+        let boardString = (lineName + "_board" +  directionString +
             String(format: "%02d",currentStationIndex + 1) + "_" +
             stations[currentStationIndex].name).lowercased()
-        var directionString = "_map_out_"
-        if !isOutbound {
-            directionString = "_map_in_"
-        }
-        let mapString = (lineName + directionString +
+        let mapString = (lineName + "_map" + directionString +
             String(format: "%02d",currentStationIndex + 1) + "_" +
             stations[currentStationIndex].name).lowercased()
         boardImageView.image = UIImage(named: boardString + ".jpg" )
