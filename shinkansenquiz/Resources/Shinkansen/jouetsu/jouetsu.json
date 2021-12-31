@@ -5,15 +5,15 @@
     "station":[
         {
             "id"        :"1",
-            "name"      :"Tokyo上野 うえの Ueno",
+            "name"      :"Tokyo",
             "name_kanji":"東京",
             "name_kana" :"とうきょう"
         },
         {
             "id"        :"2",
-            "name"      :"Ōmiya",
-            "name_kanji":"大宮",
-            "name_kana" :"おおみや"
+            "name"      :"Ueno",
+            "name_kanji":"上野",
+            "name_kana" :"うえの"
         },
         {
             "id"        :"3",
@@ -53,33 +53,27 @@
         },
         {
             "id"        :"9",
-            "name"      :"Gala",
-            "name_kanji":"ガーラ湯沢",
-            "name_kana" :"がーらゆざわ"
-        },
-        {
-            "id"        :"10",
             "name"      :"Urasa",
             "name_kanji":"浦佐",
             "name_kana" :"うらさ"
         },
         {
-            "id"        :"11",
+            "id"        :"10",
             "name"      :"Nagaoka",
             "name_kanji":"長岡",
             "name_kana" :"ながおか"
         },
         {
-            "id"        :"12",
+            "id"        :"11",
             "name"      :"Tsubame-Sanjō",
             "name_kanji":"燕三条",
             "name_kana" :"つばめさんじょう"
         },
         {
-            "id"        :"13",
+            "id"        :"12",
             "name"      :"Niigata",
             "name_kanji":"新潟",
             "name_kana" :"にいがた"
-        },
+        }
     ]
 }
