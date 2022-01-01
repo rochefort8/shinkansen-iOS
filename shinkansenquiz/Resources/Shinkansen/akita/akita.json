@@ -1,34 +1,50 @@
 {
     "name"      :"akita",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"秋田",
+    "name_kana" :"あきた",
+    "coverview"       : {
+        "name"    : "tohoku_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
     "station":[
         {
             "id"        :"1",
-            "name"      :"Morioka雫石 しずくいし Shizukuishi",
+            "name"      :"Morioka",
             "name_kanji":"盛岡",
             "name_kana" :"もりおか"
         },
         {
             "id"        :"2",
+            "name"      :"Shizukuishi",
+            "name_kanji":"雫石",
+            "name_kana" :"しずくいし"
+        },
+
+        {
+            "id"        :"3",
             "name"      :"Tazawako",
             "name_kanji":"田沢湖",
             "name_kana" :"たざわこ"
         },
         {
-            "id"        :"3",
+            "id"        :"4",
             "name"      :"Kakunodate",
             "name_kanji":"角館",
             "name_kana" :"かくのだて"
         },
         {
-            "id"        :"4",
+            "id"        :"5",
             "name"      :"Ōmagari",
             "name_kanji":"大曲",
             "name_kana" :"おおまがり"
         },
         {
-            "id"        :"5",
+            "id"        :"6",
             "name"      :"Akita",
             "name_kanji":"秋田",
             "name_kana" :"あきた"
