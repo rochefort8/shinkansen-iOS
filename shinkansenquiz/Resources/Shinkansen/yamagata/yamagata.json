@@ -5,33 +5,69 @@
     "station":[
         {
             "id"        :"1",
-            "name"      :"Yamagata天童 てんどう Tendō",
+            "name"      :"Fukushima",
+            "name_kanji":"福島",
+            "name_kana" :"ふくしま"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Yonezawa",
+            "name_kanji":"米沢",
+            "name_kana" :"よねざわ"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Takahata",
+            "name_kanji":"高畑",
+            "name_kana" :"たかはた"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Akayu",
+            "name_kanji":"赤湯",
+            "name_kana" :"あかゆ"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Kaminoyama-onsen",
+            "name_kanji":"かみのやま温泉",
+            "name_kana" :"かみのやまおんせん"
+        },
+        {
+            "id"        :"6",
+            "name"      :"Yamagata",
             "name_kanji":"山形",
             "name_kana" :"やまがた"
         },
         {
-            "id"        :"2",
+            "id"        :"7",
+            "name"      :"Tendō",
+            "name_kanji":"天道",
+            "name_kana" :"てんどう"
+        },
+        {
+            "id"        :"8",
             "name"      :"Sakurambo-Higashine",
             "name_kanji":"さくらんぼ東根",
             "name_kana" :"さくらんぼひがしね"
         },
         {
-            "id"        :"3",
+            "id"        :"9",
             "name"      :"Murayama",
             "name_kanji":"村山",
             "name_kana" :"むらやま"
         },
         {
-            "id"        :"4",
+            "id"        :"10",
             "name"      :"Ōishida",
             "name_kanji":"大石田",
             "name_kana" :"おおいしだ"
         },
         {
-            "id"        :"5",
+            "id"        :"11",
             "name"      :"Shinjō",
             "name_kanji":"新庄",
             "name_kana" :"しんじょう"
-        },
+        }
     ]
 }
