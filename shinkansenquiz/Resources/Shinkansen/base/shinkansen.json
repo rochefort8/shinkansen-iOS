@@ -110,12 +110,12 @@
         },
         {
             "id"        :"7",
-            "name"      :"Yamagata",
+            "name"      :"yamagata",
             "name_kanji":"山形",
             "name_kana" :"やまがた",
             "section":[
                 {
-                    "name"      :"Yamagata天童 てんどう Tendō",
+                    "name"      :"Yamagata",
                     "name_kanji":"山形",
                     "name_kana" :"やまがた"
                 },
@@ -128,6 +128,24 @@
         },
         {
             "id"        :"8",
+            "name"      :"hokkaido",
+            "name_kanji":"北海道",
+            "name_kana" :"ほっかいどう",
+            "section":[
+                {
+                    "name"      :"Shin-Aomori",
+                    "name_kanji":"新青森",
+                    "name_kana" :"しんあおもり"
+                },
+                {
+                    "name"      :"Shin-Hakodate-Hokuto",
+                    "name_kanji":"新函館北斗",
+                    "name_kana" :"しんはこだてほくと"
+                }
+            ]
+        },
+        {
+            "id"        :"9",
             "name"      :"nagano",
             "name_kanji":"長野",
             "name_kana" :"ながの",

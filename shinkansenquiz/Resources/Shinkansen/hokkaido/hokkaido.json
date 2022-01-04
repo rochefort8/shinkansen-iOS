@@ -1,0 +1,40 @@
+{
+    "name"      :"hokkaido",
+    "name_kanji":"北海道",
+    "name_kana" :"ほっかいどう",
+    "coverview"       : {
+        "name"    : "hokkaido_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
+    "station":[
+        {
+            "id"        :"1",
+            "name"      :"Shin-Aomori",
+            "name_kanji":"新青森",
+            "name_kana" :"しんあおもり"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Okutsugaru-Imabetsu",
+            "name_kanji":"奥津軽いまべつ",
+            "name_kana" :"おくつがるいまべつ"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Kikonai",
+            "name_kanji":"木古内",
+            "name_kana" :"きこない"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Shin-Hakodate-Hokuto",
+            "name_kanji":"新函館北斗",
+            "name_kana" :"しんはこだてほくと"
+        }
+    ]
+}

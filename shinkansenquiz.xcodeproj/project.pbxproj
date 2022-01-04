@@ -486,6 +486,29 @@
 		D5C08B9D27815A51002FCD4F /* yamagata_board_out_05_kaminoyama-onsen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08B8727815A51002FCD4F /* yamagata_board_out_05_kaminoyama-onsen.jpg */; };
 		D5C08B9E27815A51002FCD4F /* yamagata_board_out_03_takahata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08B8827815A51002FCD4F /* yamagata_board_out_03_takahata.jpg */; };
 		D5C08B9F27815A51002FCD4F /* yamagata_board_in_11_fukushima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08B8927815A51002FCD4F /* yamagata_board_in_11_fukushima.jpg */; };
+		D5C08BA527844D05002FCD4F /* hokkaido.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BA127844D04002FCD4F /* hokkaido.json */; };
+		D5C08BA627844D05002FCD4F /* hokkaido_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BA227844D04002FCD4F /* hokkaido_2.jpg */; };
+		D5C08BA727844D05002FCD4F /* hokkaido_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BA327844D04002FCD4F /* hokkaido_1.jpg */; };
+		D5C08BA827844D05002FCD4F /* hokkaido_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BA427844D04002FCD4F /* hokkaido_0.jpg */; };
+		D5C08BB327844D28002FCD4F /* hokkaido_board_in_01_shin-hakodate-hokuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BAB27844D27002FCD4F /* hokkaido_board_in_01_shin-hakodate-hokuto.jpg */; };
+		D5C08BB427844D28002FCD4F /* hokkaido_board_in_03_okutsugaru-imabetsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BAC27844D27002FCD4F /* hokkaido_board_in_03_okutsugaru-imabetsu.jpg */; };
+		D5C08BB527844D28002FCD4F /* hokkaido_board_out_01_shin-aomori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BAD27844D27002FCD4F /* hokkaido_board_out_01_shin-aomori.jpg */; };
+		D5C08BB627844D28002FCD4F /* hokkaido_board_out_03_kikonai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BAE27844D27002FCD4F /* hokkaido_board_out_03_kikonai.jpg */; };
+		D5C08BB727844D28002FCD4F /* hokkaido_board_out_04_shin-hakodate-hokuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BAF27844D28002FCD4F /* hokkaido_board_out_04_shin-hakodate-hokuto.jpg */; };
+		D5C08BB827844D28002FCD4F /* hokkaido_board_out_02_okutsugaru-imabetsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BB027844D28002FCD4F /* hokkaido_board_out_02_okutsugaru-imabetsu.jpg */; };
+		D5C08BB927844D28002FCD4F /* hokkaido_board_in_04_shin-aomori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BB127844D28002FCD4F /* hokkaido_board_in_04_shin-aomori.jpg */; };
+		D5C08BBA27844D28002FCD4F /* hokkaido_board_in_02_kikonai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BB227844D28002FCD4F /* hokkaido_board_in_02_kikonai.jpg */; };
+		D5C08BC427844D3C002FCD4F /* hokkaido_map_in_01_sin-hakodate-hokuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BBB27844D3C002FCD4F /* hokkaido_map_in_01_sin-hakodate-hokuto.jpg */; };
+		D5C08BC527844D3C002FCD4F /* hokkaido_map_base.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BBC27844D3C002FCD4F /* hokkaido_map_base.jpg */; };
+		D5C08BC627844D3C002FCD4F /* hokkaido_map_out_03_kikonai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BBD27844D3C002FCD4F /* hokkaido_map_out_03_kikonai.jpg */; };
+		D5C08BC727844D3C002FCD4F /* hokkaido_map_out_04_sin-hakodate-hokuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BBE27844D3C002FCD4F /* hokkaido_map_out_04_sin-hakodate-hokuto.jpg */; };
+		D5C08BC827844D3C002FCD4F /* hokkaido_map_in_02_kikonai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BBF27844D3C002FCD4F /* hokkaido_map_in_02_kikonai.jpg */; };
+		D5C08BC927844D3C002FCD4F /* hokkaido_map_out_01_shin-aomori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BC027844D3C002FCD4F /* hokkaido_map_out_01_shin-aomori.jpg */; };
+		D5C08BCA27844D3C002FCD4F /* hokkaido_map_in_04-shin-aomori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BC127844D3C002FCD4F /* hokkaido_map_in_04-shin-aomori.jpg */; };
+		D5C08BCB27844D3C002FCD4F /* hokkaido_map_in_03_okutsugaru-imabetu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BC227844D3C002FCD4F /* hokkaido_map_in_03_okutsugaru-imabetu.jpg */; };
+		D5C08BCC27844D3C002FCD4F /* hokkaido_map_out_02_okutsugaru-imabetu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BC327844D3C002FCD4F /* hokkaido_map_out_02_okutsugaru-imabetu.jpg */; };
+		D5C08BCE27844E8E002FCD4F /* hokkaido_board_next.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BCD27844E8E002FCD4F /* hokkaido_board_next.jpg */; };
+		D5C08BD027844E9D002FCD4F /* yamagata_board_next.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5C08BCF27844E9D002FCD4F /* yamagata_board_next.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1000,6 +1023,29 @@
 		D5C08B8727815A51002FCD4F /* yamagata_board_out_05_kaminoyama-onsen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "yamagata_board_out_05_kaminoyama-onsen.jpg"; path = "yamagata/boards/yamagata_board_out_05_kaminoyama-onsen.jpg"; sourceTree = "<group>"; };
 		D5C08B8827815A51002FCD4F /* yamagata_board_out_03_takahata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yamagata_board_out_03_takahata.jpg; path = yamagata/boards/yamagata_board_out_03_takahata.jpg; sourceTree = "<group>"; };
 		D5C08B8927815A51002FCD4F /* yamagata_board_in_11_fukushima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yamagata_board_in_11_fukushima.jpg; path = yamagata/boards/yamagata_board_in_11_fukushima.jpg; sourceTree = "<group>"; };
+		D5C08BA127844D04002FCD4F /* hokkaido.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hokkaido.json; path = hokkaido/hokkaido.json; sourceTree = "<group>"; };
+		D5C08BA227844D04002FCD4F /* hokkaido_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_2.jpg; path = hokkaido/hokkaido_2.jpg; sourceTree = "<group>"; };
+		D5C08BA327844D04002FCD4F /* hokkaido_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_1.jpg; path = hokkaido/hokkaido_1.jpg; sourceTree = "<group>"; };
+		D5C08BA427844D04002FCD4F /* hokkaido_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_0.jpg; path = hokkaido/hokkaido_0.jpg; sourceTree = "<group>"; };
+		D5C08BAB27844D27002FCD4F /* hokkaido_board_in_01_shin-hakodate-hokuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_board_in_01_shin-hakodate-hokuto.jpg"; path = "hokkaido/boards/hokkaido_board_in_01_shin-hakodate-hokuto.jpg"; sourceTree = "<group>"; };
+		D5C08BAC27844D27002FCD4F /* hokkaido_board_in_03_okutsugaru-imabetsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_board_in_03_okutsugaru-imabetsu.jpg"; path = "hokkaido/boards/hokkaido_board_in_03_okutsugaru-imabetsu.jpg"; sourceTree = "<group>"; };
+		D5C08BAD27844D27002FCD4F /* hokkaido_board_out_01_shin-aomori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_board_out_01_shin-aomori.jpg"; path = "hokkaido/boards/hokkaido_board_out_01_shin-aomori.jpg"; sourceTree = "<group>"; };
+		D5C08BAE27844D27002FCD4F /* hokkaido_board_out_03_kikonai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_board_out_03_kikonai.jpg; path = hokkaido/boards/hokkaido_board_out_03_kikonai.jpg; sourceTree = "<group>"; };
+		D5C08BAF27844D28002FCD4F /* hokkaido_board_out_04_shin-hakodate-hokuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_board_out_04_shin-hakodate-hokuto.jpg"; path = "hokkaido/boards/hokkaido_board_out_04_shin-hakodate-hokuto.jpg"; sourceTree = "<group>"; };
+		D5C08BB027844D28002FCD4F /* hokkaido_board_out_02_okutsugaru-imabetsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_board_out_02_okutsugaru-imabetsu.jpg"; path = "hokkaido/boards/hokkaido_board_out_02_okutsugaru-imabetsu.jpg"; sourceTree = "<group>"; };
+		D5C08BB127844D28002FCD4F /* hokkaido_board_in_04_shin-aomori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_board_in_04_shin-aomori.jpg"; path = "hokkaido/boards/hokkaido_board_in_04_shin-aomori.jpg"; sourceTree = "<group>"; };
+		D5C08BB227844D28002FCD4F /* hokkaido_board_in_02_kikonai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_board_in_02_kikonai.jpg; path = hokkaido/boards/hokkaido_board_in_02_kikonai.jpg; sourceTree = "<group>"; };
+		D5C08BBB27844D3C002FCD4F /* hokkaido_map_in_01_sin-hakodate-hokuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_map_in_01_sin-hakodate-hokuto.jpg"; path = "hokkaido/maps/hokkaido_map_in_01_sin-hakodate-hokuto.jpg"; sourceTree = "<group>"; };
+		D5C08BBC27844D3C002FCD4F /* hokkaido_map_base.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_map_base.jpg; path = hokkaido/maps/hokkaido_map_base.jpg; sourceTree = "<group>"; };
+		D5C08BBD27844D3C002FCD4F /* hokkaido_map_out_03_kikonai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_map_out_03_kikonai.jpg; path = hokkaido/maps/hokkaido_map_out_03_kikonai.jpg; sourceTree = "<group>"; };
+		D5C08BBE27844D3C002FCD4F /* hokkaido_map_out_04_sin-hakodate-hokuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_map_out_04_sin-hakodate-hokuto.jpg"; path = "hokkaido/maps/hokkaido_map_out_04_sin-hakodate-hokuto.jpg"; sourceTree = "<group>"; };
+		D5C08BBF27844D3C002FCD4F /* hokkaido_map_in_02_kikonai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_map_in_02_kikonai.jpg; path = hokkaido/maps/hokkaido_map_in_02_kikonai.jpg; sourceTree = "<group>"; };
+		D5C08BC027844D3C002FCD4F /* hokkaido_map_out_01_shin-aomori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_map_out_01_shin-aomori.jpg"; path = "hokkaido/maps/hokkaido_map_out_01_shin-aomori.jpg"; sourceTree = "<group>"; };
+		D5C08BC127844D3C002FCD4F /* hokkaido_map_in_04-shin-aomori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_map_in_04-shin-aomori.jpg"; path = "hokkaido/maps/hokkaido_map_in_04-shin-aomori.jpg"; sourceTree = "<group>"; };
+		D5C08BC227844D3C002FCD4F /* hokkaido_map_in_03_okutsugaru-imabetu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_map_in_03_okutsugaru-imabetu.jpg"; path = "hokkaido/maps/hokkaido_map_in_03_okutsugaru-imabetu.jpg"; sourceTree = "<group>"; };
+		D5C08BC327844D3C002FCD4F /* hokkaido_map_out_02_okutsugaru-imabetu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hokkaido_map_out_02_okutsugaru-imabetu.jpg"; path = "hokkaido/maps/hokkaido_map_out_02_okutsugaru-imabetu.jpg"; sourceTree = "<group>"; };
+		D5C08BCD27844E8E002FCD4F /* hokkaido_board_next.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hokkaido_board_next.jpg; path = hokkaido/boards/hokkaido_board_next.jpg; sourceTree = "<group>"; };
+		D5C08BCF27844E9D002FCD4F /* yamagata_board_next.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yamagata_board_next.jpg; path = yamagata/boards/yamagata_board_next.jpg; sourceTree = "<group>"; };
 		DA96297990AC54949F2FB996 /* Pods_asaborake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asaborake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1155,6 +1201,7 @@
 		024E68432286793E0054DBB3 /* Shinkansen */ = {
 			isa = PBXGroup;
 			children = (
+				D5C08BA027844CF0002FCD4F /* hokkaido */,
 				D5C08B3D27815A12002FCD4F /* yamagata */,
 				D5C08A6127806A6B002FCD4F /* akita */,
 				D5C089EE277F0AE5002FCD4F /* jouetsu */,
@@ -1747,6 +1794,7 @@
 		D5C08B4627815A2B002FCD4F /* boards */ = {
 			isa = PBXGroup;
 			children = (
+				D5C08BCF27844E9D002FCD4F /* yamagata_board_next.jpg */,
 				D5C08B7927815A50002FCD4F /* yamagata_board_in_01_shinjō.jpg */,
 				D5C08B7627815A50002FCD4F /* yamagata_board_in_02_ōishida.jpg */,
 				D5C08B8327815A51002FCD4F /* yamagata_board_in_03_murayama.jpg */,
@@ -1800,6 +1848,51 @@
 				D5C08B4927815A3F002FCD4F /* yamagata_map_out_11_shinjo.jpg */,
 			);
 			name = maps;
+			sourceTree = "<group>";
+		};
+		D5C08BA027844CF0002FCD4F /* hokkaido */ = {
+			isa = PBXGroup;
+			children = (
+				D5C08BAA27844D1B002FCD4F /* baords */,
+				D5C08BA927844D0A002FCD4F /* maps */,
+				D5C08BA427844D04002FCD4F /* hokkaido_0.jpg */,
+				D5C08BA327844D04002FCD4F /* hokkaido_1.jpg */,
+				D5C08BA227844D04002FCD4F /* hokkaido_2.jpg */,
+				D5C08BA127844D04002FCD4F /* hokkaido.json */,
+			);
+			name = hokkaido;
+			sourceTree = "<group>";
+		};
+		D5C08BA927844D0A002FCD4F /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				D5C08BBC27844D3C002FCD4F /* hokkaido_map_base.jpg */,
+				D5C08BBB27844D3C002FCD4F /* hokkaido_map_in_01_sin-hakodate-hokuto.jpg */,
+				D5C08BBF27844D3C002FCD4F /* hokkaido_map_in_02_kikonai.jpg */,
+				D5C08BC227844D3C002FCD4F /* hokkaido_map_in_03_okutsugaru-imabetu.jpg */,
+				D5C08BC127844D3C002FCD4F /* hokkaido_map_in_04-shin-aomori.jpg */,
+				D5C08BC027844D3C002FCD4F /* hokkaido_map_out_01_shin-aomori.jpg */,
+				D5C08BC327844D3C002FCD4F /* hokkaido_map_out_02_okutsugaru-imabetu.jpg */,
+				D5C08BBD27844D3C002FCD4F /* hokkaido_map_out_03_kikonai.jpg */,
+				D5C08BBE27844D3C002FCD4F /* hokkaido_map_out_04_sin-hakodate-hokuto.jpg */,
+			);
+			name = maps;
+			sourceTree = "<group>";
+		};
+		D5C08BAA27844D1B002FCD4F /* baords */ = {
+			isa = PBXGroup;
+			children = (
+				D5C08BCD27844E8E002FCD4F /* hokkaido_board_next.jpg */,
+				D5C08BAB27844D27002FCD4F /* hokkaido_board_in_01_shin-hakodate-hokuto.jpg */,
+				D5C08BB227844D28002FCD4F /* hokkaido_board_in_02_kikonai.jpg */,
+				D5C08BAC27844D27002FCD4F /* hokkaido_board_in_03_okutsugaru-imabetsu.jpg */,
+				D5C08BB127844D28002FCD4F /* hokkaido_board_in_04_shin-aomori.jpg */,
+				D5C08BAD27844D27002FCD4F /* hokkaido_board_out_01_shin-aomori.jpg */,
+				D5C08BB027844D28002FCD4F /* hokkaido_board_out_02_okutsugaru-imabetsu.jpg */,
+				D5C08BAE27844D27002FCD4F /* hokkaido_board_out_03_kikonai.jpg */,
+				D5C08BAF27844D28002FCD4F /* hokkaido_board_out_04_shin-hakodate-hokuto.jpg */,
+			);
+			name = baords;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1915,6 +2008,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C08BD027844E9D002FCD4F /* yamagata_board_next.jpg in Resources */,
 				D5C08A25277F0B3A002FCD4F /* jouetsu_map_in_06_jomo-kogen.jpg in Resources */,
 				D5C08A53277F0B4C002FCD4F /* jouetsu_board_out_02_ueno.jpg in Resources */,
 				D5C08AA427806ADC002FCD4F /* tohoku_map_out_19_iwate-numakunai.jpg in Resources */,
@@ -1954,10 +2048,12 @@
 				D5C0889F2779D17A002FCD4F /* sanyo_board_out_14_tokuyama.jpg in Resources */,
 				D55D579827770A8400882592 /* tokaido_board_next.jpg in Resources */,
 				02623A2022ABEE9500549111 /* Quiz_correct.mp3 in Resources */,
+				D5C08BA527844D05002FCD4F /* hokkaido.json in Resources */,
 				0269B50522A7408400332577 /* tokaido_map_in_03_maibara.jpg in Resources */,
 				D5C0890D2779F3AC002FCD4F /* kyushu_board_in_06_kumamoto.jpg in Resources */,
 				D5C08B9127815A51002FCD4F /* yamagata_board_out_10_ōishida.jpg in Resources */,
 				D5C088522779CEDC002FCD4F /* tokaido_board_out_17_shin-osaka.jpg in Resources */,
+				D5C08BB827844D28002FCD4F /* hokkaido_board_out_02_okutsugaru-imabetsu.jpg in Resources */,
 				D5C08B7027815A40002FCD4F /* yamagata_map_in_08_akayu.jpg in Resources */,
 				D5C089B7277DC598002FCD4F /* tohoku_map_in_01_shin-aomori.jpg in Resources */,
 				D5C0889E2779D17A002FCD4F /* sanyo_board_out_15_shin-yamaguchi.jpg in Resources */,
@@ -1965,6 +2061,7 @@
 				024AD96F228711C700ED30BA /* kyushu.json in Resources */,
 				D5C089C9277DC598002FCD4F /* tohoku_map_in_05_iwate-numakunai.jpg in Resources */,
 				D5C08A1C277F0B3A002FCD4F /* jouetsu_map_in_04_urasa.jpg in Resources */,
+				D5C08BC427844D3C002FCD4F /* hokkaido_map_in_01_sin-hakodate-hokuto.jpg in Resources */,
 				D5C08A51277F0B4C002FCD4F /* jouetsu_board_in_04_urasa.jpg in Resources */,
 				D5C0890F2779F3AC002FCD4F /* kyushu_board_in_03_izumi.jpg in Resources */,
 				D5C08A20277F0B3A002FCD4F /* jouetsu_map_out_03_omiya.png in Resources */,
@@ -1994,9 +2091,11 @@
 				D5C088252779C9A9002FCD4F /* sanyo_map_in_04_asa.jpg in Resources */,
 				D5C08969277DC582002FCD4F /* tohoku_board_out_21_hachinohe.jpg in Resources */,
 				D5C0895C277DC582002FCD4F /* tohoku_board_in_23_tokyo.jpg in Resources */,
+				D5C08BA627844D05002FCD4F /* hokkaido_2.jpg in Resources */,
 				D55D5782277691FC00882592 /* kyushu_0.jpg in Resources */,
 				0269B50C22A7408400332577 /* tokaido_map_out_08_shizuoka.jpg in Resources */,
 				D5C08B6627815A40002FCD4F /* yamagata_map_in_03_murayama.jpg in Resources */,
+				D5C08BA827844D05002FCD4F /* hokkaido_0.jpg in Resources */,
 				0269B51D22A7408400332577 /* tokaido_map_out_17_shin-osaka.jpg in Resources */,
 				D5C089CD277DC598002FCD4F /* tohoku_map_in_11_kurikoma-kōgen.jpg in Resources */,
 				D5C089112779F3AC002FCD4F /* kyushu_board_out_04_chikugo-funagoya.jpg in Resources */,
@@ -2020,12 +2119,14 @@
 				D5C08ACF27806FEB002FCD4F /* akita_map_in_06_morioka.jpg in Resources */,
 				D5C08B4527815A27002FCD4F /* yamagata_1.jpg in Resources */,
 				D5C0885C2779CEDC002FCD4F /* tokaido_board_in_07_toyohashi.jpg in Resources */,
+				D5C08BCB27844D3C002FCD4F /* hokkaido_map_in_03_okutsugaru-imabetu.jpg in Resources */,
 				D5C088592779CEDC002FCD4F /* tokaido_board_out_16_kyoto.jpg in Resources */,
 				D5C08975277DC582002FCD4F /* tohoku_board_out_13_kurikoma-kōgen.jpg in Resources */,
 				D5C08971277DC582002FCD4F /* tohoku_board_in_03_hachinohe.jpg in Resources */,
 				D5C088282779C9A9002FCD4F /* sanyo_map_in_06_tokuyama.jpg in Resources */,
 				D5C08983277DC582002FCD4F /* tohoku_board_in_02_shichinohe-towada.jpg in Resources */,
 				0269B51E22A7408400332577 /* tokaido_map_out_06_mishima.png in Resources */,
+				D5C08BB427844D28002FCD4F /* hokkaido_board_in_03_okutsugaru-imabetsu.jpg in Resources */,
 				D55D582E277711B800882592 /* sanyo_board_next.jpg in Resources */,
 				D5C08B7327815A40002FCD4F /* yamagata_map_out_08_sakuranbo-higashine.jpg in Resources */,
 				D5C0890A2779F3AC002FCD4F /* kyushu_board_in_04_shin-minamata.jpg in Resources */,
@@ -2048,6 +2149,8 @@
 				0243EF5B227B1BFD0075565B /* Main.storyboard in Resources */,
 				D5C08A9B27806AAD002FCD4F /* akita_board_in_02_magari.jpg in Resources */,
 				D5C0882C2779C9A9002FCD4F /* sanyo_map_in_17_nishi-akashi.jpg in Resources */,
+				D5C08BC927844D3C002FCD4F /* hokkaido_map_out_01_shin-aomori.jpg in Resources */,
+				D5C08BA727844D05002FCD4F /* hokkaido_1.jpg in Resources */,
 				D5C089C6277DC598002FCD4F /* tohoku_map_in_17_shin-shirakawa.jpg in Resources */,
 				D5C088AA2779D17A002FCD4F /* sanyo_board_in_17_nishi-akashi.jpg in Resources */,
 				D5C088DD2779F397002FCD4F /* kyushu_map_out_05_shin-omuta.jpg in Resources */,
@@ -2070,6 +2173,7 @@
 				D5C088AB2779D17A002FCD4F /* sanyo_board_in_12_fukuyama.jpg in Resources */,
 				D5C08A9827806AAD002FCD4F /* akita_board_in_05_shizukuishi.jpg in Resources */,
 				D5C088DF2779F397002FCD4F /* kyushu_map_in_04_shin-minamata.jpg in Resources */,
+				D5C08BBA27844D28002FCD4F /* hokkaido_board_in_02_kikonai.jpg in Resources */,
 				024AD8BF2286DEED00ED30BA /* shinkansen.json in Resources */,
 				D5C08A47277F0B4C002FCD4F /* jouetsu_board_out_03_ōmiya.jpg in Resources */,
 				D5C088502779CEDC002FCD4F /* tokaido_board_in_14_odawara.jpg in Resources */,
@@ -2079,6 +2183,7 @@
 				D5C088A52779D17A002FCD4F /* sanyo_board_out_07_shin-kurashiki.jpg in Resources */,
 				D5C088A42779D17A002FCD4F /* sanyo_board_in_09_higashi-hiroshima.jpg in Resources */,
 				D5C0881E2779C9A9002FCD4F /* sanyo_map_in_07_shin-iwakuni.jpg in Resources */,
+				D5C08BB927844D28002FCD4F /* hokkaido_board_in_04_shin-aomori.jpg in Resources */,
 				024AD98E228711C700ED30BA /* kyushu_map_1.xcf in Resources */,
 				D5C08A18277F0B3A002FCD4F /* jouetsu_map_out_04_kumagaya.png in Resources */,
 				D5C0885A2779CEDC002FCD4F /* tokaido_board_out_03_shin-yokohama.jpg in Resources */,
@@ -2086,8 +2191,11 @@
 				D5C089132779F3AC002FCD4F /* kyushu_board_out_03_kurume.jpg in Resources */,
 				D5C089D2277DC598002FCD4F /* tohoku_map_in_15_fukushima.jpg in Resources */,
 				D5C08A9227806AAD002FCD4F /* akita_board_in_01_akita.jpg in Resources */,
+				D5C08BB627844D28002FCD4F /* hokkaido_board_out_03_kikonai.jpg in Resources */,
 				D5C0896F277DC582002FCD4F /* tohoku_board_out_01_tokyo.jpg in Resources */,
 				D5C089D3277DC598002FCD4F /* tohoku_map_out_11_sendai.jpg in Resources */,
+				D5C08BCE27844E8E002FCD4F /* hokkaido_board_next.jpg in Resources */,
+				D5C08BC627844D3C002FCD4F /* hokkaido_map_out_03_kikonai.jpg in Resources */,
 				D5C0889D2779D17A002FCD4F /* sanyo_board_in_15_aioi.jpg in Resources */,
 				D55D57E12777112800882592 /* sanyo_1.jpg in Resources */,
 				D55D58742777136200882592 /* sanyo_map_out_04_himeji.jpg in Resources */,
@@ -2115,6 +2223,7 @@
 				D5C088E02779F397002FCD4F /* kyushu_map_in_02_sendai.jpg in Resources */,
 				0269B51B22A7408400332577 /* tokaido_map_out_15_maibara.jpg in Resources */,
 				D5C089C5277DC598002FCD4F /* tohoku_map_in_20_oyama.jpg in Resources */,
+				D5C08BCA27844D3C002FCD4F /* hokkaido_map_in_04-shin-aomori.jpg in Resources */,
 				D5C0891A2779F3AC002FCD4F /* kyushu_board_in_10_kurume.jpg in Resources */,
 				D5C08973277DC582002FCD4F /* tohoku_board_in_19_utsunomiya.jpg in Resources */,
 				D5C0896B277DC582002FCD4F /* tohoku_board_out_09_fukushima.jpg in Resources */,
@@ -2216,6 +2325,7 @@
 				D55D58802777136200882592 /* sanyo_map_out_06_okayama.jpg in Resources */,
 				D5C0881F2779C9A9002FCD4F /* sanyo_map_in_02_kokura.jpg in Resources */,
 				D5C0881B2779C9A9002FCD4F /* sanyo_map_in_09_higashi-hiroshima.jpg in Resources */,
+				D5C08BB327844D28002FCD4F /* hokkaido_board_in_01_shin-hakodate-hokuto.jpg in Resources */,
 				D5C08B9727815A51002FCD4F /* yamagata_board_out_09_murayama.jpg in Resources */,
 				0269B51522A7408400332577 /* tokaido_map_in_14_odawara.jpg in Resources */,
 				D5C089E0277DC598002FCD4F /* tohoku_map_in_18_nasu-shiobara.jpg in Resources */,
@@ -2237,6 +2347,8 @@
 				D5C08A26277F0B3A002FCD4F /* jouetsu_map_out_09_urasa.jpg in Resources */,
 				D55D5783277691FC00882592 /* kyushu_2.jpg in Resources */,
 				D5C08A21277F0B3A002FCD4F /* jouetsu_map_in_02_tsubanme-sanjo.jpg in Resources */,
+				D5C08BC527844D3C002FCD4F /* hokkaido_map_base.jpg in Resources */,
+				D5C08BC727844D3C002FCD4F /* hokkaido_map_out_04_sin-hakodate-hokuto.jpg in Resources */,
 				0269B52122A7408400332577 /* tokaido_map_out_03_shin-yokohama.jpg in Resources */,
 				D5C089E1277DC598002FCD4F /* tohoku_map_out_09_fukushima.jpg in Resources */,
 				0269B50422A7408400332577 /* tokaido_map_out_05_atami.jpg in Resources */,
@@ -2262,6 +2374,7 @@
 				D5C088A32779D17A002FCD4F /* sanyo_board_in_11_shin-onomichi.jpg in Resources */,
 				024AD98B228711C700ED30BA /* kyushu_04_chikugofunakoya.xcf in Resources */,
 				D5C088A02779D17A002FCD4F /* sanyo_board_in_14_okayama.jpg in Resources */,
+				D5C08BB727844D28002FCD4F /* hokkaido_board_out_04_shin-hakodate-hokuto.jpg in Resources */,
 				D5C08B6427815A40002FCD4F /* yamagata_map_in_04_sakuranbo-higashine.jpg in Resources */,
 				D5C088532779CEDC002FCD4F /* tokaido_board_in_15_shin-yokohama.jpg in Resources */,
 				D5C08A6627806A7D002FCD4F /* akita.json in Resources */,
@@ -2288,6 +2401,7 @@
 				D5C08980277DC582002FCD4F /* tohoku_board_in_09_mizusawa-esashi.jpg in Resources */,
 				D5C08A4C277F0B4C002FCD4F /* jouetsu_board_out_08_echigo-yuzawa.jpg in Resources */,
 				0269B51822A7408400332577 /* tokaido_map_out_10_hamamatsu.jpg in Resources */,
+				D5C08BC827844D3C002FCD4F /* hokkaido_map_in_02_kikonai.jpg in Resources */,
 				D5C088612779CEDC002FCD4F /* tokaido_board_in_02_kyoto.jpg in Resources */,
 				D55D58852777136200882592 /* sanyo_map_out_12_hiroshima.jpg in Resources */,
 				D5C089CB277DC598002FCD4F /* tohoku_map_out_08_koriyama.jpg in Resources */,
@@ -2302,6 +2416,7 @@
 				D5C08A49277F0B4C002FCD4F /* jouetsu_board_out_04_kumagaya.jpg in Resources */,
 				D5C0886F2779CEDC002FCD4F /* tokaido_board_in_09_hamamatsu.jpg in Resources */,
 				D5C08982277DC582002FCD4F /* tohoku_board_in_13_sendai.jpg in Resources */,
+				D5C08BB527844D28002FCD4F /* hokkaido_board_out_01_shin-aomori.jpg in Resources */,
 				D5C088ED2779F397002FCD4F /* kyushu_map_out_07_kumamoto.jpg in Resources */,
 				D5C08B6827815A40002FCD4F /* yamagata_map_in_05_tendo.jpg in Resources */,
 				D5C089B9277DC598002FCD4F /* tohoku_map_out_06_nasu-shiobara.jpg in Resources */,
@@ -2318,6 +2433,7 @@
 				0269B50922A7408400332577 /* tokaido_map_in_06_mikawa-anjo.jpg in Resources */,
 				D5C08B9B27815A51002FCD4F /* yamagata_board_out_04_akayu.jpg in Resources */,
 				D5C0882D2779C9A9002FCD4F /* sanyo_map_in_18_shin-kobe.jpg in Resources */,
+				D5C08BCC27844D3C002FCD4F /* hokkaido_map_out_02_okutsugaru-imabetu.jpg in Resources */,
 				D5C088B52779D17A002FCD4F /* sanyo_board_out_17_shin-shimonoseki.jpg in Resources */,
 				D5C08B6E27815A40002FCD4F /* yamagata_map_out_10_ooishida.jpg in Resources */,
 				D5C08B9D27815A51002FCD4F /* yamagata_board_out_05_kaminoyama-onsen.jpg in Resources */,
