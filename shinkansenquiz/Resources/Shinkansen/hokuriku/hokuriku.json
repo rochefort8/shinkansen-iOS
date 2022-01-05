@@ -1,85 +1,124 @@
 {
     "name"      :"hokuriku",
-    "name_kanji":"",
-    "name_kana" :"",
+    "name_kanji":"北陸",
+    "name_kana" :"ほくりく",
+    "coverview"       : {
+        "name"    : "hokkaido_board_next.jpg",
+        "out" : {
+            "x" : "160.0", "y" : "204.0"
+        },
+        "in" :  {
+            "x" : "480.0", "y" : "204.0"
+        }
+    },
     "station":[
         {
             "id"        :"1",
+            "name"      :"Tokyo",
+            "name_kanji":"東京",
+            "name_kana" :"とうきょう"
+        },
+        {
+            "id"        :"2",
+            "name"      :"Ueno",
+            "name_kanji":"上野",
+            "name_kana" :"うえの"
+        },
+        {
+            "id"        :"3",
+            "name"      :"Ōmiya",
+            "name_kanji":"大宮",
+            "name_kana" :"おおみや"
+        },
+        {
+            "id"        :"4",
+            "name"      :"Kumagaya",
+            "name_kanji":"熊谷",
+            "name_kana" :"くまがや"
+        },
+        {
+            "id"        :"5",
+            "name"      :"Honjō-Waseda",
+            "name_kanji":"本庄早稲田",
+            "name_kana" :"ほんじょうわせだ"
+        },
+        {
+            "id"        :"6",
             "name"      :"Takasaki",
             "name_kanji":"高崎",
             "name_kana" :"たかさき"
         },
         {
-            "id"        :"2",
+            "id"        :"7",
             "name"      :"Annaka-Haruna",
             "name_kanji":"安中榛名",
             "name_kana" :"あんなかはるな"
         },
         {
-            "id"        :"3",
+            "id"        :"8",
             "name"      :"Karuizawa",
             "name_kanji":"軽井沢",
             "name_kana" :"かるいざわ"
         },
         {
-            "id"        :"4",
+            "id"        :"9",
             "name"      :"Sakudaira",
             "name_kanji":"佐久平",
             "name_kana" :"さくだいら"
         },
         {
-            "id"        :"5",
+            "id"        :"10",
             "name"      :"Ueda",
             "name_kanji":"上田",
             "name_kana" :"うえだ"
         },
         {
-            "id"        :"6",
+            "id"        :"11",
             "name"      :"Nagano",
             "name_kanji":"長野",
             "name_kana" :"ながの"
         },
         {
-            "id"        :"7",
+            "id"        :"12",
             "name"      :"Iiyama",
             "name_kanji":"飯山",
             "name_kana" :"いいやま"
         },
         {
-            "id"        :"8",
+            "id"        :"13",
             "name"      :"Jōetsumyōkō",
             "name_kanji":"上越妙高",
             "name_kana" :"じょうえつみょうこう"
         },
         {
-            "id"        :"9",
+            "id"        :"14",
             "name"      :"Itoigawa",
             "name_kanji":"糸魚川",
             "name_kana" :"いといがわ"
         },
         {
-            "id"        :"10",
+            "id"        :"15",
             "name"      :"Kurobe-Unazukionsen",
             "name_kanji":"黒部宇奈月温泉",
             "name_kana" :"くろべうなづきおんせん"
         },
         {
-            "id"        :"11",
+            "id"        :"16",
             "name"      :"Toyama",
             "name_kanji":"富山",
             "name_kana" :"とやま"
         },
         {
-            "id"        :"12",
+            "id"        :"17",
             "name"      :"Shin-Takaoka",
             "name_kanji":"新高岡",
             "name_kana" :"しんたかおか"
         },
         {
-            "id"        :"13",
+            "id"        :"18",
             "name"      :"Kanazawa",
             "name_kanji":"金沢",
             "name_kana" :"かなざわ"
-        },
+        }
     ]
 }

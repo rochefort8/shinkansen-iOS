@@ -79,7 +79,7 @@
             "name_kana" :"じょうえつ",
             "section":[
                 {
-                    "name"      :"Tokyo上野 うえの Ueno",
+                    "name"      :"Tokyo",
                     "name_kanji":"東京",
                     "name_kana" :"とうきょう"
                 },
@@ -146,14 +146,14 @@
         },
         {
             "id"        :"9",
-            "name"      :"nagano",
-            "name_kanji":"長野",
-            "name_kana" :"ながの",
+            "name"      :"hokuriku",
+            "name_kanji":"北陸",
+            "name_kana" :"北陸",
             "section":[
                 {
-                    "name"      :"Takasaki",
-                    "name_kanji":"高崎",
-                    "name_kana" :"たかさき"
+                    "name"      :"Tokyo",
+                    "name_kanji":"東京",
+                    "name_kana" :"とうきょう"
                 },
                 {
                     "name"      :"Kanazawa",
